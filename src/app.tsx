@@ -7,12 +7,57 @@ import { useI18n } from "./i18n-context"
 import { LanguageToggle } from "./LanguageToggle"
 import { getPromptTemplate } from "./i18n"
 
+type YearRange = "5" | "10" | "15" | "all"
+
+const yearRangeOptions: YearRange[] = ["5", "10", "15", "all"]
+const allYears = Object.keys(animeData).sort((a, b) => Number(a) - Number(b))
+
 export const App = () => {
   const { t, language } = useI18n()
   const [selectedAnime, setSelectedAnime] = usePersistState<string[]>(
     "selectedAnime",
     []
   )
+  const [yearRange, setYearRange] = usePersistState<YearRange>(
+    "yearRange",
+    "all"
+  )
+
+  const visibleYears = useMemo(() => {
+    if (yearRange === "all") {
+      return allYears
+    }
+
+    return allYears.slice(-Number(yearRange))
+  }, [yearRange])
+
+  const visibleAnimeKeys = useMemo(() => {
+    return visibleYears.flatMap((year) => {
+      const items = animeData[year] || []
+      return items.slice(0, 12).map((item) => getAnimeTitle(item, "zh"))
+    })
+  }, [visibleYears])
+
+  const visibleAnimeKeySet = useMemo(() => {
+    return new Set(visibleAnimeKeys)
+  }, [visibleAnimeKeys])
+
+  const selectedVisibleAnimeCount = selectedAnime.filter((title) => {
+    return visibleAnimeKeySet.has(title)
+  }).length
+
+  const getYearRangeLabel = (option: YearRange) => {
+    switch (option) {
+      case "5":
+        return t("last5Years")
+      case "10":
+        return t("last10Years")
+      case "15":
+        return t("last15Years")
+      case "all":
+        return t("allYears")
+    }
+  }
 
   const wrapper = useRef<HTMLDivElement>(null)
 
@@ -77,7 +122,7 @@ ${
     ? "User anime viewing record: (the year below is the anime release year)"
     : "用户动画观看记录：(下面的年份是动画发布的年份)"
 }
-${Object.keys(animeData)
+${visibleYears
   .map((year) => {
     const items = animeData[year] || []
 
@@ -104,17 +149,31 @@ ${Object.keys(animeData)
   .filter(Boolean)
   .join("\n")}
     `.trim()
-  }, [selectedAnime, promptType, language, t])
+  }, [selectedAnime, promptType, language, t, visibleYears])
 
-  const totalAnime = Object.values(animeData).flatMap((year) => {
-    return year.map((item) => getAnimeTitle(item, "zh")).slice(0, 12)
-  }).length
+  const totalAnime = visibleAnimeKeys.length
 
   return (
     <>
       <div className="flex flex-col gap-4 pb-10">
         <div className="p-4 flex flex-col md:items-center">
-          <div className="flex justify-end mb-4">
+          <div className="flex w-full flex-col gap-2 mb-4 md:flex-row md:items-center md:justify-center">
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-gray-600">{t("yearRange")}:</span>
+              <select
+                className="border rounded px-2 py-1 text-sm bg-white"
+                value={yearRange}
+                onChange={(e) => {
+                  setYearRange(e.currentTarget.value as YearRange)
+                }}
+              >
+                {yearRangeOptions.map((option) => (
+                  <option key={option} value={option}>
+                    {getYearRangeLabel(option)}
+                  </option>
+                ))}
+              </select>
+            </div>
             <LanguageToggle />
           </div>
           <div className="w-full overflow-x-auto">
@@ -132,12 +191,12 @@ ${Object.keys(animeData)
                 </h1>
                 <span className="shrink-0 whitespace-nowrap">
                   {t("watchedCount", {
-                    count: selectedAnime.length,
+                    count: selectedVisibleAnimeCount,
                     total: totalAnime,
                   })}
                 </span>
               </div>
-              {Object.keys(animeData).map((year) => {
+              {visibleYears.map((year) => {
                 const items = animeData[year] || []
                 return (
                   <div key={year} className="flex border-b">
@@ -238,24 +297,26 @@ ${Object.keys(animeData)
             type="button"
             className="border rounded-md px-4 py-2 inline-flex"
             onClick={() => {
-              setSelectedAnime(
-                Object.values(animeData).flatMap((year) => {
-                  return year
-                    .map((item) => getAnimeTitle(item, "zh"))
-                    .slice(0, 12)
+              setSelectedAnime((prev) => {
+                const hiddenSelectedAnime = prev.filter((title) => {
+                  return !visibleAnimeKeySet.has(title)
                 })
-              )
+
+                return [...hiddenSelectedAnime, ...visibleAnimeKeys]
+              })
             }}
           >
             {t("selectAll")}
           </button>
 
-          {selectedAnime.length > 0 && (
+          {selectedVisibleAnimeCount > 0 && (
             <button
               type="button"
               className="border rounded-md px-4 py-2 inline-flex"
               onClick={() => {
-                setSelectedAnime([])
+                setSelectedAnime((prev) => {
+                  return prev.filter((title) => !visibleAnimeKeySet.has(title))
+                })
               }}
             >
               {t("clear")}
