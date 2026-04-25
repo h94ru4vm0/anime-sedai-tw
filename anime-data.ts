@@ -1878,6 +1878,81 @@ const data: Data = {
       score: 5.9,
     },
   ],
+  "2025": [
+    {
+      titleZh: "古诺希亚",
+      titleEn: "GNOSIA",
+      titleJa: "グノーシア",
+      score: 7.5,
+    },
+    {
+      titleZh: "弹珠汽水瓶里的千岁同学",
+      titleEn: "Chitose Is in the Ramune Bottle",
+      titleJa: "千歳くんはラムネ瓶のなか",
+      score: 4.1,
+    },
+    {
+      titleZh: "我们不可能成为恋人！绝对不行。 (※似乎可行？)",
+      titleEn: "There's No Freaking Way I'll be Your Lover! Unless...",
+      titleJa:
+        "わたしが恋人になれるわけないじゃん、ムリムリ！（※ムリじゃなかった!?）",
+      score: 7.4,
+    },
+    {
+      titleZh: "金牌得主",
+      titleEn: "Medalist",
+      titleJa: "メダリスト",
+      score: 8,
+    },
+    {
+      titleZh: "琉璃的宝石",
+      titleEn: "Ruri Rocks",
+      titleJa: "瑠璃の宝石",
+      score: 8.1,
+    },
+    {
+      titleZh: "末日后酒店",
+      titleEn: "Apocalypse Hotel",
+      titleJa: "アポカリプスホテル",
+      score: 8.2,
+    },
+    {
+      titleZh: "拔作岛",
+      titleEn: "Nukitashi THE ANIMATION",
+      titleJa: "ぬきたし THE ANIMATION",
+      score: 6.7,
+    },
+    {
+      titleZh: "时光流逝，饭菜依旧美味",
+      titleEn: "Food for the Soul",
+      titleJa: "日々は過ぎれど飯うまし",
+      score: 7.7,
+    },
+    {
+      titleZh: "东岛丹三郎想成为假面骑士",
+      titleEn: "Tojima Tanzaburo Wants to Be a Masked Rider",
+      titleJa: "東島丹三郎は仮面ライダーになりたい",
+      score: 6.9,
+    },
+    {
+      titleZh: "薰香花朵凛然绽放",
+      titleEn: "The Fragrant Flower Blooms with Dignity",
+      titleJa: "薫る花は凛と咲く",
+      score: 7,
+    },
+    {
+      titleZh: "赛马娘 芦毛灰姑娘",
+      titleEn: "Uma Musume Cinderella Gray",
+      titleJa: "ウマ娘 シンデレラグレイ",
+      score: 7.5,
+    },
+    {
+      titleZh: "废渊战鬼",
+      titleEn: "Gachiakuta",
+      titleJa: "ガチアクタ",
+      score: 6.2,
+    },
+  ],
 }
 
 // 添加一个辅助函数来根据语言获取动画标题
