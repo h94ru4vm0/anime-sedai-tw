@@ -161,8 +161,7 @@ export const App = () => {
                     <div
                       className={`
                       bg-red-500 shrink-0 text-white flex items-center font-bold justify-center p-1 border-black
-                      h-16 md:h-20 
-                      ${language === "en" ? "w-16 md:w-20" : "w-16 md:w-20"}
+                      h-[142px] w-16 md:w-20
                     `}
                     >
                       <span
@@ -184,12 +183,7 @@ export const App = () => {
                           <button
                             key={animeKey}
                             className={`
-                              relative h-16 md:h-20
-                              ${
-                                language === "en"
-                                  ? "w-20 md:w-24"
-                                  : "w-16 md:w-20"
-                              }
+                              relative w-[100px] h-[142px]
                               border-l shrink-0 overflow-hidden cursor-pointer
                               transition-colors duration-200
                             `}
@@ -214,15 +208,15 @@ export const App = () => {
                               />
                             )}
                             <span
-                              className={`absolute inset-0 flex items-center justify-center p-1 text-center text-white bg-black/45 ${
+                              className={`absolute inset-x-0 bottom-0 flex items-end justify-center p-1 pt-6 text-center text-white bg-gradient-to-t from-black/85 via-black/55 to-transparent ${
                                 language === "en" ? "text-[10px]" : "text-xs"
                               }`}
                             >
                               <span
                                 className={`leading-tight w-full ${
                                   language === "en"
-                                    ? "line-clamp-4"
-                                    : "line-clamp-3"
+                                    ? "line-clamp-5"
+                                    : "line-clamp-4"
                                 }`}
                               >
                                 {displayTitle}
@@ -237,23 +231,15 @@ export const App = () => {
                         )
                       })}
                       {Array.from(
-                        { length: Math.max(0, 12 - items.length) },
+                        { length: Math.max(0, 15 - items.length) },
                         (_, index) => (
                           <div
                             key={`empty-${index}`}
-                            className={`
-                            h-16 md:h-20 
-                            ${
-                              language === "en"
-                                ? "w-20 md:w-24"
-                                : "w-16 md:w-20"
-                            }
-                            border-l bg-gray-50
-                          `}
+                            className="w-[100px] h-[142px] border-l bg-gray-50"
                           />
                         )
                       )}
-                      <div className="w-0 h-16 md:h-20 border-r" />
+                      <div className="w-0 h-[142px] border-r" />
                     </div>
                   </div>
                 )
