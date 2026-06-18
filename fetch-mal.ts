@@ -17,7 +17,7 @@ type Cand = {
 }
 type RawItem = Omit<Cand, "relIds">
 
-const years = Array.from({ length: 2025 - 2006 + 1 }, (_, i) => 2006 + i)
+const years = Array.from({ length: 2025 - 2005 + 1 }, (_, i) => 2005 + i)
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 const QUERY = `

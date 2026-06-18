@@ -1,4 +1,186 @@
 {
+  "2005": [
+    {
+      "aniListId": 457,
+      "titleEn": "MUSHI-SHI",
+      "titleJa": "蟲師",
+      "titleRomaji": "Mushishi",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx457-l6cTtNgI9Bi6.png",
+      "popularity": 188205,
+      "score": 8.5
+    },
+    {
+      "aniListId": 355,
+      "titleEn": "Shakugan no Shana",
+      "titleJa": "灼眼のシャナ",
+      "titleRomaji": "Shakugan no Shana",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx355-tB52QB38leMs.png",
+      "popularity": 94589,
+      "score": 7
+    },
+    {
+      "aniListId": 237,
+      "titleEn": "Eureka Seven",
+      "titleJa": "交響詩篇エウレカセブン",
+      "titleRomaji": "Koukyoushihen Eureka Seven",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx237-P1YEQQFqZ1An.jpg",
+      "popularity": 86108,
+      "score": 7.8
+    },
+    {
+      "aniListId": 228,
+      "titleEn": "Hell Girl",
+      "titleJa": "地獄少女",
+      "titleRomaji": "Jigoku Shoujo",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx228-J2J1CI4jfyeC.jpg",
+      "popularity": 74735,
+      "score": 7.1
+    },
+    {
+      "aniListId": 150,
+      "titleEn": "Blood+",
+      "titleJa": "BLOOD+",
+      "titleRomaji": "BLOOD+",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150-YRcwKiJEXcLx.png",
+      "popularity": 64606,
+      "score": 7.6
+    },
+    {
+      "aniListId": 322,
+      "titleEn": "",
+      "titleJa": "パラダイス・キス",
+      "titleRomaji": "Paradise Kiss",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx322-4OvRw6V7JTiK.png",
+      "popularity": 60496,
+      "score": 7.8
+    },
+    {
+      "aniListId": 16,
+      "titleEn": "Honey and Clover",
+      "titleJa": "ハチミツとクローバー",
+      "titleRomaji": "Hachimitsu to Clover",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16-S9k8qahNXoYP.jpg",
+      "popularity": 57528,
+      "score": 7.6
+    },
+    {
+      "aniListId": 477,
+      "titleEn": "ARIA The ANIMATION",
+      "titleJa": "ARIA The ANIMATION",
+      "titleRomaji": "ARIA The ANIMATION",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx477-CdKPHW7rGbUP.png",
+      "popularity": 54935,
+      "score": 7.6
+    },
+    {
+      "aniListId": 101,
+      "titleEn": "Air",
+      "titleJa": "AIR",
+      "titleRomaji": "AIR",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx101-x3YmfrzYZ9kM.jpg",
+      "popularity": 51165,
+      "score": 6.8
+    },
+    {
+      "aniListId": 79,
+      "titleEn": "",
+      "titleJa": "SHUFFLE!",
+      "titleRomaji": "SHUFFLE!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx79-I1ODM0WcMlsn.jpg",
+      "popularity": 46538,
+      "score": 6.5
+    },
+    {
+      "aniListId": 68,
+      "titleEn": "Black Cat",
+      "titleJa": "ブラックキャット",
+      "titleRomaji": "Black Cat",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx68-BY1vMbDYz977.jpg",
+      "popularity": 41825,
+      "score": 7.1
+    },
+    {
+      "aniListId": 73,
+      "titleEn": "Full Metal Panic! The Second Raid",
+      "titleJa": "フルメタル パニック！The Second Raid",
+      "titleRomaji": "Full Metal Panic! The Second Raid",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx73-UgXDGEMBPGle.jpg",
+      "popularity": 40827,
+      "score": 7.7
+    },
+    {
+      "aniListId": 177,
+      "titleEn": "Tsubasa RESERVoir CHRoNiCLE",
+      "titleJa": "ツバサ・クロニクル",
+      "titleRomaji": "Tsubasa Chronicle",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177-tU0wjdXRw5u8.png",
+      "popularity": 36958,
+      "score": 7.1
+    },
+    {
+      "aniListId": 488,
+      "titleEn": "Strawberry Marshmallow",
+      "titleJa": "苺ましまろ",
+      "titleRomaji": "Ichigo Mashimaro",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx488-FwxcBNNqG6TC.png",
+      "popularity": 35641,
+      "score": 7.4
+    },
+    {
+      "aniListId": 15,
+      "titleEn": "Eyeshield 21",
+      "titleJa": "アイシールド21",
+      "titleRomaji": "Eyeshield 21",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15-A4F2t0TgWoi4.png",
+      "popularity": 33201,
+      "score": 7.6
+    },
+    {
+      "aniListId": 67,
+      "titleEn": "Basilisk",
+      "titleJa": "バジリスク 甲賀忍法帖",
+      "titleRomaji": "Basilisk: Kouga Ninpouchou",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx67-aBz3s2hBTtdH.jpg",
+      "popularity": 32864,
+      "score": 7.1
+    },
+    {
+      "aniListId": 658,
+      "titleEn": "Akagi",
+      "titleJa": "闘牌伝説アカギ 闇に舞い降りた天才",
+      "titleRomaji": "Touhai Densetsu Akagi: Yami ni Maiorita Tensai",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx658-vfMTeXswhOzl.png",
+      "popularity": 30107,
+      "score": 7.7
+    },
+    {
+      "aniListId": 27,
+      "titleEn": "Trinity Blood",
+      "titleJa": "トリニティ・ブラッド",
+      "titleRomaji": "Trinity Blood",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx27-MOAaiBHHLfOY.png",
+      "popularity": 29036,
+      "score": 6.8
+    },
+    {
+      "aniListId": 157,
+      "titleEn": "Negima!",
+      "titleJa": "魔法先生 ネギま！",
+      "titleRomaji": "Mahou Sensei Negima!",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx157-huy9RpQkSH8c.png",
+      "popularity": 27412,
+      "score": 6.5
+    },
+    {
+      "aniListId": 469,
+      "titleEn": "Karin: Chibi Vampire",
+      "titleJa": "かりん",
+      "titleRomaji": "Karin",
+      "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx469-8v2Am0gCrwvH.png",
+      "popularity": 26845,
+      "score": 6.7
+    }
+  ],
   "2006": [
     {
       "aniListId": 1535,

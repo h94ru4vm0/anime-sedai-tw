@@ -13,6 +13,23 @@ type Data = {
 }
 
 const data: Data = {
+  "2005": [
+    { titleZh: "蟲師", titleEn: "MUSHI-SHI", titleJa: "蟲師", image: "/covers/457.png", score: 8.5 },
+    { titleZh: "灼眼的夏娜", titleEn: "Shakugan no Shana", titleJa: "灼眼のシャナ", image: "/covers/355.png", score: 7 },
+    { titleZh: "交響詩篇 EUREKA SEVEN", titleEn: "Eureka Seven", titleJa: "交響詩篇エウレカセブン", image: "/covers/237.jpg", score: 7.8 },
+    { titleZh: "地獄少女", titleEn: "Hell Girl", titleJa: "地獄少女", image: "/covers/228.jpg", score: 7.1 },
+    { titleZh: "BLOOD+", titleEn: "Blood+", titleJa: "BLOOD+", image: "/covers/150.png", score: 7.6 },
+    { titleZh: "天國之吻", titleEn: "Paradise Kiss", titleJa: "パラダイス・キス", image: "/covers/322.png", score: 7.8 },
+    { titleZh: "蜂蜜幸運草", titleEn: "Honey and Clover", titleJa: "ハチミツとクローバー", image: "/covers/16.jpg", score: 7.6 },
+    { titleZh: "ARIA The ANIMATION", titleEn: "ARIA The ANIMATION", titleJa: "ARIA The ANIMATION", image: "/covers/477.png", score: 7.6 },
+    { titleZh: "AIR", titleEn: "Air", titleJa: "AIR", image: "/covers/101.jpg", score: 6.8 },
+    { titleZh: "黑貓 BLACK CAT", titleEn: "Black Cat", titleJa: "ブラックキャット", image: "/covers/68.jpg", score: 7.1 },
+    { titleZh: "驚爆危機！The Second Raid", titleEn: "Full Metal Panic! The Second Raid", titleJa: "フルメタル パニック！The Second Raid", image: "/covers/73.jpg", score: 7.7 },
+    { titleZh: "Tsubasa翼·年代記", titleEn: "Tsubasa RESERVoir CHRoNiCLE", titleJa: "ツバサ・クロニクル", image: "/covers/177.png", score: 7.1 },
+    { titleZh: "草莓棉花糖", titleEn: "Strawberry Marshmallow", titleJa: "苺ましまろ", image: "/covers/488.png", score: 7.4 },
+    { titleZh: "光速蒙面俠21", titleEn: "Eyeshield 21", titleJa: "アイシールド21", image: "/covers/15.png", score: 7.6 },
+    { titleZh: "甲賀忍法帖 BASILISK", titleEn: "Basilisk", titleJa: "バジリスク 甲賀忍法帖", image: "/covers/67.jpg", score: 7.1 },
+  ],
   "2006": [
     { titleZh: "死亡筆記本", titleEn: "Death Note", titleJa: "DEATH NOTE", image: "/covers/1535.jpg", score: 8.4 },
     { titleZh: "Code Geass 反叛的魯路修", titleEn: "Code Geass: Lelouch of the Rebellion", titleJa: "コードギアス 反逆のルルーシュ", image: "/covers/1575.jpg", score: 8.5 },

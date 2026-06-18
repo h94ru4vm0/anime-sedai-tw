@@ -6,6 +6,22 @@ type Raw = { aniListId: number; titleEn: string; titleJa: string; titleRomaji: s
 type TwVal = string | { zh: string; fan: true }
 
 const TW: Record<number, TwVal> = {
+  // 2005
+  457: "蟲師",
+  355: "灼眼的夏娜",
+  237: "交響詩篇 EUREKA SEVEN",
+  228: "地獄少女",
+  150: "BLOOD+",
+  322: "天國之吻",
+  16: "蜂蜜幸運草",
+  477: "ARIA The ANIMATION",
+  101: "AIR",
+  68: "黑貓 BLACK CAT",
+  73: "驚爆危機！The Second Raid",
+  177: "Tsubasa翼·年代記",
+  488: "草莓棉花糖",
+  15: "光速蒙面俠21",
+  67: "甲賀忍法帖 BASILISK", // 遞補（原 SHUFFLE! 台灣無代理）
   // 2006
   1535: "死亡筆記本",
   1575: "Code Geass 反叛的魯路修",
@@ -337,6 +353,7 @@ const TW: Record<number, TwVal> = {
 
 // 台灣從未代理（僅盜版站／查無正版）→ 從清單剔除，由候選池下一名遞補
 const REMOVE = new Set<number>([
+  79, // SHUFFLE! (2005)
   4087, // Michiko & Hatchin (2008)
   7785, // 四疊半神話大系 The Tatami Galaxy (2010)
   8795, // 弔帶襪天使 Panty & Stocking (2010)
