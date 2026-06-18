@@ -28,6 +28,8 @@ export const App = () => {
   const [displayMode, setDisplayMode] = usePersistState<
     "title" | "score" | "heat"
   >("displayMode", "title")
+  // 匯出（下載/複製圖片）時暫時隱藏封面，純文字輸出 → 快很多、檔案也小
+  const [exporting, setExporting] = useState(false)
 
   const visibleYears = useMemo(() => {
     if (yearRange === "all") {
@@ -78,17 +80,23 @@ export const App = () => {
   const imageToBlob = async () => {
     if (!wrapper.current) return
 
-    const blob = await domToBlob(wrapper.current, {
-      scale: 2,
-      filter(el) {
-        if (el instanceof HTMLElement && el.classList.contains("remove")) {
-          return false
-        }
-        return true
-      },
-    })
+    setExporting(true)
+    // 等 React 重新渲染成「無封面」版本後再截圖
+    await new Promise((r) => setTimeout(r, 60))
 
-    return blob
+    try {
+      return await domToBlob(wrapper.current, {
+        scale: 2,
+        filter(el) {
+          if (el instanceof HTMLElement && el.classList.contains("remove")) {
+            return false
+          }
+          return true
+        },
+      })
+    } finally {
+      setExporting(false)
+    }
   }
 
   const copyImage = async () => {
@@ -250,7 +258,7 @@ export const App = () => {
                               })
                             }}
                           >
-                            {item.image && (
+                            {item.image && !exporting && (
                               <img
                                 src={import.meta.env.BASE_URL + item.image}
                                 alt=""
@@ -260,9 +268,11 @@ export const App = () => {
                             )}
                             {displayMode === "title" ? (
                               <span
-                                className={`absolute inset-x-0 bottom-0 flex items-end justify-center p-1 pt-6 text-center text-white bg-gradient-to-t from-black/85 via-black/55 to-transparent ${
-                                  language === "en" ? "text-[10px]" : "text-xs"
-                                }`}
+                                className={`absolute text-center text-white ${
+                                  exporting
+                                    ? "inset-0 flex items-center justify-center p-1 bg-zinc-800"
+                                    : "inset-x-0 bottom-0 flex items-end justify-center p-1 pt-6 bg-gradient-to-t from-black/85 via-black/55 to-transparent"
+                                } ${language === "en" ? "text-[10px]" : "text-xs"}`}
                               >
                                 <span
                                   className={`leading-tight w-full ${
@@ -275,7 +285,11 @@ export const App = () => {
                                 </span>
                               </span>
                             ) : (
-                              <span className="absolute inset-0 flex items-center justify-center bg-black/55 text-white text-lg font-bold">
+                              <span
+                                className={`absolute inset-0 flex items-center justify-center text-white text-lg font-bold ${
+                                  exporting ? "bg-zinc-800" : "bg-black/55"
+                                }`}
+                              >
                                 {displayMode === "score"
                                   ? `★ ${item.score}`
                                   : `🔥 ${formatHeat(item.popularity)}`}
