@@ -491,7 +491,7 @@ const data: Data = {
     { titleZh: "孤獨搖滾！", titleEn: "BOCCHI THE ROCK!", titleJa: "ぼっち・ざ・ろっく！", image: "covers/130003.png", popularity: 251281, isSequel: false, score: 8.7, tw: false, franchise: "g186712" },
     { titleZh: "歡迎來到實力至上主義的教室 第二季", titleEn: "Classroom of the Elite Season 2", titleJa: "ようこそ実力至上主義の教室へ 2nd Season", image: "covers/145545.png", popularity: 248246, isSequel: true, score: 7.9, tw: false, franchise: "g180745" },
     { titleZh: "盾之勇者成名錄 第二季", titleEn: "The Rising of the Shield Hero Season 2", titleJa: "盾の勇者の成り上がり Season 2", image: "covers/111321.png", popularity: 236910, isSequel: true, score: 6.5, tw: false, franchise: "g111322" },
-    { titleZh: "夏日重現", titleEn: "Summer Time Rendering", titleJa: "サマータイムレンダ", image: "covers/129201.png", popularity: 215228, isSequel: false, score: 8.3, tw: false, franchise: "g129201" },
+    { titleZh: "夏日時光", titleEn: "Summer Time Rendering", titleJa: "サマータイムレンダ", image: "covers/129201.png", popularity: 215228, isSequel: false, score: 8.3, tw: false, franchise: "g129201" },
     { titleZh: "式守同學不只可愛而已", titleEn: "Shikimori's Not Just a Cutie", titleJa: "可愛いだけじゃない式守さん", image: "covers/127911.jpg", popularity: 205438, isSequel: false, score: 6.8, tw: false, franchise: "g127911" },
     { titleZh: "莉可麗絲 Lycoris Recoil", titleEn: "Lycoris Recoil", titleJa: "リコリス・リコイル", image: "covers/143270.jpg", popularity: 202856, isSequel: false, score: 8.1, tw: false, franchise: "g179706" },
     { titleZh: "BLEACH 死神 千年血戰篇", titleEn: "BLEACH: Thousand-Year Blood War", titleJa: "BLEACH 千年血戦篇", image: "covers/116674.jpg", popularity: 193208, isSequel: true, score: 8.8, tw: false, franchise: "g159322" },
