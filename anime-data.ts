@@ -28,9 +28,6 @@ const data: Data = {
     { titleZh: "黑貓 BLACK CAT", titleEn: "Black Cat", titleJa: "ブラックキャット", image: "covers/68.jpg", popularity: 41825, isSequel: false, score: 7.1 },
     { titleZh: "驚爆危機！The Second Raid", titleEn: "Full Metal Panic! The Second Raid", titleJa: "フルメタル パニック！The Second Raid", image: "covers/73.jpg", popularity: 40827, isSequel: true, score: 7.7 },
     { titleZh: "Tsubasa翼·年代記", titleEn: "Tsubasa RESERVoir CHRoNiCLE", titleJa: "ツバサ・クロニクル", image: "covers/177.png", popularity: 36958, isSequel: false, score: 7.1 },
-    { titleZh: "草莓棉花糖", titleEn: "Strawberry Marshmallow", titleJa: "苺ましまろ", image: "covers/488.png", popularity: 35641, isSequel: false, score: 7.4 },
-    { titleZh: "光速蒙面俠21", titleEn: "Eyeshield 21", titleJa: "アイシールド21", image: "covers/15.png", popularity: 33201, isSequel: false, score: 7.6 },
-    { titleZh: "甲賀忍法帖 BASILISK", titleEn: "Basilisk", titleJa: "バジリスク 甲賀忍法帖", image: "covers/67.jpg", popularity: 32864, isSequel: false, score: 7.1 },
   ],
   "2006": [
     { titleZh: "死亡筆記本", titleEn: "Death Note", titleJa: "DEATH NOTE", image: "covers/1535.jpg", popularity: 923471, isSequel: false, score: 8.4 },
@@ -45,9 +42,6 @@ const data: Data = {
     { titleZh: "暮蟬悲鳴時", titleEn: "When They Cry", titleJa: "ひぐらしのなく頃に", image: "covers/934.jpg", popularity: 172843, isSequel: false, score: 7.5 },
     { titleZh: "死亡代理人", titleEn: "Ergo Proxy", titleJa: "Ergo Proxy", image: "covers/790.jpg", popularity: 151946, isSequel: false, score: 7.6 },
     { titleZh: "零之使魔", titleEn: "The Familiar of Zero", titleJa: "ゼロの使い魔", image: "covers/1195.png", popularity: 151265, isSequel: false, score: 6.8 },
-    { titleZh: "驅魔少年 D.Gray-man", titleEn: "D.Gray-man", titleJa: "ディー・グレイマン", image: "covers/1482.jpg", popularity: 114015, isSequel: false, score: 7.6 },
-    { titleZh: "家庭教師HITMAN REBORN!", titleEn: "REBORN!", titleJa: "家庭教師ヒットマンREBORN!", image: "covers/1604.png", popularity: 94646, isSequel: false, score: 7.7 },
-    { titleZh: "×××HOLiC", titleEn: "xxxHOLiC", titleJa: "XXX ホリック", image: "covers/861.png", popularity: 68972, isSequel: false, score: 7.6 },
   ],
   "2007": [
     { titleZh: "火影忍者 疾風傳", titleEn: "Naruto: Shippuden", titleJa: "NARUTO -ナルト- 疾風伝", image: "covers/1735.png", popularity: 587608, isSequel: true, score: 8.2 },
@@ -62,9 +56,6 @@ const data: Data = {
     { titleZh: "賭博默示錄", titleEn: "Kaiji - Ultimate Survivor", titleJa: "逆境無頼カイジ Ultimate Survivor", image: "covers/3002.jpg", popularity: 95666, isSequel: false, score: 8.2 },
     { titleZh: "物怪", titleEn: "Mononoke", titleJa: "モノノ怪", image: "covers/2246.jpg", popularity: 89874, isSequel: false, score: 8.2 },
     { titleZh: "暮蟬悲鳴時 解", titleEn: "When They Cry Kai", titleJa: "ひぐらしのなく頃に解", image: "covers/1889.jpg", popularity: 88267, isSequel: true, score: 8 },
-    { titleZh: "零之使魔～雙月騎士～", titleEn: "The Familiar of Zero: Knight of the Twin Moons", titleJa: "ゼロの使い魔 ～双月の騎士～", image: "covers/1840.jpg", popularity: 85925, isSequel: true, score: 7 },
-    { titleZh: "爆炸頭武士", titleEn: "Afro Samurai", titleJa: "アフロサムライ", image: "covers/1292.png", popularity: 84277, isSequel: false, score: 7.1 },
-    { titleZh: "再見、絕望老師", titleEn: "Sayonara, Zetsubou-Sensei", titleJa: "さよなら絶望先生", image: "covers/2605.png", popularity: 80696, isSequel: false, score: 7.6 },
   ],
   "2008": [
     { titleZh: "龍與虎 TIGER×DRAGON！", titleEn: "Toradora!", titleJa: "とらドラ！", image: "covers/4224.jpg", popularity: 524360, isSequel: false, score: 7.8 },
@@ -79,9 +70,6 @@ const data: Data = {
     { titleZh: "十字架與吸血姬", titleEn: "Rosario + Vampire", titleJa: "ロザリオとバンパイア", image: "covers/2993.jpg", popularity: 121705, isSequel: false, score: 6.3 },
     { titleZh: "吸血鬼騎士", titleEn: "Vampire Knight", titleJa: "ヴァンパイア騎士", image: "covers/3457.jpg", popularity: 97835, isSequel: false, score: 6.3 },
     { titleZh: "零之使魔～三美姬的輪舞～", titleEn: "The Familiar of Zero: \"Rondo\" of Princesses", titleJa: "ゼロの使い魔 ～三美姫（プリンセッセ）の輪舞（ロンド）～", image: "covers/3712.jpg", popularity: 75473, isSequel: true, score: 6.9 },
-    { titleZh: "鶺鴒女神", titleEn: "Sekirei", titleJa: "セキレイ", image: "covers/4063.png", popularity: 74842, isSequel: false, score: 6.5 },
-    { titleZh: "S.A 特優生", titleEn: "S.A: Special A", titleJa: "スペシャル・エー", image: "covers/3470.jpg", popularity: 60069, isSequel: false, score: 7.1 },
-    { titleZh: "閃電十一人", titleEn: "Inazuma Eleven", titleJa: "イナズマイレブン", image: "covers/5231.png", popularity: 59944, isSequel: false, score: 7.6 },
   ],
   "2009": [
     { titleZh: "鋼之鍊金術師 FULLMETAL ALCHEMIST", titleEn: "Fullmetal Alchemist: Brotherhood", titleJa: "鋼の錬金術師 FULLMETAL ALCHEMIST", image: "covers/5114.jpg", popularity: 701910, isSequel: false, score: 9 },
@@ -96,9 +84,6 @@ const data: Data = {
     { titleZh: "七龍珠改", titleEn: "Dragon Ball Z Kai", titleJa: "ドラゴンボール改", image: "covers/6033.png", popularity: 94544, isSequel: true, score: 7.7 },
     { titleZh: "天降之物", titleEn: "Heaven's Lost Property", titleJa: "そらのおとしもの", image: "covers/5958.jpg", popularity: 91770, isSequel: false, score: 6.7 },
     { titleZh: "潘朵拉之心", titleEn: "PandoraHearts", titleJa: "パンドラハーツ", image: "covers/5530.jpg", popularity: 73334, isSequel: false, score: 7.2 },
-    { titleZh: "東京地震8.0", titleEn: "Tokyo Magnitude 8.0", titleJa: "東京マグニチュード8.0", image: "covers/6211.png", popularity: 69809, isSequel: false, score: 7.7 },
-    { titleZh: "DARKER THAN BLACK 流星的雙子", titleEn: "Darker than Black: Gemini of the Meteor", titleJa: "DARKER THAN BLACK -流星の双子-", image: "covers/6573.png", popularity: 62853, isSequel: false, score: 7.1 },
-    { titleZh: "幻靈鎮魂曲", titleEn: "Phantom: Requiem for the Phantom", titleJa: "Phantom 〜Requiem for the Phantom〜", image: "covers/5682.png", popularity: 60695, isSequel: false, score: 7.5 },
   ],
   "2010": [
     { titleZh: "Angel Beats!", titleEn: "Angel Beats!", titleJa: "Angel Beats!", image: "covers/6547.png", popularity: 430988, isSequel: false, score: 7.7 },
@@ -113,9 +98,6 @@ const data: Data = {
     { titleZh: "爆漫王。", titleEn: "Bakuman.", titleJa: "バクマン。", image: "covers/7674.png", popularity: 119554, isSequel: false, score: 7.9 },
     { titleZh: "笨蛋、測驗、召喚獸", titleEn: "Baka and Test - Summon the Beasts", titleJa: "バカとテストと召喚獣", image: "covers/6347.jpg", popularity: 116150, isSequel: false, score: 7.1 },
     { titleZh: "妄想學生會", titleEn: "Seitokai Yakuindomo", titleJa: "生徒会役員共", image: "covers/8675.jpg", popularity: 107499, isSequel: false, score: 7.3 },
-    { titleZh: "黑執事II", titleEn: "Black Butler II", titleJa: "黒執事II", image: "covers/6707.png", popularity: 100770, isSequel: true, score: 6.7 },
-    { titleZh: "魔法禁書目錄II", titleEn: "A Certain Magical Index II", titleJa: "とある魔術の禁書目録II", image: "covers/8937.jpg", popularity: 100660, isSequel: true, score: 7.3 },
-    { titleZh: "WORKING!!迷糊餐廳", titleEn: "Wagnaria!!", titleJa: "WORKING!!", image: "covers/6956.jpg", popularity: 90910, isSequel: false, score: 7.4 },
   ],
   "2011": [
     { titleZh: "HUNTER×HUNTER 獵人（2011）", titleEn: "Hunter x Hunter (2011)", titleJa: "HUNTER×HUNTER (2011)", image: "covers/11061.png", popularity: 810226, isSequel: false, score: 8.9 },
@@ -130,9 +112,6 @@ const data: Data = {
     { titleZh: "日常", titleEn: "Nichijou - My Ordinary Life", titleJa: "日常", image: "covers/10165.png", popularity: 234161, isSequel: false, score: 8.3 },
     { titleZh: "我的朋友很少", titleEn: "Haganai", titleJa: "僕は友達が少ない", image: "covers/10719.png", popularity: 161690, isSequel: false, score: 6.8 },
     { titleZh: "IS〈Infinite Stratos〉", titleEn: "Infinite Stratos", titleJa: "IS〈インフィニット・ストラトス〉", image: "covers/9041.jpg", popularity: 129085, isSequel: false, score: 6.1 },
-    { titleZh: "GOSICK", titleEn: "Gosick", titleJa: "GOSICK", image: "covers/8425.jpg", popularity: 120976, isSequel: false, score: 7.7 },
-    { titleZh: "花牌情緣", titleEn: "Chihayafuru", titleJa: "ちはやふる", image: "covers/10800.png", popularity: 120480, isSequel: false, score: 8 },
-    { titleZh: "好想告訴你 2ND SEASON", titleEn: "Kimi ni Todoke: From Me to You Season 2", titleJa: "君に届け 2ND SEASON", image: "covers/9656.jpg", popularity: 116286, isSequel: true, score: 7.9 },
   ],
   "2012": [
     { titleZh: "Sword Art Online 刀劍神域", titleEn: "Sword Art Online", titleJa: "ソードアート・オンライン", image: "covers/11757.jpg", popularity: 694355, isSequel: false, score: 7 },
@@ -147,9 +126,6 @@ const data: Data = {
     { titleZh: "鄰家的怪同學", titleEn: "My Little Monster", titleJa: "となりの怪物くん", image: "covers/14227.jpg", popularity: 252978, isSequel: false, score: 7.2 },
     { titleZh: "Fate/Zero 第二季", titleEn: "Fate/Zero Season 2", titleJa: "Fate/Zero 2ndシーズン", image: "covers/11741.jpg", popularity: 237040, isSequel: true, score: 8.4 },
     { titleZh: "魔奇少年 MAGI", titleEn: "Magi: The Labyrinth of Magic", titleJa: "マギ The labyrinth of magic", image: "covers/14513.jpg", popularity: 226164, isSequel: true, score: 7.8 },
-    { titleZh: "男子高中生的日常", titleEn: "Daily Lives of High School Boys", titleJa: "男子高校生の日常", image: "covers/11843.jpg", popularity: 188390, isSequel: false, score: 8 },
-    { titleZh: "Kokoro Connect 心靈連結", titleEn: "Kokoro Connect", titleJa: "ココロコネクト", image: "covers/11887.jpg", popularity: 186296, isSequel: false, score: 7.5 },
-    { titleZh: "偽物語", titleEn: "Nisemonogatari", titleJa: "偽物語", image: "covers/11597.jpg", popularity: 182379, isSequel: true, score: 7.9 },
   ],
   "2013": [
     { titleZh: "進擊的巨人", titleEn: "Attack on Titan", titleJa: "進撃の巨人", image: "covers/16498.jpg", popularity: 1013208, isSequel: false, score: 8.5 },
@@ -164,9 +140,6 @@ const data: Data = {
     { titleZh: "惡魔高校D×D NEW", titleEn: "High School DxD NEW", titleJa: "ハイスクールD×D NEW", image: "covers/15451.jpg", popularity: 190995, isSequel: true, score: 7.1 },
     { titleZh: "Free！男子游泳部", titleEn: "Free! -Iwatobi Swim Club-", titleJa: "Free!", image: "covers/18507.png", popularity: 179816, isSequel: false, score: 7.2 },
     { titleZh: "影子籃球員 第二季", titleEn: "Kuroko's Basketball 2", titleJa: "黒子のバスケ 2nd SEASON", image: "covers/16894.jpg", popularity: 177325, isSequel: true, score: 8 },
-    { titleZh: "物語系列 第二季", titleEn: "Monogatari Series Second Season", titleJa: "〈物語〉シリーズ セカンドシーズン", image: "covers/17074.png", popularity: 167982, isSequel: true, score: 8.8 },
-    { titleZh: "魔奇少年 MAGI 王國", titleEn: "Magi: The Kingdom of Magic", titleJa: "マギ The kingdom of magic", image: "covers/18115.png", popularity: 164705, isSequel: true, score: 8.1 },
-    { titleZh: "我不受歡迎，怎麼想都是你們的錯！", titleEn: "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!", titleJa: "私がモテないのはどう考えてもお前らが悪い!", image: "covers/16742.jpg", popularity: 149320, isSequel: false, score: 6.7 },
   ],
   "2014": [
     { titleZh: "東京喰種", titleEn: "Tokyo Ghoul", titleJa: "東京喰種 トーキョーグール", image: "covers/20605.jpg", popularity: 714397, isSequel: false, score: 7.6 },
@@ -181,9 +154,6 @@ const data: Data = {
     { titleZh: "JoJo的奇妙冒險 星塵鬥士", titleEn: "JoJo's Bizarre Adventure: Stardust Crusaders", titleJa: "ジョジョの奇妙な冒険 スターダストクルセイダース", image: "covers/20474.jpg", popularity: 332975, isSequel: true, score: 7.9 },
     { titleZh: "殘響的恐怖", titleEn: "Terror in Resonance", titleJa: "残響のテロル", image: "covers/20661.png", popularity: 280318, isSequel: false, score: 7.8 },
     { titleZh: "偽戀", titleEn: "Nisekoi", titleJa: "ニセコイ", image: "covers/18897.jpg", popularity: 260292, isSequel: false, score: 7.3 },
-    { titleZh: "Fate/stay night [Unlimited Blade Works]", titleEn: "Fate/stay night: Unlimited Blade Works", titleJa: "Fate/stay night [Unlimited Blade Works]", image: "covers/19603.jpg", popularity: 257670, isSequel: true, score: 8 },
-    { titleZh: "魔法科高中的劣等生", titleEn: "The Irregular at Magic High School", titleJa: "魔法科高校の劣等生", image: "covers/20458.jpg", popularity: 251646, isSequel: false, score: 7 },
-    { titleZh: "青春之旅", titleEn: "Blue Spring Ride", titleJa: "アオハライド", image: "covers/20596.png", popularity: 237061, isSequel: false, score: 7.5 },
   ],
   "2015": [
     { titleZh: "ONE PUNCH MAN 一拳超人", titleEn: "One-Punch Man", titleJa: "ワンパンマン", image: "covers/21087.jpg", popularity: 744220, isSequel: false, score: 8.3 },
@@ -198,9 +168,6 @@ const data: Data = {
     { titleZh: "終結的熾天使", titleEn: "Seraph of the End: Vampire Reign", titleJa: "終わりのセラフ", image: "covers/20829.png", popularity: 317781, isSequel: false, score: 7.3 },
     { titleZh: "流浪神差 ARAGOTO", titleEn: "Noragami Aragoto", titleJa: "ノラガミ ARAGOTO", image: "covers/21128.jpg", popularity: 304143, isSequel: true, score: 8 },
     { titleZh: "JoJo的奇妙冒險 星塵鬥士 埃及篇", titleEn: "JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt", titleJa: "ジョジョの奇妙な冒険 スターダストクルセイダース エジプト編", image: "covers/20799.jpg", popularity: 281486, isSequel: true, score: 8.2 },
-    { titleZh: "果然我的青春戀愛喜劇搞錯了。續", titleEn: "My Teen Romantic Comedy SNAFU TOO!", titleJa: "やはり俺の青春ラブコメはまちがっている。続", image: "covers/20698.png", popularity: 266822, isSequel: true, score: 8.1 },
-    { titleZh: "可塑性記憶", titleEn: "Plastic Memories", titleJa: "プラスティックメモリーズ", image: "covers/20872.jpg", popularity: 250451, isSequel: false, score: 7.7 },
-    { titleZh: "監獄學園", titleEn: "Prison School", titleJa: "監獄学園〈プリズンスクール〉", image: "covers/20807.jpg", popularity: 239309, isSequel: false, score: 7.3 },
   ],
   "2016": [
     { titleZh: "我的英雄學院", titleEn: "My Hero Academia", titleJa: "僕のヒーローアカデミア", image: "covers/21459.jpg", popularity: 844624, isSequel: false, score: 7.7 },
@@ -215,9 +182,6 @@ const data: Data = {
     { titleZh: "食戟之靈 貳之皿", titleEn: "Food Wars! The Second Plate", titleJa: "食戟のソーマ 弍ノ皿", image: "covers/21518.jpg", popularity: 254529, isSequel: true, score: 7.9 },
     { titleZh: "ReLIFE 重返17歲", titleEn: "ReLIFE", titleJa: "ReLIFE", image: "covers/21049.png", popularity: 250317, isSequel: false, score: 7.8 },
     { titleZh: "orange", titleEn: "Orange", titleJa: "orange", image: "covers/21647.png", popularity: 228925, isSequel: false, score: 7.5 },
-    { titleZh: "Yuri!!! on ICE", titleEn: "Yuri!!! on ICE", titleJa: "ユーリ!!! on ICE", image: "covers/21709.png", popularity: 226126, isSequel: false, score: 7.8 },
-    { titleZh: "3月的獅子", titleEn: "March comes in like a lion", titleJa: "３月のライオン", image: "covers/21366.jpg", popularity: 208499, isSequel: false, score: 8.3 },
-    { titleZh: "羈絆者 KIZNAIVER", titleEn: "Kiznaiver", titleJa: "キズナイーバー", image: "covers/21421.jpg", popularity: 197259, isSequel: false, score: 7.2 },
   ],
   "2017": [
     { titleZh: "進擊的巨人 第二季", titleEn: "Attack on Titan Season 2", titleJa: "進撃の巨人 Season２", image: "covers/20958.jpg", popularity: 708554, isSequel: true, score: 8.5 },
@@ -232,9 +196,6 @@ const data: Data = {
     { titleZh: "魔法使的新娘", titleEn: "The Ancient Magus' Bride", titleJa: "魔法使いの嫁", image: "covers/98436.png", popularity: 238648, isSequel: false, score: 7.8 },
     { titleZh: "政宗君的復仇", titleEn: "Masamune-kun's Revenge", titleJa: "政宗くんのリベンジ", image: "covers/21857.jpg", popularity: 234314, isSequel: false, score: 6.6 },
     { titleZh: "食戟之靈 餐之皿", titleEn: "Food Wars! The Third Plate", titleJa: "食戟のソーマ 餐ノ皿", image: "covers/99255.jpg", popularity: 222662, isSequel: true, score: 7.8 },
-    { titleZh: "BORUTO-火影新世代-", titleEn: "Boruto: Naruto Next Generations", titleJa: "BORUTO-ボルト- NARUTO NEXT GENERATIONS", image: "covers/97938.jpg", popularity: 219310, isSequel: true, score: 5.7 },
-    { titleZh: "不正經的魔術講師與禁忌教典", titleEn: "Akashic Records of Bastard Magic Instructor", titleJa: "ロクでなし魔術講師と禁忌教典(アカシックレコード)", image: "covers/21700.jpg", popularity: 192674, isSequel: false, score: 6.8 },
-    { titleZh: "情色漫畫老師", titleEn: "Eromanga Sensei", titleJa: "エロマンガ先生", image: "covers/21685.jpg", popularity: 182215, isSequel: false, score: 6 },
   ],
   "2018": [
     { titleZh: "進擊的巨人 第三季", titleEn: "Attack on Titan Season 3", titleJa: "進撃の巨人 Season３", image: "covers/99147.jpg", popularity: 662490, isSequel: true, score: 8.6 },
@@ -249,9 +210,6 @@ const data: Data = {
     { titleZh: "東京喰種:re", titleEn: "Tokyo Ghoul:re", titleJa: "東京喰種-トーキョーグール-:re", image: "covers/100240.jpg", popularity: 298439, isSequel: true, score: 6.2 },
     { titleZh: "哥布林殺手", titleEn: "GOBLIN SLAYER", titleJa: "ゴブリンスレイヤー", image: "covers/101165.jpg", popularity: 293397, isSequel: false, score: 7.1 },
     { titleZh: "JoJo的奇妙冒險 黃金之風", titleEn: "JoJo's Bizarre Adventure: Golden Wind", titleJa: "ジョジョの奇妙な冒険 黄金の風", image: "covers/102883.png", popularity: 289652, isSequel: true, score: 8.5 },
-    { titleZh: "Sword Art Online 刀劍神域 Alicization", titleEn: "Sword Art Online: Alicization", titleJa: "ソードアート・オンライン アリシゼーション", image: "covers/100182.jpg", popularity: 280012, isSequel: false, score: 7.5 },
-    { titleZh: "七大罪 戒律的復活", titleEn: "The Seven Deadly Sins: Revival of the Commandments", titleJa: "七つの大罪 戒めの復活", image: "covers/99539.jpg", popularity: 278678, isSequel: true, score: 7.3 },
-    { titleZh: "OVERLORD II", titleEn: "Overlord II", titleJa: "オーバーロードⅡ", image: "covers/98437.jpg", popularity: 257322, isSequel: true, score: 7.6 },
   ],
   "2019": [
     { titleZh: "鬼滅之刃", titleEn: "Demon Slayer: Kimetsu no Yaiba", titleJa: "鬼滅の刃", image: "covers/101922.jpg", popularity: 957769, isSequel: false, score: 8.3 },
@@ -266,9 +224,6 @@ const data: Data = {
     { titleZh: "盾之勇者成名錄", titleEn: "The Rising of the Shield Hero", titleJa: "盾の勇者の成り上がり", image: "covers/99263.jpg", popularity: 444318, isSequel: false, score: 7.7 },
     { titleZh: "路人超能100 II", titleEn: "Mob Psycho 100 II", titleJa: "モブサイコ100 II", image: "covers/101338.jpg", popularity: 434884, isSequel: true, score: 8.7 },
     { titleZh: "多羅羅", titleEn: "Dororo", titleJa: "どろろ", image: "covers/101347.jpg", popularity: 362145, isSequel: false, score: 8.1 },
-    { titleZh: "五等分的新娘", titleEn: "The Quintessential Quintuplets", titleJa: "五等分の花嫁", image: "covers/103572.png", popularity: 305297, isSequel: false, score: 7.6 },
-    { titleZh: "Fruits Basket 幻影天使", titleEn: "Fruits Basket (2019)", titleJa: "フルーツバスケット 1st Season", image: "covers/105334.jpg", popularity: 300986, isSequel: false, score: 8.2 },
-    { titleZh: "BEASTARS", titleEn: "BEASTARS", titleJa: "BEASTARS", image: "covers/107660.png", popularity: 252158, isSequel: false, score: 7.7 },
   ],
   "2020": [
     { titleZh: "咒術迴戰", titleEn: "JUJUTSU KAISEN", titleJa: "呪術廻戦", image: "covers/113415.jpg", popularity: 929098, isSequel: false, score: 8.4 },
@@ -283,9 +238,6 @@ const data: Data = {
     { titleZh: "總之就是非常可愛", titleEn: "TONIKAWA: Over The Moon For You", titleJa: "トニカクカワイイ", image: "covers/116267.jpg", popularity: 236470, isSequel: false, score: 7.7 },
     { titleZh: "地縛少年花子君", titleEn: "Toilet-bound Hanako-kun", titleJa: "地縛少年 花子くん", image: "covers/108463.jpg", popularity: 232007, isSequel: false, score: 7.8 },
     { titleZh: "大欺詐師 GREAT PRETENDER", titleEn: "Great Pretender", titleJa: "GREAT PRETENDER", image: "covers/110349.png", popularity: 224431, isSequel: false, score: 8.1 },
-    { titleZh: "果然我的青春戀愛喜劇搞錯了。完", titleEn: "My Teen Romantic Comedy SNAFU Climax!", titleJa: "やはり俺の青春ラブコメはまちがっている。完", image: "covers/108489.png", popularity: 216068, isSequel: true, score: 8.2 },
-    { titleZh: "在地下城尋求邂逅是否搞錯了什麼 III", titleEn: "Is It Wrong to Try to Pick Up Girls in a Dungeon? III", titleJa: "ダンジョンに出会いを求めるのは間違っているだろうかⅢ", image: "covers/112124.jpg", popularity: 192690, isSequel: true, score: 7.4 },
-    { titleZh: "Sword Art Online 刀劍神域 Alicization War of Underworld 最終章", titleEn: "Sword Art Online: Alicization - War of Underworld Part 2", titleJa: "ソードアート・オンライン アリシゼーション War of Underworld 最終章 (2nd Season)", image: "covers/114308.jpg", popularity: 190528, isSequel: true, score: 7.4 },
   ],
   "2021": [
     { titleZh: "進擊的巨人 最終季", titleEn: "Attack on Titan Final Season", titleJa: "進撃の巨人 The Final Season", image: "covers/110277.jpg", popularity: 619588, isSequel: true, score: 8.7 },
@@ -300,9 +252,6 @@ const data: Data = {
     { titleZh: "致不滅的你", titleEn: "To Your Eternity", titleJa: "不滅のあなたへ", image: "covers/114535.jpg", popularity: 306775, isSequel: false, score: 8.1 },
     { titleZh: "關於我轉生變成史萊姆這檔事 第二季", titleEn: "That Time I Got Reincarnated as a Slime Season 2", titleJa: "転生したらスライムだった件 第2期", image: "covers/108511.jpg", popularity: 306398, isSequel: false, score: 8.3 },
     { titleZh: "86 -不存在的戰區-", titleEn: "86 EIGHTY-SIX", titleJa: "86－エイティシックス－", image: "covers/116589.jpg", popularity: 306036, isSequel: false, score: 8.3 },
-    { titleZh: "Re:從零開始的異世界生活 第二季 後半", titleEn: "Re:ZERO -Starting Life in Another World- Season 2 Part 2", titleJa: "Re:ゼロから始める異世界生活 2nd Season Part 2", image: "covers/119661.png", popularity: 291084, isSequel: true, score: 8.4 },
-    { titleZh: "WONDER EGG PRIORITY", titleEn: "WONDER EGG PRIORITY", titleJa: "ワンダーエッグ・プライオリティ", image: "covers/124845.jpg", popularity: 277934, isSequel: false, score: 7.4 },
-    { titleZh: "別逗我了，長瀞同學", titleEn: "DON'T TOY WITH ME, MISS NAGATORO", titleJa: "イジらないで、長瀞さん", image: "covers/120697.jpg", popularity: 259026, isSequel: false, score: 6.9 },
   ],
   "2022": [
     { titleZh: "鏈鋸人", titleEn: "Chainsaw Man", titleJa: "チェンソーマン", image: "covers/127230.png", popularity: 597876, isSequel: false, score: 8.3 },
@@ -317,9 +266,6 @@ const data: Data = {
     { titleZh: "徹夜之歌", titleEn: "Call of the Night", titleJa: "よふかしのうた", image: "covers/141391.jpg", popularity: 265483, isSequel: false, score: 7.9 },
     { titleZh: "我的英雄學院 第六季", titleEn: "My Hero Academia Season 6", titleJa: "僕のヒーローアカデミア６", image: "covers/139630.jpg", popularity: 256318, isSequel: true, score: 8.2 },
     { titleZh: "路人超能100 III", titleEn: "Mob Psycho 100 III", titleJa: "モブサイコ100 Ⅲ", image: "covers/140439.jpg", popularity: 252490, isSequel: true, score: 8.7 },
-    { titleZh: "孤獨搖滾！", titleEn: "BOCCHI THE ROCK!", titleJa: "ぼっち・ざ・ろっく！", image: "covers/130003.png", popularity: 251281, isSequel: false, score: 8.7 },
-    { titleZh: "歡迎來到實力至上主義的教室 第二季", titleEn: "Classroom of the Elite Season 2", titleJa: "ようこそ実力至上主義の教室へ 2nd Season", image: "covers/145545.png", popularity: 248246, isSequel: true, score: 7.9 },
-    { titleZh: "盾之勇者成名錄 第二季", titleEn: "The Rising of the Shield Hero Season 2", titleJa: "盾の勇者の成り上がり Season 2", image: "covers/111321.png", popularity: 236910, isSequel: true, score: 6.5 },
   ],
   "2023": [
     { titleZh: "咒術迴戰 第二季", titleEn: "JUJUTSU KAISEN Season 2", titleJa: "呪術廻戦 第2期", image: "covers/145064.jpg", popularity: 462462, isSequel: true, score: 8.6 },
@@ -334,9 +280,6 @@ const data: Data = {
     { titleZh: "殭屍100～在成為殭屍前要做的100件事～", titleEn: "Zom 100: Bucket List of the Dead", titleJa: "ゾン100～ゾンビになるまでにしたい100のこと～", image: "covers/159831.png", popularity: 229109, isSequel: false, score: 7.6 },
     { titleZh: "SPY×FAMILY 間諜家家酒 第二季", titleEn: "SPY x FAMILY Season 2", titleJa: "SPY×FAMILY Season 2", image: "covers/158927.png", popularity: 225870, isSequel: true, score: 8 },
     { titleZh: "天國大魔境", titleEn: "Tengoku Daimakyo", titleJa: "天国大魔境", image: "covers/155783.jpg", popularity: 203382, isSequel: false, score: 8.1 },
-    { titleZh: "Dr.STONE 新石紀 NEW WORLD", titleEn: "Dr. STONE New World", titleJa: "Dr.STONE NEW WORLD", image: "covers/131518.jpg", popularity: 192326, isSequel: false, score: 8.1 },
-    { titleZh: "和山田談場Lv999的戀愛", titleEn: "My Love Story with Yamada-kun at Lv999", titleJa: "山田くんとLv999の恋をする", image: "covers/154965.jpg", popularity: 191572, isSequel: false, score: 7.7 },
-    { titleZh: "我想成為影之強者！ 第二季", titleEn: "The Eminence in Shadow Season 2", titleJa: "陰の実力者になりたくて！ 2nd season", image: "covers/161964.jpg", popularity: 182680, isSequel: true, score: 8.2 },
   ],
   "2024": [
     { titleZh: "我獨自升級", titleEn: "Solo Leveling", titleJa: "俺だけレベルアップな件", image: "covers/151807.png", popularity: 416463, isSequel: false, score: 8.1 },
@@ -351,9 +294,6 @@ const data: Data = {
     { titleZh: "歡迎來到實力至上主義的教室 第三季", titleEn: "Classroom of the Elite Season 3", titleJa: "ようこそ実力至上主義の教室へ 3rd Season", image: "covers/146066.jpg", popularity: 176795, isSequel: true, score: 7.8 },
     { titleZh: "關於我轉生變成史萊姆這檔事 第三季", titleEn: "That Time I Got Reincarnated as a Slime Season 3", titleJa: "転生したらスライムだった件 第3期", image: "covers/156822.jpg", popularity: 172091, isSequel: true, score: 7.8 },
     { titleZh: "MASHLE 魔法少年 神覺者候補選拔考試篇", titleEn: "MASHLE: MAGIC AND MUSCLES Season 2", titleJa: "マッシュル-MASHLE- 神覚者候補選抜試験編", image: "covers/166610.jpg", popularity: 171940, isSequel: true, score: 7.8 },
-    { titleZh: "我的英雄學院 第七季", titleEn: "My Hero Academia Season 7", titleJa: "僕のヒーローアカデミア 7", image: "covers/163139.jpg", popularity: 171900, isSequel: true, score: 8.2 },
-    { titleZh: "為美好的世界獻上祝福！3", titleEn: "KONOSUBA -God's blessing on this wonderful world! 3", titleJa: "この素晴らしい世界に祝福を！３", image: "covers/136804.jpg", popularity: 170093, isSequel: false, score: 8.2 },
-    { titleZh: "【我推的孩子】第二季", titleEn: "Oshi no Ko Season 2", titleJa: "【推しの子】第2期", image: "covers/166531.jpg", popularity: 168708, isSequel: true, score: 8.5 },
   ],
   "2025": [
     { titleZh: "我獨自升級 第二季 -Arise from the Shadow-", titleEn: "Solo Leveling Season 2 -Arise from the Shadow-", titleJa: "俺だけレベルアップな件 Season 2 -Arise from the Shadow-", image: "covers/176496.png", popularity: 285729, isSequel: true, score: 8.5 },
@@ -368,9 +308,6 @@ const data: Data = {
     { titleZh: "光逝去的夏天", titleEn: "The Summer Hikaru Died", titleJa: "光が死んだ夏", image: "covers/177689.jpg", popularity: 129154, isSequel: false, score: 8.1 },
     { titleZh: "章魚嗶的原罪", titleEn: "Takopi's Original Sin", titleJa: "タコピーの原罪", image: "covers/185407.jpg", popularity: 128942, isSequel: false, score: 8.6 },
     { titleZh: "炎炎消防隊 參之章", titleEn: "Fire Force Season 3", titleJa: "炎炎ノ消防隊 参ノ章", image: "covers/149118.jpg", popularity: 122024, isSequel: true, score: 7.8 },
-    { titleZh: "SPY×FAMILY 間諜家家酒 第三季", titleEn: "SPY x FAMILY Season 3", titleJa: "SPY×FAMILY Season 3", image: "covers/177937.jpg", popularity: 121865, isSequel: true, score: 8.2 },
-    { titleZh: "我的英雄學院 最終季", titleEn: "My Hero Academia FINAL SEASON", titleJa: "僕のヒーローアカデミア FINAL SEASON", image: "covers/182896.jpg", popularity: 119438, isSequel: true, score: 8.7 },
-    { titleZh: "LAZARUS 拉撒路", titleEn: "LAZARUS", titleJa: "ラザロ", image: "covers/167336.png", popularity: 108245, isSequel: false, score: 7 },
   ],
 }
 

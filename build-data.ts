@@ -362,7 +362,7 @@ const REMOVE = new Set<number>([
   7088, // 最後大魔王 Ichiban Ushiro no Daimaou (2010 遞補時跳過)
 ])
 
-const LIMIT = 15
+const LIMIT = 12
 
 const raw: Record<string, Raw[]> = JSON.parse(fs.readFileSync("anime-raw.json", "utf8"))
 

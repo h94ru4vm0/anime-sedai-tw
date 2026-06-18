@@ -25,6 +25,10 @@ export const App = () => {
     "hideSequels",
     false
   )
+  const [showCovers, setShowCovers] = usePersistState<boolean>(
+    "showCovers",
+    false
+  )
   const [displayMode, setDisplayMode] = usePersistState<
     "title" | "score" | "heat"
   >("displayMode", "title")
@@ -137,6 +141,9 @@ export const App = () => {
         ? Math.round(n / 1_000) + "K"
         : String(n)
 
+  // 緊湊矮格子（白底黑字、依內容收合高度）：匯出時、或螢幕上關閉封面時都用這種排版
+  const compactLayout = exporting || !showCovers
+
   return (
     <>
       <div className="flex flex-col gap-4 pb-10">
@@ -168,6 +175,14 @@ export const App = () => {
                 onChange={(e) => setHideSequels(e.currentTarget.checked)}
               />
               {t("hideSequels")}
+            </label>
+            <label className="flex items-center gap-1.5 text-sm text-gray-600">
+              <input
+                type="checkbox"
+                checked={showCovers}
+                onChange={(e) => setShowCovers(e.currentTarget.checked)}
+              />
+              {t("showCovers")}
             </label>
             <div className="flex items-center gap-2">
               <span className="text-sm text-gray-600">{t("display")}:</span>
@@ -219,7 +234,7 @@ export const App = () => {
                   <div key={year} className="flex border-b">
                     <div
                       className={`bg-red-500 shrink-0 text-white flex items-center font-bold justify-center p-1 border-black w-16 md:w-20 ${
-                        exporting ? "" : "h-[142px]"
+                        compactLayout ? "" : "h-[142px]"
                       }`}
                     >
                       <span
@@ -233,15 +248,22 @@ export const App = () => {
                       </span>
                     </div>
                     <div className="flex shrink-0">
-                      {items.slice(0, 15).map((item) => {
+                      {items.map((item) => {
                         const animeKey = getAnimeTitle(item, "zh")
                         const displayTitle = getAnimeTitle(item, language)
                         const isSelected = selectedAnime.includes(animeKey)
+                        // 緊湊格子顯示的文字：匯出一律標題，螢幕上依顯示模式
+                        const compactText =
+                          exporting || displayMode === "title"
+                            ? displayTitle
+                            : displayMode === "score"
+                              ? `★ ${item.score}`
+                              : `🔥 ${formatHeat(item.popularity)}`
                         return (
                           <button
                             key={animeKey}
                             className={`relative w-[100px] border-l shrink-0 overflow-hidden cursor-pointer transition-colors duration-200 ${
-                              exporting ? "min-h-[52px]" : "h-[142px]"
+                              compactLayout ? "min-h-[56px]" : "h-[142px]"
                             }`}
                             title={displayTitle}
                             onClick={() => {
@@ -255,13 +277,13 @@ export const App = () => {
                               })
                             }}
                           >
-                            {exporting ? (
+                            {compactLayout ? (
                               <div
-                                className={`flex h-full min-h-[52px] items-center justify-center p-1 text-center leading-snug text-black text-sm font-medium ${
+                                className={`flex h-full min-h-[56px] items-center justify-center p-1.5 text-center leading-snug text-black text-base font-medium ${
                                   isSelected ? "bg-green-200" : "bg-white"
                                 }`}
                               >
-                                {displayTitle}
+                                {compactText}
                               </div>
                             ) : (
                               <>
@@ -307,7 +329,7 @@ export const App = () => {
                         )
                       })}
                       <div
-                        className={`w-0 border-r ${exporting ? "" : "h-[142px]"}`}
+                        className={`w-0 border-r ${compactLayout ? "" : "h-[142px]"}`}
                       />
                     </div>
                   </div>
