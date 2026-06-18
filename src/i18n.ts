@@ -3,11 +3,13 @@ export type Language = "zh" | "en" | "ja"
 export const translations = {
   zh: {
     title: "動畫世代",
-    subtitle: "點擊選擇你看過的動畫",
+    subtitle: "點擊選擇你看過的動畫（看過一兩集也算）",
     website: "anime-sedai.egoist.dev",
     rules:
-      "選片規則：每年取 AniList 全球人氣前 12 名（含 TV 與 ONA），同年同系列續作只計一部，並排除台灣從未代理的作品；中文採台灣官方譯名。",
-    watchedCount: "我看過 {{count}}/{{total}} 部動畫",
+      "選片規則：範圍 2005–2025，每年顯示 12 部＝AniList 全球人氣 10 部（限 TV／ONA，排除電影與台灣未代理）＋動畫瘋台灣觀看人氣 2 部（標「台」）。中文採台灣官方譯名。勾「隱藏續作」時，每個系列只顯示首次上榜的那部。",
+    watchedCount: "我看過 {{count}}/{{total}} {{seq}}部動畫",
+    seqExcluded: "(不含續作)",
+    seqIncluded: "(含續作)",
     selectAll: "全選",
     clear: "清除",
     copyImage: "複製圖片",
@@ -51,11 +53,13 @@ export const translations = {
   },
   en: {
     title: "Anime Sedai",
-    subtitle: "Click to select anime you have watched",
+    subtitle: "Click to select anime you have watched (an episode or two counts)",
     website: "anime-sedai.egoist.dev",
     rules:
-      "Selection: top 12 by AniList global popularity each year (TV + ONA), one entry per franchise per year, excluding titles never licensed in Taiwan; Chinese uses official Taiwan titles.",
-    watchedCount: "I have watched {{count}}/{{total}} anime",
+      "Selection (2005–2025): each year shows 12 = top 10 by AniList global popularity (TV/ONA, no movies, excluding titles never licensed in Taiwan) + top 2 by Bahamut Anime (動畫瘋) Taiwan popularity (marked 台). Chinese uses official Taiwan titles. With “Hide sequels”, each series shows only its first appearance.",
+    watchedCount: "I have watched {{count}}/{{total}} anime {{seq}}",
+    seqExcluded: "(excl. sequels)",
+    seqIncluded: "(incl. sequels)",
     selectAll: "Select All",
     clear: "Clear",
     copyImage: "Copy Image",
@@ -99,11 +103,13 @@ export const translations = {
   },
   ja: {
     title: "アニメ世代",
-    subtitle: "見たアニメをタップして選択する",
+    subtitle: "見たアニメをタップして選択する（1〜2話見ただけでもOK）",
     website: "anime-sedai.egoist.dev",
     rules:
-      "選定基準：各年 AniList 人気上位12作（TV＋ONA）、同一シリーズの続編は1作のみ、台湾未配信作は除外。",
-    watchedCount: "{{count}}/{{total}} のアニメを見た",
+      "選定（2005–2025）：毎年12作＝AniListグローバル人気10作（TV／ONA、劇場版・台湾未配信は除外）＋動畫瘋（台湾）視聴人気2作（「台」表示）。中文は台湾公式訳。「続編を隠す」時は各シリーズ初登場のみ表示。",
+    watchedCount: "{{count}}/{{total}} のアニメを見た{{seq}}",
+    seqExcluded: "（続編を除く）",
+    seqIncluded: "（続編を含む）",
     selectAll: "すべて選択",
     clear: "クリア",
     copyImage: "イメージをコピー",

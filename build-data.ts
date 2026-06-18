@@ -349,6 +349,99 @@ const TW: Record<number, TwVal> = {
   120377: "電馭叛客：邊緣行者", // 2022
   177709: "SAKAMOTO DAYS 坂本日常", // 2025
   185407: "章魚嗶的原罪", // 2025
+  // 庫存補充（全球榜 rank 11–20，隱藏續作時會回補顯示）
+  658: "鬥牌傳說",
+  27: "聖魔之血",
+  157: "魔法老師",
+  469: "Karin 吸血少女",
+  857: "飛輪少年",
+  1530: "Kanon",
+  1559: "史上最強弟子兼一",
+  1565: "神奇寶貝 鑽石＆珍珠",
+  1571: "靈異獵人",
+  1691: "風之聖痕",
+  1726: "Devil May Cry 惡魔獵人",
+  2104: "瀨戶的花嫁",
+  1698: "交響情人夢",
+  2787: "灼眼的夏娜 II",
+  5040: "ONE OUTS",
+  4975: "ChäoS;HEAd",
+  3701: "Kaiba",
+  3503: "狐仙的誘惑",
+  5258: "第一神拳 New Challenger",
+  6205: "Kämpfer 戰鬥少女",
+  6811: "犬夜叉 完結篇",
+  5300: "續 夏目友人帳",
+  7193: "青色文學",
+  8841: "這個是殭屍嗎？",
+  9969: "銀魂'",
+  9513: "惡魔奶爸",
+  10161: "NO.6",
+  10162: "白兔玩偶",
+  13125: "來自新世界",
+  14467: "K",
+  14713: "元氣少女緣結神",
+  14345: "BTOOOM!",
+  14289: "好想大聲說喜歡你",
+  11633: "Blood Lad 鮮血高校",
+  16067: "來自風平浪靜的明天",
+  14749: "我女友與青梅竹馬的修羅場",
+  16417: "玉子市場",
+  18277: "噬血狂襲",
+  20668: "月刊少女野崎君",
+  20770: "拂曉的尤娜",
+  20457: "黑色子彈",
+  20631: "Trinity Seven 七人魔法使",
+  20626: "魔導少年 FAIRY TAIL（2014）",
+  21092: "落第騎士英雄譚",
+  20727: "血界戰線",
+  21175: "七龍珠 超",
+  20910: "下流梗不存在的灰暗世界",
+  20792: "Fate/stay night [UBW] 第二季",
+  21196: "甲鐵城的卡巴內里",
+  21595: "在下坂本，有何貴幹？",
+  21428: "灰與幻想的格林姆迦爾",
+  21385: "七大罪 聖戰的印記",
+  97994: "調教咖啡廳",
+  21701: "人渣的本願",
+  21861: "青之驅魔師 京都不淨王篇",
+  97766: "GAMERS！電玩咖",
+  97922: "一個人的最終兵器",
+  21127: "命運石之門 0",
+  99629: "殺戮天使",
+  101004: "異世界魔王與召喚少女的奴隸魔術",
+  100977: "工作細胞",
+  101167: "在地下城尋求邂逅是否搞錯了什麼 II",
+  100876: "狂賭之淵 ××",
+  100668: "平凡職業造就世界最強",
+  103139: "家有女友",
+  108759: "Sword Art Online 刀劍神域 Alicization War of Underworld",
+  111762: "Fruits Basket 第二季",
+  106479: "怕痛的我，把防禦力點滿就對了",
+  105190: "達爾文遊戲",
+  114888: "富豪刑警 Balance:UNLIMITED",
+  124153: "SK8 的無限滑闆",
+  109261: "五等分的新娘 ∬",
+  113717: "國王排名",
+  131646: "凡尼塔斯的手記",
+  129898: "世界頂尖的暗殺者 轉生為異世界貴族",
+  127911: "式守同學不只可愛而已",
+  143270: "莉可麗絲 Lycoris Recoil",
+  116674: "BLEACH 死神 千年血戰篇",
+  133844: "OVERLORD IV",
+  151970: "香格里拉・開拓異境～糞作獵手挑戰神作～",
+  151806: "智子同學是女生！",
+  143338: "關於鄰居的天使大人不知不覺把我寵廢這件事",
+  163132: "堀與宮村 補遺",
+  153152: "我內心的糟糕念頭",
+  174576: "魔杖與利劍的魔法使",
+  170942: "藍箱",
+  163146: "BLUE LOCK 藍色監獄 第二季",
+  166794: "向你訴說愛意",
+  171457: "敗北女角太多了！",
+  175914: "徹夜之歌 第二季",
+  180367: "WITCH WATCH 魔女守護者",
+  183161: "我轉生成超凡入聖的國王",
 }
 
 // 台灣從未代理（僅盜版站／查無正版）→ 從清單剔除，由候選池下一名遞補
@@ -362,13 +455,97 @@ const REMOVE = new Set<number>([
   7088, // 最後大魔王 Ichiban Ushiro no Daimaou (2010 遞補時跳過)
 ])
 
-const LIMIT = 12
+const LIMIT = 20 // 每年存進資料庫的全球榜數量（畫面顯示 10，多存的供回補/續作篩選）
+
+type TwBase = { sn: number; title: string; views: number; year: number; image: string }
+type TwEnr = {
+  jp: string
+  en: string
+  aniListId: number | null
+  image: string
+  format?: string
+  seqByRel?: boolean
+}
 
 const raw: Record<string, Raw[]> = JSON.parse(fs.readFileSync("anime-raw.json", "utf8"))
+const twData: Record<string, TwBase[]> = JSON.parse(fs.readFileSync("anime-tw.json", "utf8"))
+
+// enrich 結果（日文名 + AniList 縮圖）依 sn 疊加；尚未 enrich 的年份自動退回中文/英文去重、無封面
+const enrichedMap = new Map<number, TwEnr>()
+try {
+  const e: Record<string, (TwBase & TwEnr)[]> = JSON.parse(
+    fs.readFileSync("anime-tw-enriched.json", "utf8"),
+  )
+  for (const y of Object.keys(e))
+    for (const it of e[y] ?? [])
+      enrichedMap.set(it.sn, {
+        jp: it.jp,
+        en: it.en,
+        aniListId: it.aniListId,
+        image: it.image,
+        format: (it as TwEnr).format,
+        seqByRel: (it as TwEnr).seqByRel,
+      })
+} catch {
+  // 沒有 enrich 檔也能跑
+}
+
+const TW_ADD = 6 // 每年存進資料庫的台灣補充數量（畫面顯示 2，多存的供回補）
+
+// 系列分群（由 AniList 關係算出的 union-find 根 id），供畫面端「每系列只顯示首次出現」精準去重
+const franchiseMap: Record<number, number> = (() => {
+  try {
+    return JSON.parse(fs.readFileSync("franchise-map.json", "utf8"))
+  } catch {
+    return {}
+  }
+})()
+const frOf = (id: number | null | undefined) => (id ? `g${franchiseMap[id] ?? id}` : "")
 
 const missing: Raw[] = []
 const fanList: { year: string; zh: string; en: string }[] = []
 const covers: { id: number; url: string; file: string }[] = []
+
+const decode = (s: string) =>
+  s
+    .replace(/&#0?39;/g, "'")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+const esc = (s: string) => s.replace(/\\/g, "\\\\").replace(/"/g, '\\"')
+
+// 標題正規化（用於和全球榜去重）：去季數、空白、標點、英數尾綴
+const norm = (s: string) =>
+  decode(s)
+    .toLowerCase()
+    .replace(/第[0-9０-９一二三四五六七八九十]{1,3}[季期章部]/g, "")
+    .replace(/\b(season|part|cour|final)\b\s*[0-9]*/g, "")
+    .replace(/[\s・！!？?:：~～\-‐‑–—―－.,。、〜【】[\]()（）♥☆★]/g, "")
+    .replace(/\b(ii|iii|iv|vi{0,3})\b/g, "") // 羅馬數字季數（II/III…）
+    .replace(/[ivx]+$/, "")
+
+const isSeq = (t: string) =>
+  /第[2-9２-９二三四五六七八九]|season\s*[2-9]|part\s*[2-9]|\bs[2-9]\b|\s[2-9]$|續|2nd|3rd|4th|最終|完結|final|ファイナル|[ⅡⅢⅣ]|∬|series\s*[2-9]/i.test(t)
+
+// 動畫瘋對電影版命名一致（劇場版／電影／THE MOVIE／總集篇）→ 排除，與全球榜「只收 TV+ONA」一致
+const isMovie = (t: string) =>
+  /劇場版|劇場|電影|\bmovie\b|映画|総集[編篇]|總集篇|特別[篇編]|蠟筆小新[：:]|クレヨンしんちゃん/i.test(t)
+
+// 日文標題正規化（最準的去重依據：同為日文動漫原名）
+const normJa = (s: string) =>
+  decode(s)
+    .toLowerCase()
+    .replace(/第[0-9０-９一二三四五六七八九十]+[期季章部]/g, "")
+    .replace(/[ⅡⅢⅣⅤ]/g, "")
+    .replace(/[\s　・！!？?:：~〜～\-‐‑–—―－.,。、'’"]/g, "")
+
+// 抽出標題裡的英文/羅馬字 token（≥4 字），用於跨譯名去重（如「肌肉魔法使-MASHLE-」↔「MASHLE 魔法少年」）
+const LATIN_STOP = new Set([
+  "season", "part", "final", "cour", "movie", "special", "the", "anime",
+])
+const latin = (s: string) =>
+  (decode(s).toLowerCase().match(/[a-z0-9]{4,}/g) ?? []).filter((w) => !LATIN_STOP.has(w))
 
 // 把遠端封面圖轉成本地相對路徑（不含開頭斜線，UI 端會接上 BASE_URL，
 // 才能同時在本機根路徑與 GitHub Pages 子路徑下正確載入；同源截圖也不破圖）
@@ -378,6 +555,26 @@ const localImage = (r: Raw): string => {
   const path = `covers/${r.aniListId}.${ext}`
   covers.push({ id: r.aniListId, url: r.image, file: `public/${path}` })
   return path
+}
+
+// 台灣補充用 AniList 縮圖（依英文名查到的）；無則回空字串
+const twCover = (enr?: TwEnr): string => {
+  if (!enr?.image || !enr.aniListId) return ""
+  const ext = (enr.image.match(/\.(\w+)(?:\?|$)/)?.[1] ?? "jpg").toLowerCase()
+  const path = `covers/tw-${enr.aniListId}.${ext}`
+  covers.push({ id: enr.aniListId, url: enr.image, file: `public/${path}` })
+  return path
+}
+
+const resolveZh = (r: Raw, year: string): string => {
+  const v = TW[r.aniListId]
+  if (v === undefined) {
+    missing.push(r)
+    return r.titleEn || r.titleRomaji
+  }
+  if (typeof v === "string") return v
+  fanList.push({ year, zh: v.zh, en: r.titleEn || r.titleRomaji })
+  return v.zh
 }
 
 const header = `import type { Language } from "./src/i18n"
@@ -390,6 +587,8 @@ type AnimeItem = {
   popularity: number
   isSequel: boolean
   score: number
+  tw: boolean
+  franchise: string
 }
 
 type Data = {
@@ -399,27 +598,73 @@ type Data = {
 const data: Data = {`
 
 const blocks: string[] = []
+const twPicksOut: { sn: number; title: string; views: number; year: number }[] = []
+let twAddedTotal = 0
 for (const year of Object.keys(raw)) {
   const picked = (raw[year] ?? []).filter((r) => !REMOVE.has(r.aniListId)).slice(0, LIMIT)
   if (picked.length < LIMIT) console.log(`⚠️ ${year} 剔除後只剩 ${picked.length} 部（候選池不足）`)
-  const lines = picked.map((r) => {
-    const v = TW[r.aniListId]
-    let zh: string
-    if (v === undefined) {
-      missing.push(r)
-      zh = r.titleEn || r.titleRomaji
-    } else if (typeof v === "string") {
-      zh = v
-    } else {
-      zh = v.zh
-      fanList.push({ year, zh: v.zh, en: r.titleEn || r.titleRomaji })
-    }
+
+  // 全球榜（存 LIMIT 部）
+  const globalZh = picked.map((r) => resolveZh(r, year))
+  const globalNorm = globalZh.map(norm).filter(Boolean)
+  const globalJa = picked.map((r) => normJa(r.titleJa)).filter(Boolean) // 日文去重依據
+  const globalLatin = new Set(
+    picked.flatMap((r, i) => [
+      ...latin(globalZh[i] ?? ""),
+      ...latin(r.titleEn || ""),
+      ...latin(r.titleRomaji || ""),
+    ]),
+  )
+  const globalLines = picked.map((r, i) => {
     const titleEn = r.titleEn || r.titleRomaji
-    const esc = (s: string) => s.replace(/\\/g, "\\\\").replace(/"/g, '\\"')
-    return `    { titleZh: "${esc(zh)}", titleEn: "${esc(titleEn)}", titleJa: "${esc(r.titleJa)}", image: "${esc(localImage(r))}", popularity: ${r.popularity ?? 0}, isSequel: ${r.isSequel ?? false}, score: ${r.score ?? 0} },`
+    return `    { titleZh: "${esc(globalZh[i] ?? "")}", titleEn: "${esc(titleEn)}", titleJa: "${esc(r.titleJa)}", image: "${esc(localImage(r))}", popularity: ${r.popularity ?? 0}, isSequel: ${r.isSequel ?? false}, score: ${r.score ?? 0}, tw: false, franchise: "${frOf(r.aniListId)}" },`
   })
-  blocks.push(`  "${year}": [\n${lines.join("\n")}\n  ],`)
+
+  // 動畫瘋台灣人氣補充：取該年觀看數最高、且不在全球榜裡的前 TW_ADD 部
+  // 去重優先用日文原名（最準，需 enrich 過），輔以中文與英文 token
+  const twPicks: TwBase[] = []
+  const jaDup = (jn: string, list: string[]) =>
+    !!jn && list.some((g) => g === jn || (g.length >= 3 && (jn.includes(g) || g.includes(jn))))
+  const normDup = (tn: string, list: string[]) =>
+    list.some((g) => g === tn || (g.length >= 4 && (tn.includes(g) || g.includes(tn))))
+  for (const t of twData[year] ?? []) {
+    if (twPicks.length >= TW_ADD) break
+    const enr = enrichedMap.get(t.sn)
+    // 只收 TV/ONA：有 AniList format 就以它為準（排除電影/OVA/特別篇）；沒有則退回標題判斷
+    if (
+      enr?.format
+        ? !["TV", "ONA"].includes(enr.format)
+        : isMovie(`${t.title} ${enr?.en ?? ""} ${enr?.jp ?? ""}`)
+    )
+      continue
+    const tn = norm(t.title)
+    if (!tn) continue
+    const jn = normJa(enr?.jp ?? "")
+    const tl = latin(t.title)
+    if (jaDup(jn, globalJa)) continue // 日文去重（最準）
+    if (normDup(tn, globalNorm)) continue // 中文去重
+    if (tl.some((w) => globalLatin.has(w))) continue // 英文 token 去重
+    if (jaDup(jn, twPicks.map((p) => normJa(enrichedMap.get(p.sn)?.jp ?? "")))) continue
+    if (normDup(tn, twPicks.map((p) => norm(p.title)))) continue
+    twPicks.push(t)
+  }
+  const twLines = twPicks.map((t) => {
+    const enr = enrichedMap.get(t.sn)
+    const zh = decode(t.title)
+    const en = enr?.en || zh
+    const ja = enr?.jp || zh
+    const seq = enr?.seqByRel ?? (isSeq(zh) || isSeq(ja))
+    const fr = enr?.aniListId ? frOf(enr.aniListId) : `t${normJa(ja)}`
+    return `    { titleZh: "${esc(zh)}", titleEn: "${esc(en)}", titleJa: "${esc(ja)}", image: "${esc(twCover(enr))}", popularity: ${t.views}, isSequel: ${seq}, score: 0, tw: true, franchise: "${esc(fr)}" },`
+  })
+  twAddedTotal += twLines.length
+  twPicksOut.push(...twPicks.map((t) => ({ sn: t.sn, title: t.title, views: t.views, year: Number(year) })))
+
+  blocks.push(`  "${year}": [\n${[...globalLines, ...twLines].join("\n")}\n  ],`)
 }
+
+// 實際被選進 data 的台灣補充清單（供 enrich 針對性抓日文名＋封面）
+fs.writeFileSync("tw-picks.json", JSON.stringify(twPicksOut, null, 2))
 
 const footer = `}
 
@@ -435,7 +680,9 @@ export const getAnimeTitle = (anime: AnimeItem, language: Language): string => {
 fs.writeFileSync("anime-data.ts", `${header}\n${blocks.join("\n")}\n${footer}`)
 fs.writeFileSync("covers-manifest.json", JSON.stringify(covers, null, 2))
 
-console.log(`已產生 anime-data.ts（封面 ${covers.length} 筆 → covers-manifest.json）\n`)
+console.log(
+  `已產生 anime-data.ts（封面 ${covers.length} 筆、動畫瘋台灣補充 ${twAddedTotal} 部 → covers-manifest.json）\n`,
+)
 if (missing.length) {
   console.log(`⚠️ 有 ${missing.length} 筆找不到對照（用英文名暫代）：`)
   missing.forEach((m) => console.log(`  - [${m.aniListId}] ${m.titleRomaji}`))

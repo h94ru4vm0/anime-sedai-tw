@@ -11,6 +11,8 @@ type YearRange = "5" | "10" | "15" | "all"
 const yearRangeOptions: YearRange[] = ["5", "10", "15", "all"]
 const allYears = Object.keys(animeData).sort((a, b) => Number(a) - Number(b))
 
+type AnimeItem = (typeof animeData)[string][number]
+
 export const App = () => {
   const { t, language } = useI18n()
   const [selectedAnime, setSelectedAnime] = usePersistState<string[]>(
@@ -23,7 +25,7 @@ export const App = () => {
   )
   const [hideSequels, setHideSequels] = usePersistState<boolean>(
     "hideSequels",
-    false
+    true
   )
   const [showCovers, setShowCovers] = usePersistState<boolean>(
     "showCovers",
@@ -43,10 +45,39 @@ export const App = () => {
     return allYears.slice(-Number(yearRange))
   }, [yearRange])
 
-  const itemsForYear = (year: string) => {
-    const items = animeData[year] || []
-    return hideSequels ? items.filter((item) => !item.isSequel) : items
-  }
+  // 每年顯示 10 全球 + 2 台灣，湊滿 SHOW_TOTAL；台灣補充排最後，庫存供回補。
+  const GLOBAL_SHOW = 10
+  const TW_SHOW = 2
+  const SHOW_TOTAL = GLOBAL_SHOW + TW_SHOW
+
+  // 系列識別碼：由 AniList 關係算出的系列群組（build-data 寫入 franchise 欄位）
+  const franchiseKey = (it: AnimeItem) => it.franchise || it.titleZh
+
+  // 「隱藏續作」= 每個系列只顯示在表上「第一次出現」的那部（依年份由舊到新）。
+  // 若某系列第一季沒上榜，其續作就是首次出現 → 仍會顯示。
+  const itemsByYear = useMemo(() => {
+    const seen = new Set<string>()
+    const map: Record<string, AnimeItem[]> = {}
+    for (const year of visibleYears) {
+      const all = animeData[year] || []
+      const ok = (i: AnimeItem) => !hideSequels || !seen.has(franchiseKey(i))
+      const globals = all.filter((i) => !i.tw && ok(i))
+      const tws = all.filter((i) => i.tw && ok(i))
+      const twTake = tws.slice(0, TW_SHOW)
+      const result = [...globals.slice(0, SHOW_TOTAL - twTake.length), ...twTake]
+      if (result.length < SHOW_TOTAL) {
+        for (const extra of tws.slice(twTake.length)) {
+          if (result.length >= SHOW_TOTAL) break
+          result.push(extra)
+        }
+      }
+      if (hideSequels) result.forEach((i) => seen.add(franchiseKey(i)))
+      map[year] = result
+    }
+    return map
+  }, [visibleYears, hideSequels])
+
+  const itemsForYear = (year: string) => itemsByYear[year] || []
 
   const visibleAnimeKeys = useMemo(() => {
     return visibleYears.flatMap((year) =>
@@ -216,7 +247,11 @@ export const App = () => {
               className="flex flex-col border border-b-0 bg-white w-fit mx-auto"
               ref={wrapper}
             >
-              <div className="border-b justify-between p-2 text-lg  font-bold flex">
+              <div
+                className={`border-b justify-between p-2 font-bold flex ${
+                  exporting ? "text-4xl" : "text-lg"
+                }`}
+              >
                 <h1>
                   {t("title")}
                   <span className="remove"> - {t("subtitle")}</span>
@@ -225,6 +260,7 @@ export const App = () => {
                   {t("watchedCount", {
                     count: selectedVisibleAnimeCount,
                     total: totalAnime,
+                    seq: t(hideSequels ? "seqExcluded" : "seqIncluded"),
                   })}
                 </span>
               </div>
@@ -238,11 +274,13 @@ export const App = () => {
                       }`}
                     >
                       <span
-                        className={`${
-                          language === "en"
-                            ? "text-sm md:text-base"
-                            : "text-base"
-                        } text-center`}
+                        className={`text-center ${
+                          exporting
+                            ? "text-[20px]"
+                            : language === "en"
+                              ? "text-sm md:text-base"
+                              : "text-base"
+                        }`}
                       >
                         {year}
                       </span>
@@ -257,13 +295,17 @@ export const App = () => {
                           exporting || displayMode === "title"
                             ? displayTitle
                             : displayMode === "score"
-                              ? `★ ${item.score}`
+                              ? `★ ${item.score || "—"}`
                               : `🔥 ${formatHeat(item.popularity)}`
                         return (
                           <button
                             key={animeKey}
                             className={`relative w-[100px] border-l shrink-0 overflow-hidden cursor-pointer transition-colors duration-200 ${
-                              compactLayout ? "min-h-[56px]" : "h-[142px]"
+                              exporting
+                                ? "h-[100px]"
+                                : compactLayout
+                                  ? "min-h-[56px]"
+                                  : "h-[142px]"
                             }`}
                             title={displayTitle}
                             onClick={() => {
@@ -277,13 +319,20 @@ export const App = () => {
                               })
                             }}
                           >
+                            {item.tw && (
+                              <span className="absolute top-0 left-0 z-10 bg-amber-500 text-white text-[9px] font-bold leading-none px-1 py-0.5 rounded-br">
+                                台
+                              </span>
+                            )}
                             {compactLayout ? (
                               <div
-                                className={`flex h-full min-h-[56px] items-center justify-center p-1.5 text-center leading-snug text-black text-base font-medium ${
-                                  isSelected ? "bg-green-200" : "bg-white"
-                                }`}
+                                className={`flex h-full items-center justify-center p-1 text-center leading-tight text-black font-medium ${
+                                  exporting ? "text-[24px]" : "min-h-[56px] text-base"
+                                } ${isSelected ? "bg-green-200" : "bg-white"}`}
                               >
-                                {compactText}
+                                <span className={exporting ? "line-clamp-3" : ""}>
+                                  {compactText}
+                                </span>
                               </div>
                             ) : (
                               <>
@@ -314,7 +363,7 @@ export const App = () => {
                                 ) : (
                                   <span className="absolute inset-0 flex items-center justify-center text-white text-lg font-bold bg-black/55">
                                     {displayMode === "score"
-                                      ? `★ ${item.score}`
+                                      ? `★ ${item.score || "—"}`
                                       : `🔥 ${formatHeat(item.popularity)}`}
                                   </span>
                                 )}

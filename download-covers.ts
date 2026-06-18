@@ -30,3 +30,14 @@ for (const c of covers) {
   if (done % 25 === 0 && done) console.log(`  …已下載 ${done}`)
 }
 console.log(`完成：新下載 ${done}、已存在略過 ${skipped}、總計 ${covers.length}`)
+
+// 清掉 anime-data.ts（covers-manifest）沒用到的封面，只保留有引用的
+const used = new Set(covers.map((c) => c.file.replace(/^public\//, "")))
+let pruned = 0
+for (const f of fs.readdirSync("public/covers")) {
+  if (!used.has("covers/" + f)) {
+    fs.unlinkSync("public/covers/" + f)
+    pruned++
+  }
+}
+console.log(`清理未使用封面：刪除 ${pruned}、現存 ${fs.readdirSync("public/covers").length}`)
