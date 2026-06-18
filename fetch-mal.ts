@@ -21,7 +21,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
 const QUERY = `
 query ($year: Int) {
-  Page(page: 1, perPage: 50) {
+  Page(page: 1, perPage: 60) {
     media(seasonYear: $year, type: ANIME, format: TV, sort: POPULARITY_DESC) {
       id
       title { romaji english native }
@@ -100,7 +100,7 @@ const result: Record<string, RawItem[]> = {}
 for (const year of years) {
   console.log(`抓取 ${year} …`)
   const cands = await fetchCands(year)
-  const { kept, dropped } = dedupe(cands, 15)
+  const { kept, dropped } = dedupe(cands, 20)
   result[year] = kept.map(({ relIds, ...rest }) => rest)
   kept.forEach((it, i) =>
     console.log(

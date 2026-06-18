@@ -17,7 +17,7 @@ const TW: Record<number, TwVal> = {
   1210: "歡迎加入N.H.K.！",
   356: "Fate/stay night",
   934: "暮蟬悲鳴時",
-  790: { zh: "死亡代理人", fan: true },
+  790: "死亡代理人",
   1195: "零之使魔",
   1482: "驅魔少年 D.Gray-man",
   1604: "家庭教師HITMAN REBORN!",
@@ -30,16 +30,17 @@ const TW: Record<number, TwVal> = {
   2025: "DARKER THAN BLACK 黑之契約者",
   1887: "幸運☆星",
   2034: "戀愛情結",
-  2476: { zh: "School Days", fan: true },
+  2476: "School Days",
   1818: "大劍 CLAYMORE",
   3002: "賭博默示錄",
-  2246: { zh: "物怪", fan: true },
+  2246: "物怪",
   1889: "暮蟬悲鳴時 解",
   1840: "零之使魔～雙月騎士～",
-  1292: { zh: "Afro Samurai", fan: true },
+  1292: "爆炸頭武士",
   2605: "再見、絕望老師",
   // 2008
-  4224: { zh: "龍與虎", fan: true },
+  4224: "龍與虎 TIGER×DRAGON！",
+  5231: "閃電十一人", // 遞補（原 Michiko & Hatchin 台灣無代理）
   3588: "Soul Eater 噬魂者",
   2904: "Code Geass 反叛的魯路修 R2",
   4898: "黑執事",
@@ -48,11 +49,10 @@ const TW: Record<number, TwVal> = {
   2966: "狼與辛香料",
   3455: "出包王女",
   4081: "夏目友人帳",
-  2993: { zh: "吸血鬼學園 Rosario+Vampire", fan: true },
+  2993: "十字架與吸血姬",
   3457: "吸血鬼騎士",
   3712: "零之使魔～三美姬的輪舞～",
   4063: "鶺鴒女神",
-  4087: { zh: "Michiko to Hatchin", fan: true },
   3470: "S.A 特優生",
   // 2009
   5114: "鋼之鍊金術師 FULLMETAL ALCHEMIST",
@@ -67,25 +67,25 @@ const TW: Record<number, TwVal> = {
   6033: "七龍珠改",
   5958: "天降之物",
   5530: "潘朵拉之心",
-  6211: { zh: "東京地震8.0", fan: true },
+  6211: "東京地震8.0",
   6573: "DARKER THAN BLACK 流星的雙子",
-  5682: { zh: "Phantom ~Requiem for the Phantom~", fan: true },
+  5682: "幻靈鎮魂曲",
   // 2010
   6547: "Angel Beats!",
   6746: "無頭騎士異聞錄 DuRaRaRa!!",
   7054: "會長是女僕大人！",
   8074: "學園默示錄 HIGHSCHOOL OF THE DEAD",
   7791: "K-ON！！輕音部",
-  7785: { zh: "四疊半神話大系", fan: true },
   8769: "我的妹妹哪有這麼可愛！",
   6594: "刀語",
   8525: "只有神知道的世界",
   7724: "屍鬼",
   7674: "爆漫王。",
   6347: "笨蛋、測驗、召喚獸",
-  8795: { zh: "Panty & Stocking with Garterbelt", fan: true },
   8675: "妄想學生會",
-  7593: { zh: "kiss×sis", fan: true },
+  6707: "黑執事II", // 遞補
+  8937: "魔法禁書目錄II", // 遞補
+  6956: "WORKING!!迷糊餐廳", // 遞補
   // 2011
   11061: "HUNTER×HUNTER 獵人（2011）",
   9253: "命運石之門",
@@ -314,7 +314,7 @@ const TW: Record<number, TwVal> = {
   176496: "我獨自升級 第二季 -Arise from the Shadow-",
   178025: "Gachiakuta",
   185660: "膽大黨 第二季",
-  181444: { zh: "薰香花綻放", fan: true },
+  181444: "薰香花朵凜然綻放",
   176301: "藥師少女的獨語 第二季",
   154768: "戀上換裝娃娃 第二季",
   153800: "一拳超人 第三季",
@@ -323,10 +323,22 @@ const TW: Record<number, TwVal> = {
   149118: "炎炎消防隊 參之章",
   177937: "SPY×FAMILY 間諜家家酒 第三季",
   182896: "我的英雄學院 最終季",
-  167336: { zh: "LAZARUS", fan: true },
+  167336: "LAZARUS 拉撒路",
   172019: "Dr.STONE 新石紀 SCIENCE FUTURE",
   178680: "WIND BREAKER 防風少年 第二季",
 }
+
+// 台灣從未代理（僅盜版站／查無正版）→ 從清單剔除，由候選池下一名遞補
+const REMOVE = new Set<number>([
+  4087, // Michiko & Hatchin (2008)
+  7785, // 四疊半神話大系 The Tatami Galaxy (2010)
+  8795, // 弔帶襪天使 Panty & Stocking (2010)
+  7593, // kiss×sis (2010)
+  8861, // 緣之空 Yosuga no Sora (2010 遞補時跳過)
+  7088, // 最後大魔王 Ichiban Ushiro no Daimaou (2010 遞補時跳過)
+])
+
+const LIMIT = 15
 
 const raw: Record<string, Raw[]> = JSON.parse(fs.readFileSync("anime-raw.json", "utf8"))
 
@@ -350,7 +362,9 @@ const data: Data = {`
 
 const blocks: string[] = []
 for (const year of Object.keys(raw)) {
-  const lines = (raw[year] ?? []).map((r) => {
+  const picked = (raw[year] ?? []).filter((r) => !REMOVE.has(r.aniListId)).slice(0, LIMIT)
+  if (picked.length < LIMIT) console.log(`⚠️ ${year} 剔除後只剩 ${picked.length} 部（候選池不足）`)
+  const lines = picked.map((r) => {
     const v = TW[r.aniListId]
     let zh: string
     if (v === undefined) {
