@@ -115,6 +115,9 @@ export const App = () => {
     <>
       <div className="flex flex-col gap-4 pb-10">
         <div className="p-4 flex flex-col md:items-center">
+          <p className="mb-3 max-w-screen-md text-center text-sm text-gray-600">
+            {t("rules")}
+          </p>
           <div className="flex w-full flex-col gap-2 mb-4 md:flex-row md:items-center md:justify-center">
             <div className="flex items-center gap-2">
               <span className="text-sm text-gray-600">{t("yearRange")}:</span>
@@ -322,29 +325,6 @@ export const App = () => {
           </button>
         </div>
 
-        <div className="mt-2 text-center">
-          {t("footer")}
-          <a
-            href={
-              language === "zh"
-                ? "https://x.com/localhost_4173"
-                : "https://x.com/localhost_5173"
-            }
-            target="_blank"
-            className="underline"
-          >
-            {language === "zh" ? "低空飞行" : "egoist"}
-          </a>
-          {t("madeBy")}
-          <a
-            href="https://github.com/egoist/anime-sedai"
-            target="_blank"
-            className="underline"
-          >
-            {t("viewCode")}
-          </a>
-        </div>
-
         {language === "en" && (
           <div className="text-center text-sm text-gray-600">
             English version is translated by{" "}
@@ -357,19 +337,6 @@ export const App = () => {
             </a>
           </div>
         )}
-
-        <div className="text-center">
-          {t("otherProducts")}
-          <a
-            href="https://chatwise.app"
-            target="_blank"
-            className="underline inline-flex items-center gap-1"
-          >
-            <img src="https://chatwise.app/favicon.png" className="size-4" />{" "}
-            ChatWise
-          </a>
-          {t("aiChatClient")}
-        </div>
       </div>
     </>
   )
