@@ -252,7 +252,7 @@ export const App = () => {
                           >
                             {item.image && (
                               <img
-                                src={item.image}
+                                src={import.meta.env.BASE_URL + item.image}
                                 alt=""
                                 loading="lazy"
                                 className="absolute inset-0 w-full h-full object-cover"

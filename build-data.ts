@@ -370,12 +370,13 @@ const missing: Raw[] = []
 const fanList: { year: string; zh: string; en: string }[] = []
 const covers: { id: number; url: string; file: string }[] = []
 
-// 把遠端封面圖轉成本地路徑（同源，截圖才不會因 CORS 破圖）；同時收集下載清單
+// 把遠端封面圖轉成本地相對路徑（不含開頭斜線，UI 端會接上 BASE_URL，
+// 才能同時在本機根路徑與 GitHub Pages 子路徑下正確載入；同源截圖也不破圖）
 const localImage = (r: Raw): string => {
   if (!r.image) return ""
   const ext = (r.image.match(/\.(\w+)(?:\?|$)/)?.[1] ?? "jpg").toLowerCase()
-  const path = `/covers/${r.aniListId}.${ext}`
-  covers.push({ id: r.aniListId, url: r.image, file: `public${path}` })
+  const path = `covers/${r.aniListId}.${ext}`
+  covers.push({ id: r.aniListId, url: r.image, file: `public/${path}` })
   return path
 }
 
