@@ -105,20 +105,20 @@
       "score": 7.6
     },
     {
-      "aniListId": 1519,
-      "titleEn": "Black Lagoon: The Second Barrage",
-      "titleJa": "BLACK LAGOON The Second Barrage",
-      "titleRomaji": "BLACK LAGOON: The Second Barrage",
-      "popularity": 103314,
-      "score": 8
-    },
-    {
       "aniListId": 1604,
       "titleEn": "REBORN!",
       "titleJa": "家庭教師ヒットマンREBORN!",
       "titleRomaji": "Katekyou Hitman REBORN!",
       "popularity": 94646,
       "score": 7.7
+    },
+    {
+      "aniListId": 861,
+      "titleEn": "xxxHOLiC",
+      "titleJa": "XXX ホリック",
+      "titleRomaji": "xxxHOLiC",
+      "popularity": 68972,
+      "score": 7.6
     }
   ],
   "2007": [
@@ -349,20 +349,20 @@
       "score": 6.5
     },
     {
-      "aniListId": 4214,
-      "titleEn": "Rosario + Vampire Capu2",
-      "titleJa": "ロザリオとバンパイア Capu2",
-      "titleRomaji": "Rosario to Vampire Capu2",
-      "popularity": 68482,
-      "score": 6.4
-    },
-    {
       "aniListId": 4087,
       "titleEn": "Michiko & Hatchin",
       "titleJa": "ミチコとハッチン",
       "titleRomaji": "Michiko to Hatchin",
       "popularity": 61442,
       "score": 7.6
+    },
+    {
+      "aniListId": 3470,
+      "titleEn": "S.A: Special A",
+      "titleJa": "スペシャル・エー",
+      "titleRomaji": "Special A",
+      "popularity": 60069,
+      "score": 7.1
     }
   ],
   "2009": [
@@ -1301,14 +1301,6 @@
       "score": 7.9
     },
     {
-      "aniListId": 21679,
-      "titleEn": "Bungo Stray Dogs 2",
-      "titleJa": "文豪ストレイドッグス 第2シーズン",
-      "titleRomaji": "Bungou Stray Dogs 2nd Season",
-      "popularity": 232813,
-      "score": 8.1
-    },
-    {
       "aniListId": 21647,
       "titleEn": "Orange",
       "titleJa": "orange",
@@ -1339,6 +1331,14 @@
       "titleRomaji": "Kiznaiver",
       "popularity": 197259,
       "score": 7.2
+    },
+    {
+      "aniListId": 21711,
+      "titleEn": "91 Days",
+      "titleJa": "91Days",
+      "titleRomaji": "91Days",
+      "popularity": 193529,
+      "score": 7.6
     }
   ],
   "2017": [
@@ -1577,12 +1577,12 @@
       "score": 7.6
     },
     {
-      "aniListId": 101474,
-      "titleEn": "Overlord III",
-      "titleJa": "オーバーロードⅢ",
-      "titleRomaji": "Overlord III",
-      "popularity": 238175,
-      "score": 7.7
+      "aniListId": 100922,
+      "titleEn": "Grand Blue Dreaming",
+      "titleJa": "ぐらんぶる",
+      "titleRomaji": "Grand Blue",
+      "popularity": 224169,
+      "score": 8.2
     }
   ],
   "2019": [
@@ -1781,14 +1781,6 @@
       "score": 7.2
     },
     {
-      "aniListId": 113538,
-      "titleEn": "HAIKYU!! TO THE TOP Part 2",
-      "titleJa": "ハイキュー!! TO THE TOP 2",
-      "titleRomaji": "Haikyuu!! TO THE TOP 2",
-      "popularity": 247834,
-      "score": 8.5
-    },
-    {
       "aniListId": 116267,
       "titleEn": "TONIKAWA: Over The Moon For You",
       "titleJa": "トニカクカワイイ",
@@ -1827,6 +1819,14 @@
       "titleRomaji": "Sword Art Online: Alicization - War of Underworld Part 2",
       "popularity": 190528,
       "score": 7.4
+    },
+    {
+      "aniListId": 105228,
+      "titleEn": "Dorohedoro",
+      "titleJa": "ドロヘドロ",
+      "titleRomaji": "Dorohedoro",
+      "popularity": 182040,
+      "score": 7.9
     }
   ],
   "2021": [
@@ -1927,14 +1927,6 @@
       "score": 8.3
     },
     {
-      "aniListId": 127720,
-      "titleEn": "Mushoku Tensei: Jobless Reincarnation Cour 2",
-      "titleJa": "無職転生 ～異世界行ったら本気だす～ 第2クール",
-      "titleRomaji": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
-      "popularity": 303430,
-      "score": 8.5
-    },
-    {
       "aniListId": 119661,
       "titleEn": "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
       "titleJa": "Re:ゼロから始める異世界生活 2nd Season Part 2",
@@ -1949,6 +1941,14 @@
       "titleRomaji": "Wonder Egg Priority",
       "popularity": 277934,
       "score": 7.4
+    },
+    {
+      "aniListId": 120697,
+      "titleEn": "DON'T TOY WITH ME, MISS NAGATORO",
+      "titleJa": "イジらないで、長瀞さん",
+      "titleRomaji": "Ijiranaide, Nagatoro-san",
+      "popularity": 259026,
+      "score": 6.9
     }
   ],
   "2022": [
@@ -1991,14 +1991,6 @@
       "titleRomaji": "Sono Bisque Doll wa Koi wo Suru",
       "popularity": 403260,
       "score": 8
-    },
-    {
-      "aniListId": 142838,
-      "titleEn": "SPY x FAMILY Cour 2",
-      "titleJa": "SPY×FAMILY 第2クール",
-      "titleRomaji": "SPY×FAMILY Part 2",
-      "popularity": 317257,
-      "score": 8.1
     },
     {
       "aniListId": 137822,
@@ -2071,6 +2063,14 @@
       "titleRomaji": "Tate no Yuusha no Nariagari Season 2",
       "popularity": 236910,
       "score": 6.5
+    },
+    {
+      "aniListId": 129201,
+      "titleEn": "Summer Time Rendering",
+      "titleJa": "サマータイムレンダ",
+      "titleRomaji": "Summer Time Render",
+      "popularity": 215228,
+      "score": 8.3
     }
   ],
   "2023": [
