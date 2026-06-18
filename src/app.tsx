@@ -130,6 +130,9 @@ export const App = () => {
 
   const totalAnime = visibleAnimeKeys.length
 
+  // 匯出時一律用標題，忽略使用者選的評分/熱度
+  const cellDisplayMode = exporting ? "title" : displayMode
+
   const formatHeat = (n: number) =>
     n >= 1_000_000
       ? (n / 1_000_000).toFixed(1) + "M"
@@ -266,7 +269,7 @@ export const App = () => {
                                 className="absolute inset-0 w-full h-full object-cover"
                               />
                             )}
-                            {displayMode === "title" ? (
+                            {cellDisplayMode === "title" ? (
                               <span
                                 className={`absolute text-center text-white ${
                                   exporting
@@ -290,7 +293,7 @@ export const App = () => {
                                   exporting ? "bg-zinc-800" : "bg-black/55"
                                 }`}
                               >
-                                {displayMode === "score"
+                                {cellDisplayMode === "score"
                                   ? `★ ${item.score}`
                                   : `🔥 ${formatHeat(item.popularity)}`}
                               </span>
