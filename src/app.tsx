@@ -271,17 +271,21 @@ export const App = () => {
                             )}
                             {cellDisplayMode === "title" ? (
                               <span
-                                className={`absolute text-center text-white ${
+                                className={`absolute text-center ${
                                   exporting
-                                    ? "inset-0 flex items-center justify-center p-1 bg-zinc-800"
-                                    : "inset-x-0 bottom-0 flex items-end justify-center p-1 pt-6 bg-gradient-to-t from-black/85 via-black/55 to-transparent"
-                                } ${language === "en" ? "text-[10px]" : "text-xs"}`}
+                                    ? "inset-0 flex items-center justify-center p-0.5 bg-white text-black text-sm font-medium"
+                                    : `inset-x-0 bottom-0 flex items-end justify-center p-1 pt-6 bg-gradient-to-t from-black/85 via-black/55 to-transparent text-white ${
+                                        language === "en" ? "text-[10px]" : "text-xs"
+                                      }`
+                                }`}
                               >
                                 <span
                                   className={`leading-tight w-full ${
-                                    language === "en"
-                                      ? "line-clamp-5"
-                                      : "line-clamp-4"
+                                    exporting
+                                      ? "line-clamp-6"
+                                      : language === "en"
+                                        ? "line-clamp-5"
+                                        : "line-clamp-4"
                                   }`}
                                 >
                                   {displayTitle}
