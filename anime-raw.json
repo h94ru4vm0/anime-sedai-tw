@@ -7,7 +7,8 @@
       "titleRomaji": "Mushishi",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx457-l6cTtNgI9Bi6.png",
       "popularity": 188205,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 355,
@@ -16,7 +17,8 @@
       "titleRomaji": "Shakugan no Shana",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx355-tB52QB38leMs.png",
       "popularity": 94589,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 237,
@@ -25,7 +27,8 @@
       "titleRomaji": "Koukyoushihen Eureka Seven",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx237-P1YEQQFqZ1An.jpg",
       "popularity": 86108,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 228,
@@ -34,7 +37,8 @@
       "titleRomaji": "Jigoku Shoujo",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx228-J2J1CI4jfyeC.jpg",
       "popularity": 74735,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 150,
@@ -43,7 +47,8 @@
       "titleRomaji": "BLOOD+",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150-YRcwKiJEXcLx.png",
       "popularity": 64606,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 322,
@@ -52,7 +57,8 @@
       "titleRomaji": "Paradise Kiss",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx322-4OvRw6V7JTiK.png",
       "popularity": 60496,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 16,
@@ -61,7 +67,8 @@
       "titleRomaji": "Hachimitsu to Clover",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16-S9k8qahNXoYP.jpg",
       "popularity": 57528,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 477,
@@ -70,7 +77,8 @@
       "titleRomaji": "ARIA The ANIMATION",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx477-CdKPHW7rGbUP.png",
       "popularity": 54935,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 101,
@@ -79,7 +87,8 @@
       "titleRomaji": "AIR",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx101-x3YmfrzYZ9kM.jpg",
       "popularity": 51165,
-      "score": 6.8
+      "score": 6.8,
+      "isSequel": false
     },
     {
       "aniListId": 79,
@@ -88,7 +97,8 @@
       "titleRomaji": "SHUFFLE!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx79-I1ODM0WcMlsn.jpg",
       "popularity": 46538,
-      "score": 6.5
+      "score": 6.5,
+      "isSequel": false
     },
     {
       "aniListId": 68,
@@ -97,7 +107,8 @@
       "titleRomaji": "Black Cat",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx68-BY1vMbDYz977.jpg",
       "popularity": 41825,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 73,
@@ -106,7 +117,8 @@
       "titleRomaji": "Full Metal Panic! The Second Raid",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx73-UgXDGEMBPGle.jpg",
       "popularity": 40827,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": true
     },
     {
       "aniListId": 177,
@@ -115,7 +127,8 @@
       "titleRomaji": "Tsubasa Chronicle",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177-tU0wjdXRw5u8.png",
       "popularity": 36958,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 488,
@@ -124,7 +137,8 @@
       "titleRomaji": "Ichigo Mashimaro",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx488-FwxcBNNqG6TC.png",
       "popularity": 35641,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     },
     {
       "aniListId": 15,
@@ -133,7 +147,8 @@
       "titleRomaji": "Eyeshield 21",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15-A4F2t0TgWoi4.png",
       "popularity": 33201,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 67,
@@ -142,7 +157,8 @@
       "titleRomaji": "Basilisk: Kouga Ninpouchou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx67-aBz3s2hBTtdH.jpg",
       "popularity": 32864,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 658,
@@ -151,7 +167,8 @@
       "titleRomaji": "Touhai Densetsu Akagi: Yami ni Maiorita Tensai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx658-vfMTeXswhOzl.png",
       "popularity": 30107,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 27,
@@ -160,7 +177,8 @@
       "titleRomaji": "Trinity Blood",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx27-MOAaiBHHLfOY.png",
       "popularity": 29036,
-      "score": 6.8
+      "score": 6.8,
+      "isSequel": false
     },
     {
       "aniListId": 157,
@@ -169,7 +187,8 @@
       "titleRomaji": "Mahou Sensei Negima!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx157-huy9RpQkSH8c.png",
       "popularity": 27412,
-      "score": 6.5
+      "score": 6.5,
+      "isSequel": false
     },
     {
       "aniListId": 469,
@@ -178,7 +197,8 @@
       "titleRomaji": "Karin",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx469-8v2Am0gCrwvH.png",
       "popularity": 26845,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": false
     }
   ],
   "2006": [
@@ -189,7 +209,8 @@
       "titleRomaji": "DEATH NOTE",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1535-kUgkcrfOrkUM.jpg",
       "popularity": 923471,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": false
     },
     {
       "aniListId": 1575,
@@ -198,7 +219,8 @@
       "titleRomaji": "Code Geass: Hangyaku no Lelouch",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1575-hsmWM2ydNm1m.jpg",
       "popularity": 479473,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 918,
@@ -207,7 +229,8 @@
       "titleRomaji": "Gintama",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx918-iOaeBVUn4uK7.jpg",
       "popularity": 285999,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 853,
@@ -216,7 +239,8 @@
       "titleRomaji": "Ouran Koukou Host Club",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx853-fiUtW8yohsSF.jpg",
       "popularity": 249052,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 889,
@@ -225,7 +249,8 @@
       "titleRomaji": "BLACK LAGOON",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx889-4S7N2ciq2cwA.png",
       "popularity": 242843,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 877,
@@ -234,7 +259,8 @@
       "titleRomaji": "NANA",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx877-6BUYEWp8By8j.png",
       "popularity": 198685,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 849,
@@ -243,7 +269,8 @@
       "titleRomaji": "Suzumiya Haruhi no Yuuutsu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx849-wQM3GqLvl62P.png",
       "popularity": 195001,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 1210,
@@ -252,7 +279,8 @@
       "titleRomaji": "NHK ni Youkoso!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1210-2XotjcgqdcaX.jpg",
       "popularity": 193733,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": false
     },
     {
       "aniListId": 356,
@@ -261,7 +289,8 @@
       "titleRomaji": "Fate/stay night",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx356-mTpMvtillumS.png",
       "popularity": 183881,
-      "score": 6.8
+      "score": 6.8,
+      "isSequel": true
     },
     {
       "aniListId": 934,
@@ -270,7 +299,8 @@
       "titleRomaji": "Higurashi no Naku Koro ni",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx934-wjMlVEl4CWwg.jpg",
       "popularity": 172843,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 790,
@@ -279,7 +309,8 @@
       "titleRomaji": "Ergo Proxy",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx790-YTUCvBKX8ZWK.jpg",
       "popularity": 151946,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 1195,
@@ -288,7 +319,8 @@
       "titleRomaji": "Zero no Tsukaima",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1195-odpKgDQ7A1fV.png",
       "popularity": 151265,
-      "score": 6.8
+      "score": 6.8,
+      "isSequel": false
     },
     {
       "aniListId": 1482,
@@ -297,7 +329,8 @@
       "titleRomaji": "D.Gray-man",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1482-6jc8ZVSmHuLo.jpg",
       "popularity": 114015,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 1604,
@@ -306,7 +339,8 @@
       "titleRomaji": "Katekyou Hitman REBORN!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1604-W2q38L4OCGLI.png",
       "popularity": 94646,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 861,
@@ -315,7 +349,8 @@
       "titleRomaji": "xxxHOLiC",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx861-rbZNhIXwS4JE.png",
       "popularity": 68972,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 857,
@@ -324,7 +359,8 @@
       "titleRomaji": "Air Gear",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b857-0pbF6kMJpUeL.png",
       "popularity": 57652,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 1530,
@@ -333,7 +369,8 @@
       "titleRomaji": "Kanon (2006)",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1530-nkzstlVZhZNG.jpg",
       "popularity": 50611,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 1559,
@@ -342,7 +379,8 @@
       "titleRomaji": "Shijou Saikyou no Deshi Kenichi",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1559-7ZlyZxtBNo8g.jpg",
       "popularity": 50266,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 1565,
@@ -351,7 +389,8 @@
       "titleRomaji": "Pocket Monsters Diamond & Pearl",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1565-aJC0XivLqQXY.png",
       "popularity": 41222,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": true
     },
     {
       "aniListId": 1571,
@@ -360,7 +399,8 @@
       "titleRomaji": "Ghost Hunt",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1571-rgWSFoPDZhzS.png",
       "popularity": 39163,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     }
   ],
   "2007": [
@@ -371,7 +411,8 @@
       "titleRomaji": "NARUTO: Shippuuden",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1735-kGfVm0YqCPcu.png",
       "popularity": 587608,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 2001,
@@ -380,7 +421,8 @@
       "titleRomaji": "Tengen Toppa Gurren Lagann",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2001-XwRnjzGeFWRQ.png",
       "popularity": 364828,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 2167,
@@ -389,7 +431,8 @@
       "titleRomaji": "CLANNAD",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2167-pSDBcyc0vjej.jpg",
       "popularity": 289538,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 2251,
@@ -398,7 +441,8 @@
       "titleRomaji": "Baccano!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2251-tTQoWxVy4472.jpg",
       "popularity": 186167,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 2025,
@@ -407,7 +451,8 @@
       "titleRomaji": "DARKER THAN BLACK: Kuro no Keiyakusha",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b2025-ZKVteVzUyFLH.png",
       "popularity": 172347,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 1887,
@@ -416,7 +461,8 @@
       "titleRomaji": "Lucky☆Star",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1887-P36Pucd4qKji.png",
       "popularity": 140697,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 2034,
@@ -425,7 +471,8 @@
       "titleRomaji": "Lovely★Complex",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2034-erjg6gzDetAp.png",
       "popularity": 129894,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 2476,
@@ -434,7 +481,8 @@
       "titleRomaji": "School Days (TV)",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2476-GSeJUpMGnj40.jpg",
       "popularity": 123599,
-      "score": 4.9
+      "score": 4.9,
+      "isSequel": false
     },
     {
       "aniListId": 1818,
@@ -443,7 +491,8 @@
       "titleRomaji": "CLAYMORE",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1818-KieLJv0qo3mO.jpg",
       "popularity": 116712,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     },
     {
       "aniListId": 3002,
@@ -452,7 +501,8 @@
       "titleRomaji": "Gyakkyou Burai Kaiji: Ultimate Survivor",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3002-BExanPfxp888.jpg",
       "popularity": 95666,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": false
     },
     {
       "aniListId": 2246,
@@ -461,7 +511,8 @@
       "titleRomaji": "Mononoke",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2246-WHkSkgyuxfgD.jpg",
       "popularity": 89874,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": false
     },
     {
       "aniListId": 1889,
@@ -470,7 +521,8 @@
       "titleRomaji": "Higurashi no Naku Koro ni Kai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1889-NqhWV3QwBXZl.jpg",
       "popularity": 88267,
-      "score": 8
+      "score": 8,
+      "isSequel": true
     },
     {
       "aniListId": 1840,
@@ -479,7 +531,8 @@
       "titleRomaji": "Zero no Tsukaima: Futatsuki no Kishi",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1840-AYZXdXUCpqpR.jpg",
       "popularity": 85925,
-      "score": 7
+      "score": 7,
+      "isSequel": true
     },
     {
       "aniListId": 1292,
@@ -488,7 +541,8 @@
       "titleRomaji": "Afro Samurai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1292-FcyYgq7Ly34H.png",
       "popularity": 84277,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 2605,
@@ -497,7 +551,8 @@
       "titleRomaji": "Sayonara Zetsubou Sensei",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2605-euXOWMmXtZMe.png",
       "popularity": 80696,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 1691,
@@ -506,7 +561,8 @@
       "titleRomaji": "Kaze no Stigma",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1691-dMen71ICnKJ9.jpg",
       "popularity": 73293,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": false
     },
     {
       "aniListId": 1726,
@@ -515,7 +571,8 @@
       "titleRomaji": "Devil May Cry",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx1726-IrpH32PVADiO.jpg",
       "popularity": 61212,
-      "score": 6.6
+      "score": 6.6,
+      "isSequel": false
     },
     {
       "aniListId": 2104,
@@ -524,7 +581,8 @@
       "titleRomaji": "Seto no Hanayome",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2104-8nyExxxIKd3P.jpg",
       "popularity": 60906,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 1698,
@@ -533,7 +591,8 @@
       "titleRomaji": "Nodame Cantabile",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx1698-VhVaiOLkcGCp.jpg",
       "popularity": 58033,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 2787,
@@ -542,7 +601,8 @@
       "titleRomaji": "Shakugan no Shana II (Second)",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2787-ACpKjLdA6T5Z.png",
       "popularity": 50239,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": true
     }
   ],
   "2008": [
@@ -553,7 +613,8 @@
       "titleRomaji": "Toradora!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4224-PXVMBLNwy2aF.jpg",
       "popularity": 524360,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 3588,
@@ -562,7 +623,8 @@
       "titleRomaji": "Soul Eater",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3588-fSMggQoFSbUI.png",
       "popularity": 377754,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 2904,
@@ -571,7 +633,8 @@
       "titleRomaji": "Code Geass: Hangyaku no Lelouch R2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2904-Fet9Q33suC7G.jpg",
       "popularity": 350413,
-      "score": 8.7
+      "score": 8.7,
+      "isSequel": true
     },
     {
       "aniListId": 4898,
@@ -580,7 +643,8 @@
       "titleRomaji": "Kuroshitsuji",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx4898-mW4gabZvwmLC.jpg",
       "popularity": 253381,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 4181,
@@ -589,7 +653,8 @@
       "titleRomaji": "CLANNAD: After Story",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4181-zUKE7BZC62OF.png",
       "popularity": 217046,
-      "score": 8.8
+      "score": 8.8,
+      "isSequel": true
     },
     {
       "aniListId": 4654,
@@ -598,7 +663,8 @@
       "titleRomaji": "Toaru Majutsu no Index",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4654-ba44icsxDQZd.jpg",
       "popularity": 185728,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 2966,
@@ -607,7 +673,8 @@
       "titleRomaji": "Ookami to Koushinryou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx2966-AEULMyYA9WKb.png",
       "popularity": 177255,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 3455,
@@ -616,7 +683,8 @@
       "titleRomaji": "To LOVE-Ru",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3455-oNiJmsZZTAAj.png",
       "popularity": 136996,
-      "score": 6.5
+      "score": 6.5,
+      "isSequel": false
     },
     {
       "aniListId": 4081,
@@ -625,7 +693,8 @@
       "titleRomaji": "Natsume Yuujinchou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4081-xi08naD69tjr.jpg",
       "popularity": 124788,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 2993,
@@ -634,7 +703,8 @@
       "titleRomaji": "Rosario to Vampire",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/2993.jpg",
       "popularity": 121705,
-      "score": 6.3
+      "score": 6.3,
+      "isSequel": false
     },
     {
       "aniListId": 3457,
@@ -643,7 +713,8 @@
       "titleRomaji": "Vampire Knight",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3457-owSEHJYvflx5.jpg",
       "popularity": 97835,
-      "score": 6.3
+      "score": 6.3,
+      "isSequel": false
     },
     {
       "aniListId": 3712,
@@ -652,7 +723,8 @@
       "titleRomaji": "Zero no Tsukaima: Princesses no Rondo",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3712-zt0ac4fjixWl.jpg",
       "popularity": 75473,
-      "score": 6.9
+      "score": 6.9,
+      "isSequel": true
     },
     {
       "aniListId": 4063,
@@ -661,7 +733,8 @@
       "titleRomaji": "Sekirei",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4063-ZP7agutiaOCf.png",
       "popularity": 74842,
-      "score": 6.5
+      "score": 6.5,
+      "isSequel": false
     },
     {
       "aniListId": 4087,
@@ -670,7 +743,8 @@
       "titleRomaji": "Michiko to Hatchin",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4087-TMc9A0GSKiJf.png",
       "popularity": 61442,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 3470,
@@ -679,7 +753,8 @@
       "titleRomaji": "Special A",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx3470-L3BUDBujYi7G.jpg",
       "popularity": 60069,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 5231,
@@ -688,7 +763,8 @@
       "titleRomaji": "Inazuma Eleven",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5231-SuMNWJQQK8jl.png",
       "popularity": 59944,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 5040,
@@ -697,7 +773,8 @@
       "titleRomaji": "One Outs",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5040-9ruuekq2LZKJ.png",
       "popularity": 52658,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 4975,
@@ -706,7 +783,8 @@
       "titleRomaji": "ChäoS;HEAd",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4975-89ESCZZNG4yZ.jpg",
       "popularity": 49872,
-      "score": 5.7
+      "score": 5.7,
+      "isSequel": false
     },
     {
       "aniListId": 3701,
@@ -715,7 +793,8 @@
       "titleRomaji": "Kaiba",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx3701-ooD3N9dD2rqa.jpg",
       "popularity": 49504,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 3503,
@@ -724,7 +803,8 @@
       "titleRomaji": "Kanokon",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/3503.jpg",
       "popularity": 47570,
-      "score": 5.7
+      "score": 5.7,
+      "isSequel": false
     }
   ],
   "2009": [
@@ -735,7 +815,8 @@
       "titleRomaji": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5114-nSWCgQlmOMtj.jpg",
       "popularity": 701910,
-      "score": 9
+      "score": 9,
+      "isSequel": false
     },
     {
       "aniListId": 6702,
@@ -744,7 +825,8 @@
       "titleRomaji": "FAIRY TAIL",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b6702-KI4qgSMyI8Pm.png",
       "popularity": 367432,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": false
     },
     {
       "aniListId": 5081,
@@ -753,7 +835,8 @@
       "titleRomaji": "Bakemonogatari",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5081-9GocceQ5Z865.jpg",
       "popularity": 332267,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 5680,
@@ -762,7 +845,8 @@
       "titleRomaji": "K-ON!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5680-r3AI3Cwfv0Aq.png",
       "popularity": 269879,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 6045,
@@ -771,7 +855,8 @@
       "titleRomaji": "Kimi ni Todoke",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6045-JujXjoWtslUM.jpg",
       "popularity": 240152,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 6213,
@@ -780,7 +865,8 @@
       "titleRomaji": "Toaru Kagaku no Railgun",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6213-QtrlDQnexApL.jpg",
       "popularity": 150842,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 4382,
@@ -789,7 +875,8 @@
       "titleRomaji": "Suzumiya Haruhi no Yuuutsu (2009)",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx4382-ojMWjGFfJFmN.png",
       "popularity": 116933,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 5630,
@@ -798,7 +885,8 @@
       "titleRomaji": "Higashi no Eden",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5630-l1YM9YDO8tpt.png",
       "popularity": 109044,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     },
     {
       "aniListId": 5341,
@@ -807,7 +895,8 @@
       "titleRomaji": "Ookami to Koushinryou II",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5341-gyp5OZ1NYPxi.jpg",
       "popularity": 95683,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 6033,
@@ -816,7 +905,8 @@
       "titleRomaji": "Dragon Ball Kai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6033-TKDWyjZN3dXk.png",
       "popularity": 94544,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": true
     },
     {
       "aniListId": 5958,
@@ -825,7 +915,8 @@
       "titleRomaji": "Sora no Otoshimono",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5958-qaAKEr4Q0JWn.jpg",
       "popularity": 91770,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": false
     },
     {
       "aniListId": 5530,
@@ -834,7 +925,8 @@
       "titleRomaji": "Pandora Hearts",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5530-ukD9JNrN47aA.jpg",
       "popularity": 73334,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": false
     },
     {
       "aniListId": 6211,
@@ -843,7 +935,8 @@
       "titleRomaji": "Tokyo Magnitude 8.0",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6211-2MCqBUXvmBdB.png",
       "popularity": 69809,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 6573,
@@ -852,7 +945,8 @@
       "titleRomaji": "DARKER THAN BLACK: Ryuusei no Gemini",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6573-8D21dF6qwXQ2.png",
       "popularity": 62853,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 5682,
@@ -861,7 +955,8 @@
       "titleRomaji": "Phantom: Requiem for the Phantom",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5682-13S0UNmJInAE.png",
       "popularity": 60695,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 5258,
@@ -870,7 +965,8 @@
       "titleRomaji": "Hajime no Ippo: New Challenger",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5258-Qn6GBiSY57iT.jpg",
       "popularity": 59089,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 6205,
@@ -879,7 +975,8 @@
       "titleRomaji": "Kämpfer",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6205-3waXg2FNaAFL.png",
       "popularity": 52874,
-      "score": 5.8
+      "score": 5.8,
+      "isSequel": false
     },
     {
       "aniListId": 6811,
@@ -888,7 +985,8 @@
       "titleRomaji": "Inuyasha: Kanketsu-hen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6811-DUsNLwQAOB7o.png",
       "popularity": 50735,
-      "score": 8
+      "score": 8,
+      "isSequel": true
     },
     {
       "aniListId": 5300,
@@ -897,7 +995,8 @@
       "titleRomaji": "Zoku Natsume Yuujinchou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx5300-t9N4PoOkPAdS.jpg",
       "popularity": 50490,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": true
     },
     {
       "aniListId": 7193,
@@ -906,7 +1005,8 @@
       "titleRomaji": "Aoi Bungaku Series",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7193-gC4ULfgsznxh.png",
       "popularity": 49156,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     }
   ],
   "2010": [
@@ -917,7 +1017,8 @@
       "titleRomaji": "Angel Beats!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6547-SYexAn5aFyss.png",
       "popularity": 430988,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 6746,
@@ -926,7 +1027,8 @@
       "titleRomaji": "Durarara!!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6746-3LTwM95Uqeoa.png",
       "popularity": 286180,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 7054,
@@ -935,7 +1037,8 @@
       "titleRomaji": "Kaichou wa Maid-sama!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7054-GW4D7VAZG19W.png",
       "popularity": 279144,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 8074,
@@ -944,7 +1047,8 @@
       "titleRomaji": "Gakuen Mokushiroku: HIGHSCHOOL OF THE DEAD",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx8074-YB63Ik96fjPj.png",
       "popularity": 277484,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": false
     },
     {
       "aniListId": 7791,
@@ -953,7 +1057,8 @@
       "titleRomaji": "K-ON!!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7791-4tnomla2mMDp.png",
       "popularity": 162887,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 7785,
@@ -962,7 +1067,8 @@
       "titleRomaji": "Yojouhan Shinwa Taikei",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7785-aTjIhsYva8cJ.jpg",
       "popularity": 144816,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 8769,
@@ -971,7 +1077,8 @@
       "titleRomaji": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx8769-Lat76qlOwdBN.jpg",
       "popularity": 143275,
-      "score": 6.5
+      "score": 6.5,
+      "isSequel": false
     },
     {
       "aniListId": 6594,
@@ -980,7 +1087,8 @@
       "titleRomaji": "Katanagatari",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6594-xrrFyCacxUle.png",
       "popularity": 131631,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 8525,
@@ -989,7 +1097,8 @@
       "titleRomaji": "Kami nomi zo Shiru Sekai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx8525-chaE9kM2x0w4.png",
       "popularity": 131406,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     },
     {
       "aniListId": 7724,
@@ -998,7 +1107,8 @@
       "titleRomaji": "Shiki",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7724-NwNnRsI34eDa.jpg",
       "popularity": 126793,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 7674,
@@ -1007,7 +1117,8 @@
       "titleRomaji": "Bakuman.",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7674-J0QHrtN50kzj.png",
       "popularity": 119554,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 6347,
@@ -1016,7 +1127,8 @@
       "titleRomaji": "Baka to Test to Shoukanjuu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6347-DCSHLkCY7UT3.jpg",
       "popularity": 116150,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 8795,
@@ -1025,7 +1137,8 @@
       "titleRomaji": "Panty & Stocking with Garterbelt",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx8795-485Q8MOYeMZx.png",
       "popularity": 109506,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 8675,
@@ -1034,7 +1147,8 @@
       "titleRomaji": "Seitokai Yakuindomo",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx8675-5H2QSLvXA7bH.jpg",
       "popularity": 107499,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 7593,
@@ -1043,7 +1157,8 @@
       "titleRomaji": "kiss×sis (TV)",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b7593-6a0TvcDmgjP9.jpg",
       "popularity": 103256,
-      "score": 5.9
+      "score": 5.9,
+      "isSequel": false
     },
     {
       "aniListId": 6707,
@@ -1052,7 +1167,8 @@
       "titleRomaji": "Kuroshitsuji II",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx6707-eZvzqWlu51DD.png",
       "popularity": 100770,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": true
     },
     {
       "aniListId": 8937,
@@ -1061,7 +1177,8 @@
       "titleRomaji": "Toaru Majutsu no Index II",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx8937-i3AW4QZxQHMy.jpg",
       "popularity": 100660,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": true
     },
     {
       "aniListId": 8861,
@@ -1070,7 +1187,8 @@
       "titleRomaji": "Yosuga no Sora",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx8861-DZKseZpdtBwp.jpg",
       "popularity": 100494,
-      "score": 5.6
+      "score": 5.6,
+      "isSequel": false
     },
     {
       "aniListId": 7088,
@@ -1079,7 +1197,8 @@
       "titleRomaji": "Ichiban Ushiro no Daimaou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx7088-Y38q7jaBwlTZ.png",
       "popularity": 98342,
-      "score": 6.2
+      "score": 6.2,
+      "isSequel": false
     },
     {
       "aniListId": 6956,
@@ -1088,7 +1207,8 @@
       "titleRomaji": "WORKING!!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6956-Nxs7H25yHLNS.jpg",
       "popularity": 90910,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     }
   ],
   "2011": [
@@ -1099,7 +1219,8 @@
       "titleRomaji": "HUNTER×HUNTER (2011)",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11061-y5gsT1hoHuHw.png",
       "popularity": 810226,
-      "score": 8.9
+      "score": 8.9,
+      "isSequel": false
     },
     {
       "aniListId": 9253,
@@ -1108,7 +1229,8 @@
       "titleRomaji": "Steins;Gate",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9253-tIUXF2gfU8Sg.jpg",
       "popularity": 573911,
-      "score": 8.9
+      "score": 8.9,
+      "isSequel": false
     },
     {
       "aniListId": 9919,
@@ -1117,7 +1239,8 @@
       "titleRomaji": "Ao no Exorcist",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9919-nXS7JOZrWHfS.jpg",
       "popularity": 449742,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": false
     },
     {
       "aniListId": 10620,
@@ -1126,7 +1249,8 @@
       "titleRomaji": "Mirai Nikki",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10620-dUZeNej0W4QN.png",
       "popularity": 418528,
-      "score": 6.9
+      "score": 6.9,
+      "isSequel": false
     },
     {
       "aniListId": 9989,
@@ -1135,7 +1259,8 @@
       "titleRomaji": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9989-hImMg6kCMm6I.jpg",
       "popularity": 384891,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 10087,
@@ -1144,7 +1269,8 @@
       "titleRomaji": "Fate/Zero",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10087-M4Hd9qrHGrXk.png",
       "popularity": 339087,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 9756,
@@ -1153,7 +1279,8 @@
       "titleRomaji": "Mahou Shoujo Madoka☆Magica",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9756-QnUGwlwwnsuN.jpg",
       "popularity": 314980,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 6880,
@@ -1162,7 +1289,8 @@
       "titleRomaji": "Deadman Wonderland",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx6880-qZ1jIqIYpST2.png",
       "popularity": 243391,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": false
     },
     {
       "aniListId": 10793,
@@ -1171,7 +1299,8 @@
       "titleRomaji": "Guilty Crown",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10793-KCysCbrVNqK9.jpg",
       "popularity": 234966,
-      "score": 6.9
+      "score": 6.9,
+      "isSequel": false
     },
     {
       "aniListId": 10165,
@@ -1180,7 +1309,8 @@
       "titleRomaji": "Nichijou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10165-tw8Cz7K9tfVJ.png",
       "popularity": 234161,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 10719,
@@ -1189,7 +1319,8 @@
       "titleRomaji": "Boku wa Tomodachi ga Sukunai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10719-aNf9gOOw62Fs.png",
       "popularity": 161690,
-      "score": 6.8
+      "score": 6.8,
+      "isSequel": false
     },
     {
       "aniListId": 9041,
@@ -1198,7 +1329,8 @@
       "titleRomaji": "IS: Infinite Stratos",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9041-nyIdVMM8q27K.jpg",
       "popularity": 129085,
-      "score": 6.1
+      "score": 6.1,
+      "isSequel": false
     },
     {
       "aniListId": 8425,
@@ -1207,7 +1339,8 @@
       "titleRomaji": "GOSICK",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx8425-Bn14ayPjnq9o.jpg",
       "popularity": 120976,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 10800,
@@ -1216,7 +1349,8 @@
       "titleRomaji": "Chihayafuru",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10800-hofcUL0YEL7O.png",
       "popularity": 120480,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 9656,
@@ -1225,7 +1359,8 @@
       "titleRomaji": "Kimi ni Todoke 2ND SEASON",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9656-vckh2wNj3FwY.jpg",
       "popularity": 116286,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": true
     },
     {
       "aniListId": 8841,
@@ -1234,7 +1369,8 @@
       "titleRomaji": "Kore wa Zombie desu ka?",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx8841-pitrO5QSdfmA.png",
       "popularity": 112505,
-      "score": 6.9
+      "score": 6.9,
+      "isSequel": false
     },
     {
       "aniListId": 9969,
@@ -1243,7 +1379,8 @@
       "titleRomaji": "Gintama'",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx9969-0GaRABYVdUcH.png",
       "popularity": 107470,
-      "score": 8.9
+      "score": 8.9,
+      "isSequel": true
     },
     {
       "aniListId": 9513,
@@ -1252,7 +1389,8 @@
       "titleRomaji": "Beelzebub",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx9513-is6YiSgKbyQX.jpg",
       "popularity": 103962,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 10161,
@@ -1261,7 +1399,8 @@
       "titleRomaji": "NO.6",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10161-iJAey1M4zFrX.jpg",
       "popularity": 101337,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 10162,
@@ -1270,7 +1409,8 @@
       "titleRomaji": "Usagi Drop",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx10162-w4SG5oQSQwMn.jpg",
       "popularity": 99896,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     }
   ],
   "2012": [
@@ -1281,7 +1421,8 @@
       "titleRomaji": "Sword Art Online",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11757-SxYDUzdr9rh2.jpg",
       "popularity": 694355,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 14719,
@@ -1290,7 +1431,8 @@
       "titleRomaji": "JoJo no Kimyou na Bouken (TV)",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14719-VT5dRzTBSZ0w.jpg",
       "popularity": 461386,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 11111,
@@ -1299,7 +1441,8 @@
       "titleRomaji": "Another",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11111-gvvE5bBYsyFo.png",
       "popularity": 373633,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 13601,
@@ -1308,7 +1451,8 @@
       "titleRomaji": "PSYCHO-PASS",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx13601-i42VFuHpqEOJ.jpg",
       "popularity": 346576,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 12189,
@@ -1317,7 +1461,8 @@
       "titleRomaji": "Hyouka",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx12189-zj5AWUYO53Fv.jpg",
       "popularity": 342046,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 14741,
@@ -1326,7 +1471,8 @@
       "titleRomaji": "Chuunibyou demo Koi ga Shitai!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14741-CGXEIeUe2roA.jpg",
       "popularity": 340568,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 11617,
@@ -1335,7 +1481,8 @@
       "titleRomaji": "High School DxD",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx11617-nmxMU9Zh3H5R.jpg",
       "popularity": 302417,
-      "score": 6.9
+      "score": 6.9,
+      "isSequel": false
     },
     {
       "aniListId": 11771,
@@ -1344,7 +1491,8 @@
       "titleRomaji": "Kuroko no Basket",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11771-uvr44RAwRxPw.jpg",
       "popularity": 276515,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 13759,
@@ -1353,7 +1501,8 @@
       "titleRomaji": "Sakurasou no Pet na Kanojo",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx13759-xNf0gJK4Axt2.jpg",
       "popularity": 268968,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 14227,
@@ -1362,7 +1511,8 @@
       "titleRomaji": "Tonari no Kaibutsu-kun",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14227-VGxPG1xDZG7v.jpg",
       "popularity": 252978,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": false
     },
     {
       "aniListId": 11741,
@@ -1371,7 +1521,8 @@
       "titleRomaji": "Fate/Zero 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11741-oEy1fJHYm2zJ.jpg",
       "popularity": 237040,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": true
     },
     {
       "aniListId": 14513,
@@ -1380,7 +1531,8 @@
       "titleRomaji": "Magi: The labyrinth of magic",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14513-HuUdrFFYftA7.jpg",
       "popularity": 226164,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": true
     },
     {
       "aniListId": 11843,
@@ -1389,7 +1541,8 @@
       "titleRomaji": "Danshi Koukousei no Nichijou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11843-ui2jBcuQUqnl.jpg",
       "popularity": 188390,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 11887,
@@ -1398,7 +1551,8 @@
       "titleRomaji": "Kokoro Connect",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11887-ypZTwcRqopiL.jpg",
       "popularity": 186296,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 11597,
@@ -1407,7 +1561,8 @@
       "titleRomaji": "Nisemonogatari",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11597-x2vd4KSHcI1S.jpg",
       "popularity": 182379,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": true
     },
     {
       "aniListId": 13125,
@@ -1416,7 +1571,8 @@
       "titleRomaji": "Shinsekai yori",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx13125-2EDZb8ahshQc.png",
       "popularity": 173912,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 14467,
@@ -1425,7 +1581,8 @@
       "titleRomaji": "K",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14467-TQjwOvq4jkYS.png",
       "popularity": 169533,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 14713,
@@ -1434,7 +1591,8 @@
       "titleRomaji": "Kamisama Hajimemashita",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx14713-RyZ7bA7CdvGw.jpg",
       "popularity": 163098,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 14345,
@@ -1443,7 +1601,8 @@
       "titleRomaji": "BTOOOM!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14345-BeDPCuhQGtL5.jpg",
       "popularity": 160704,
-      "score": 6.8
+      "score": 6.8,
+      "isSequel": false
     },
     {
       "aniListId": 14289,
@@ -1452,7 +1611,8 @@
       "titleRomaji": "Sukitte Ii na yo.",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx14289-vRTzC8u4XuvW.png",
       "popularity": 150823,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     }
   ],
   "2013": [
@@ -1463,7 +1623,8 @@
       "titleRomaji": "Shingeki no Kyojin",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16498-buvcRTBx4NSm.jpg",
       "popularity": 1013208,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 18679,
@@ -1472,7 +1633,8 @@
       "titleRomaji": "Kill la Kill",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b18679-lbkq7iYESoFW.png",
       "popularity": 403706,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 15809,
@@ -1481,7 +1643,8 @@
       "titleRomaji": "Hataraku Maou-sama!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15809-ECv3HyOYJKrk.jpg",
       "popularity": 385485,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 14813,
@@ -1490,7 +1653,8 @@
       "titleRomaji": "Yahari Ore no Seishun Love Come wa Machigatteiru.",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14813-3mNvcKNEQcDs.jpg",
       "popularity": 366515,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 18153,
@@ -1499,7 +1663,8 @@
       "titleRomaji": "Kyoukai no Kanata",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18153-oDqA9zQzQPOq.png",
       "popularity": 273430,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     },
     {
       "aniListId": 17895,
@@ -1508,7 +1673,8 @@
       "titleRomaji": "Golden Time",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx17895-M8yjOyMxHf5X.jpg",
       "popularity": 255748,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 15583,
@@ -1517,7 +1683,8 @@
       "titleRomaji": "Date A Live",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx15583-Sxd2J4RJdRhj.jpg",
       "popularity": 238455,
-      "score": 6.8
+      "score": 6.8,
+      "isSequel": false
     },
     {
       "aniListId": 17265,
@@ -1526,7 +1693,8 @@
       "titleRomaji": "Log Horizon",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx17265-RyErURYesjJt.jpg",
       "popularity": 231095,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 16592,
@@ -1535,7 +1703,8 @@
       "titleRomaji": "Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei - The Animation",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16592-mFn1gfMXlKtw.jpg",
       "popularity": 227390,
-      "score": 6.9
+      "score": 6.9,
+      "isSequel": true
     },
     {
       "aniListId": 15451,
@@ -1544,7 +1713,8 @@
       "titleRomaji": "High School DxD NEW",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx15451-A5T54vmxUq9t.jpg",
       "popularity": 190995,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": true
     },
     {
       "aniListId": 18507,
@@ -1553,7 +1723,8 @@
       "titleRomaji": "Free!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18507-RajfCYPpBfT3.png",
       "popularity": 179816,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": false
     },
     {
       "aniListId": 16894,
@@ -1562,7 +1733,8 @@
       "titleRomaji": "Kuroko no Basket 2nd SEASON",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16894-iXt8GDs1L6dr.jpg",
       "popularity": 177325,
-      "score": 8
+      "score": 8,
+      "isSequel": true
     },
     {
       "aniListId": 17074,
@@ -1571,7 +1743,8 @@
       "titleRomaji": "Monogatari Series: Second Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx17074-xMhVAZsEDH66.png",
       "popularity": 167982,
-      "score": 8.8
+      "score": 8.8,
+      "isSequel": true
     },
     {
       "aniListId": 18115,
@@ -1580,7 +1753,8 @@
       "titleRomaji": "Magi: The kingdom of magic",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18115-dilbAD4yGMfc.png",
       "popularity": 164705,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": true
     },
     {
       "aniListId": 16742,
@@ -1589,7 +1763,8 @@
       "titleRomaji": "Watashi ga Motenai no wa Dou Kangaetemo Omaera ga Warui!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16742-apAy622TmkVd.jpg",
       "popularity": 149320,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": false
     },
     {
       "aniListId": 11633,
@@ -1598,7 +1773,8 @@
       "titleRomaji": "Blood Lad",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx11633-vIjtabJq64Xt.jpg",
       "popularity": 136958,
-      "score": 6.9
+      "score": 6.9,
+      "isSequel": false
     },
     {
       "aniListId": 16067,
@@ -1607,7 +1783,8 @@
       "titleRomaji": "Nagi no Asukara",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx16067-CFX0g435pLob.png",
       "popularity": 135055,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 14749,
@@ -1616,7 +1793,8 @@
       "titleRomaji": "Ore no Kanojo to Osananajimi ga Shuraba Sugiru",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx14749-aq6aPtIPPVOY.png",
       "popularity": 128542,
-      "score": 6.6
+      "score": 6.6,
+      "isSequel": false
     },
     {
       "aniListId": 16417,
@@ -1625,7 +1803,8 @@
       "titleRomaji": "Tamako Market",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx16417-r8Njy5UnwvDE.png",
       "popularity": 125533,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 18277,
@@ -1634,7 +1813,8 @@
       "titleRomaji": "Strike the Blood",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18277-Vwm314Nr6vsg.jpg",
       "popularity": 125149,
-      "score": 6.6
+      "score": 6.6,
+      "isSequel": false
     }
   ],
   "2014": [
@@ -1645,7 +1825,8 @@
       "titleRomaji": "Tokyo Ghoul",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b20605-k665mVkSug8D.jpg",
       "popularity": 714397,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 20665,
@@ -1654,7 +1835,8 @@
       "titleRomaji": "Shigatsu wa Kimi no Uso",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20665-TLgkL8T8IRFd.png",
       "popularity": 592264,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": false
     },
     {
       "aniListId": 20464,
@@ -1663,7 +1845,8 @@
       "titleRomaji": "Haikyuu!!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20464-ooZUyBe4ptp9.png",
       "popularity": 565268,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": false
     },
     {
       "aniListId": 19815,
@@ -1672,7 +1855,8 @@
       "titleRomaji": "No Game No Life",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b19815-sEOQ9yQaPKlk.jpg",
       "popularity": 526786,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 20447,
@@ -1681,7 +1865,8 @@
       "titleRomaji": "Noragami",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20447-EoQXeygHaVCK.jpg",
       "popularity": 525017,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 20613,
@@ -1690,7 +1875,8 @@
       "titleRomaji": "Akame ga Kill!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20613-HXHpec4bemk5.jpg",
       "popularity": 521577,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 20789,
@@ -1699,7 +1885,8 @@
       "titleRomaji": "Nanatsu no Taizai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20789-Ma5ouSYPkru9.jpg",
       "popularity": 513186,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 20623,
@@ -1708,7 +1895,8 @@
       "titleRomaji": "Kiseijuu: Sei no Kakuritsu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20623-dUARfggnNDOe.jpg",
       "popularity": 485428,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 20594,
@@ -1717,7 +1905,8 @@
       "titleRomaji": "Sword Art Online II",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20594-FhRgZ1H9Istt.jpg",
       "popularity": 438593,
-      "score": 6.6
+      "score": 6.6,
+      "isSequel": true
     },
     {
       "aniListId": 20474,
@@ -1726,7 +1915,8 @@
       "titleRomaji": "JoJo no Kimyou na Bouken: Stardust Crusaders",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20474-xuqem5GBlBtb.jpg",
       "popularity": 332975,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": true
     },
     {
       "aniListId": 20661,
@@ -1735,7 +1925,8 @@
       "titleRomaji": "Zankyou no Terror",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20661-aCR7QgzDfOSI.png",
       "popularity": 280318,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 18897,
@@ -1744,7 +1935,8 @@
       "titleRomaji": "Nisekoi",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx18897-G2Fx2ZACsXBU.jpg",
       "popularity": 260292,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 19603,
@@ -1753,7 +1945,8 @@
       "titleRomaji": "Fate/stay night: Unlimited Blade Works",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx19603-ycT0pyEgDVQu.jpg",
       "popularity": 257670,
-      "score": 8
+      "score": 8,
+      "isSequel": true
     },
     {
       "aniListId": 20458,
@@ -1762,7 +1955,8 @@
       "titleRomaji": "Mahouka Koukou no Rettousei",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20458-tGh343Ew10yU.jpg",
       "popularity": 251646,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 20596,
@@ -1771,7 +1965,8 @@
       "titleRomaji": "Ao Haru Ride",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20596-fJdMHV8xRMgY.png",
       "popularity": 237061,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 20668,
@@ -1780,7 +1975,8 @@
       "titleRomaji": "Gekkan Shoujo Nozaki-kun",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20668-6UslJY5NDYNh.png",
       "popularity": 218047,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 20770,
@@ -1789,7 +1985,8 @@
       "titleRomaji": "Akatsuki no Yona",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20770-brCDvhTXlums.png",
       "popularity": 210822,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 20457,
@@ -1798,7 +1995,8 @@
       "titleRomaji": "Black Bullet",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20457-ftrNiYhZzgoY.jpg",
       "popularity": 191192,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": false
     },
     {
       "aniListId": 20631,
@@ -1807,7 +2005,8 @@
       "titleRomaji": "Trinity Seven",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20631-LdCiy3goitcT.png",
       "popularity": 191177,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": false
     },
     {
       "aniListId": 20626,
@@ -1816,7 +2015,8 @@
       "titleRomaji": "FAIRY TAIL (2014)",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20626-9LTreIofBgnu.jpg",
       "popularity": 180842,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": true
     }
   ],
   "2015": [
@@ -1827,7 +2027,8 @@
       "titleRomaji": "One Punch Man",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21087-B5DHjqZ3kW4b.jpg",
       "popularity": 744220,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 20755,
@@ -1836,7 +2037,8 @@
       "titleRomaji": "Ansatsu Kyoushitsu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20755-dWrhs569YGUO.jpg",
       "popularity": 608169,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 20931,
@@ -1845,7 +2047,8 @@
       "titleRomaji": "Death Parade",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx20931-bktYqOcxPERi.jpg",
       "popularity": 454703,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 20997,
@@ -1854,7 +2057,8 @@
       "titleRomaji": "Charlotte",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20997-axVYrsIfjtYJ.jpg",
       "popularity": 418186,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 20850,
@@ -1863,7 +2067,8 @@
       "titleRomaji": "Tokyo Ghoul √A",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20850-glDf9EMKeCwe.jpg",
       "popularity": 394589,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": true
     },
     {
       "aniListId": 20923,
@@ -1872,7 +2077,8 @@
       "titleRomaji": "Shokugeki no Souma",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20923-pNT38pjW3RFH.jpg",
       "popularity": 392689,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 20832,
@@ -1881,7 +2087,8 @@
       "titleRomaji": "Overlord",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20832-vUNm5zrYWifc.jpg",
       "popularity": 389084,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 20992,
@@ -1890,7 +2097,8 @@
       "titleRomaji": "Haikyuu!! 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20992-aHgNbcalVEqk.png",
       "popularity": 387878,
-      "score": 8.6
+      "score": 8.6,
+      "isSequel": true
     },
     {
       "aniListId": 20920,
@@ -1899,7 +2107,8 @@
       "titleRomaji": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20920-MTREwZOG4BAD.jpg",
       "popularity": 383734,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 20829,
@@ -1908,7 +2117,8 @@
       "titleRomaji": "Owari no Seraph",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20829-pgsXVjrfyI5V.png",
       "popularity": 317781,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 21128,
@@ -1917,7 +2127,8 @@
       "titleRomaji": "Noragami ARAGOTO",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21128-eQgH3TG4nngo.jpg",
       "popularity": 304143,
-      "score": 8
+      "score": 8,
+      "isSequel": true
     },
     {
       "aniListId": 20799,
@@ -1926,7 +2137,8 @@
       "titleRomaji": "JoJo no Kimyou na Bouken: Stardust Crusaders - Egypt-hen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20799-S1eyqBDlx51E.jpg",
       "popularity": 281486,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 20698,
@@ -1935,7 +2147,8 @@
       "titleRomaji": "Yahari Ore no Seishun Love Come wa Machigatteiru. Zoku",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20698-YZIYor2zW3Ta.png",
       "popularity": 266822,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": true
     },
     {
       "aniListId": 20872,
@@ -1944,7 +2157,8 @@
       "titleRomaji": "Plastic Memories",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20872-j5PBzzVtrYDM.jpg",
       "popularity": 250451,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 20807,
@@ -1953,7 +2167,8 @@
       "titleRomaji": "Prison School",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20807-8nFoO0AUdGsy.jpg",
       "popularity": 239309,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 21092,
@@ -1962,7 +2177,8 @@
       "titleRomaji": "Rakudai Kishi no Cavalry",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21092-1NML6TdngmBq.jpg",
       "popularity": 235396,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": false
     },
     {
       "aniListId": 20727,
@@ -1971,7 +2187,8 @@
       "titleRomaji": "Kekkai Sensen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20727-jgVnxLCHAKqZ.jpg",
       "popularity": 223147,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     },
     {
       "aniListId": 21175,
@@ -1980,7 +2197,8 @@
       "titleRomaji": "Dragon Ball Super",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21175-EH06qlfF8TnB.jpg",
       "popularity": 210220,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": true
     },
     {
       "aniListId": 20910,
@@ -1989,7 +2207,8 @@
       "titleRomaji": "Shimoneta to Iu Gainen ga Sonzai Shinai Taikutsu na Sekai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20910-U7txwG3o9gma.jpg",
       "popularity": 199822,
-      "score": 6.9
+      "score": 6.9,
+      "isSequel": false
     },
     {
       "aniListId": 20792,
@@ -1998,7 +2217,8 @@
       "titleRomaji": "Fate/stay night: Unlimited Blade Works 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20792-Q53sZsUAh5FF.jpg",
       "popularity": 199410,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     }
   ],
   "2016": [
@@ -2009,7 +2229,8 @@
       "titleRomaji": "Boku no Hero Academia",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21459-nYh85uj2Fuwr.jpg",
       "popularity": 844624,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 21507,
@@ -2018,7 +2239,8 @@
       "titleRomaji": "Mob Psycho 100",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21507-6YUSbh2m0N1p.jpg",
       "popularity": 603294,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": false
     },
     {
       "aniListId": 21355,
@@ -2027,7 +2249,8 @@
       "titleRomaji": "Re:Zero kara Hajimeru Isekai Seikatsu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21355-wRVUrGxpvIQQ.jpg",
       "popularity": 593298,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 21234,
@@ -2036,7 +2259,8 @@
       "titleRomaji": "Boku dake ga Inai Machi",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21234-XmqW39aQ9o7O.jpg",
       "popularity": 586250,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 21202,
@@ -2045,7 +2269,8 @@
       "titleRomaji": "Kono Subarashii Sekai ni Shukufuku wo!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21202-mPOr80AEjUcZ.png",
       "popularity": 499401,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 21311,
@@ -2054,7 +2279,8 @@
       "titleRomaji": "Bungou Stray Dogs",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21311-hAXyT8Yoh6G9.jpg",
       "popularity": 408113,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 21170,
@@ -2063,7 +2289,8 @@
       "titleRomaji": "Ansatsu Kyoushitsu 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21170-kbcfTTZGSaFt.jpg",
       "popularity": 358503,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": true
     },
     {
       "aniListId": 21698,
@@ -2072,7 +2299,8 @@
       "titleRomaji": "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21698-RL71mr1YU5Io.png",
       "popularity": 352566,
-      "score": 8.7
+      "score": 8.7,
+      "isSequel": true
     },
     {
       "aniListId": 21450,
@@ -2081,7 +2309,8 @@
       "titleRomaji": "JoJo no Kimyou na Bouken: Diamond wa Kudakenai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21450-D7XFwEQjZ5GA.jpg",
       "popularity": 304618,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": true
     },
     {
       "aniListId": 21518,
@@ -2090,7 +2319,8 @@
       "titleRomaji": "Shokugeki no Souma: Ni no Sara",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21518-uBqzDGIuSxJ5.jpg",
       "popularity": 254529,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": true
     },
     {
       "aniListId": 21049,
@@ -2099,7 +2329,8 @@
       "titleRomaji": "ReLIFE",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21049-4AHSLeiDE9eg.png",
       "popularity": 250317,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 21647,
@@ -2108,7 +2339,8 @@
       "titleRomaji": "orange",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21647-zMUXNhcVyRyv.png",
       "popularity": 228925,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 21709,
@@ -2117,7 +2349,8 @@
       "titleRomaji": "Yuuri!!! on ICE",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21709-aqPBDxJPruYR.png",
       "popularity": 226126,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 21366,
@@ -2126,7 +2359,8 @@
       "titleRomaji": "3-gatsu no Lion",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21366-0wrYK0kjKeFn.jpg",
       "popularity": 208499,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 21421,
@@ -2135,7 +2369,8 @@
       "titleRomaji": "Kiznaiver",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21421-5y8ryXsMB7aJ.jpg",
       "popularity": 197259,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": false
     },
     {
       "aniListId": 21711,
@@ -2144,7 +2379,8 @@
       "titleRomaji": "91Days",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21711-EQN4sCIXRhKf.png",
       "popularity": 193529,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 21196,
@@ -2153,7 +2389,8 @@
       "titleRomaji": "Koutetsujou no Kabaneri",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21196-2PfPfIDrxKki.jpg",
       "popularity": 189574,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 21595,
@@ -2162,7 +2399,8 @@
       "titleRomaji": "Sakamoto desu ga?",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21595-vQ658r2Roe1g.jpg",
       "popularity": 186004,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 21428,
@@ -2171,7 +2409,8 @@
       "titleRomaji": "Hai to Gensou no Grimgar",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21428-dFVIHeZ8McBe.jpg",
       "popularity": 176544,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     },
     {
       "aniListId": 21385,
@@ -2180,7 +2419,8 @@
       "titleRomaji": "Nanatsu no Taizai: Seisen no Shirushi",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21385-0rOBu6r4C4b9.jpg",
       "popularity": 167482,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": true
     }
   ],
   "2017": [
@@ -2191,7 +2431,8 @@
       "titleRomaji": "Shingeki no Kyojin Season 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx20958-HuFJyr54Mmir.jpg",
       "popularity": 708554,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": true
     },
     {
       "aniListId": 21856,
@@ -2200,7 +2441,8 @@
       "titleRomaji": "Boku no Hero Academia 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21856-gutauxhWAwn6.png",
       "popularity": 636454,
-      "score": 8
+      "score": 8,
+      "isSequel": true
     },
     {
       "aniListId": 97940,
@@ -2209,7 +2451,8 @@
       "titleRomaji": "Black Clover",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97940-fyh8o7gNbha0.png",
       "popularity": 557446,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 98314,
@@ -2218,7 +2461,8 @@
       "titleRomaji": "Kakegurui",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b98314-TSJykxVwCCQN.jpg",
       "popularity": 443971,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 98659,
@@ -2227,7 +2471,8 @@
       "titleRomaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98659-WNyPLIZDpGGY.jpg",
       "popularity": 427925,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 97986,
@@ -2236,7 +2481,8 @@
       "titleRomaji": "Made in Abyss",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97986-TQ7dCgbS3y5s.jpg",
       "popularity": 392098,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 21699,
@@ -2245,7 +2491,8 @@
       "titleRomaji": "Kono Subarashii Sekai ni Shukufuku wo! 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21699-Fkbnkl9ZC6fW.png",
       "popularity": 364334,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": true
     },
     {
       "aniListId": 21776,
@@ -2254,7 +2501,8 @@
       "titleRomaji": "Kobayashi-san Chi no Maidragon",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21776-bwPaYKhnKfUs.png",
       "popularity": 321307,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 21613,
@@ -2263,7 +2511,8 @@
       "titleRomaji": "Youjo Senki",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21613-qT3NiwYP5dYc.png",
       "popularity": 259752,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 98436,
@@ -2272,7 +2521,8 @@
       "titleRomaji": "Mahoutsukai no Yome",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98436-n7sK6POCd0XV.png",
       "popularity": 238648,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 21857,
@@ -2281,7 +2531,8 @@
       "titleRomaji": "Masamune-kun no Revenge",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx21857-haPDVD7DKDpg.jpg",
       "popularity": 234314,
-      "score": 6.6
+      "score": 6.6,
+      "isSequel": false
     },
     {
       "aniListId": 99255,
@@ -2290,7 +2541,8 @@
       "titleRomaji": "Shokugeki no Souma: San no Sara",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99255-heGTtj5b4owl.jpg",
       "popularity": 222662,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": true
     },
     {
       "aniListId": 97938,
@@ -2299,7 +2551,8 @@
       "titleRomaji": "BORUTO: NARUTO NEXT GENERATIONS",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97938-BnF6M5yTaNB1.jpg",
       "popularity": 219310,
-      "score": 5.7
+      "score": 5.7,
+      "isSequel": true
     },
     {
       "aniListId": 21700,
@@ -2308,7 +2561,8 @@
       "titleRomaji": "Rokudenashi Majutsu Koushi to Akashic Records",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21700-HhTEXPZKxupP.jpg",
       "popularity": 192674,
-      "score": 6.8
+      "score": 6.8,
+      "isSequel": false
     },
     {
       "aniListId": 21685,
@@ -2317,7 +2571,8 @@
       "titleRomaji": "Eromanga Sensei",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21685-h1SrcpaNnrIq.jpg",
       "popularity": 182215,
-      "score": 6
+      "score": 6,
+      "isSequel": false
     },
     {
       "aniListId": 97994,
@@ -2326,7 +2581,8 @@
       "titleRomaji": "Blend S",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97994-JZ1rLkJBcO8V.png",
       "popularity": 177777,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 21701,
@@ -2335,7 +2591,8 @@
       "titleRomaji": "Kuzu no Honkai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21701-j81oh6WCNlsQ.jpg",
       "popularity": 177557,
-      "score": 6.8
+      "score": 6.8,
+      "isSequel": false
     },
     {
       "aniListId": 21861,
@@ -2344,7 +2601,8 @@
       "titleRomaji": "Ao no Exorcist: Kyoto Fujouou-hen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21861-KDvJJQenJJlT.jpg",
       "popularity": 174621,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": true
     },
     {
       "aniListId": 97766,
@@ -2353,7 +2611,8 @@
       "titleRomaji": "Gamers!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97766-AKr0m3uHkKyW.jpg",
       "popularity": 169814,
-      "score": 6.5
+      "score": 6.5,
+      "isSequel": false
     },
     {
       "aniListId": 97922,
@@ -2362,7 +2621,8 @@
       "titleRomaji": "Inuyashiki",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97922-qrGn5fkQinDs.jpg",
       "popularity": 169629,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     }
   ],
   "2018": [
@@ -2373,7 +2633,8 @@
       "titleRomaji": "Shingeki no Kyojin Season 3",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99147-AiPDD8cwlCfi.jpg",
       "popularity": 662490,
-      "score": 8.6
+      "score": 8.6,
+      "isSequel": true
     },
     {
       "aniListId": 100166,
@@ -2382,7 +2643,8 @@
       "titleRomaji": "Boku no Hero Academia 3",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100166-jUCZYbzn2XLw.jpg",
       "popularity": 583320,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": true
     },
     {
       "aniListId": 101291,
@@ -2391,7 +2653,8 @@
       "titleRomaji": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101291-wfEdgPqtfU0l.jpg",
       "popularity": 556959,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 21827,
@@ -2400,7 +2663,8 @@
       "titleRomaji": "Violet Evergarden",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21827-ubzq619ZA2E9.png",
       "popularity": 528731,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 99423,
@@ -2409,7 +2673,8 @@
       "titleRomaji": "Darling in the Franxx",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99423-8MBxtwCeHf8B.png",
       "popularity": 482118,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 101280,
@@ -2418,7 +2683,8 @@
       "titleRomaji": "Tensei Shitara Slime Datta Ken",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101280-tDxCVJm714nt.jpg",
       "popularity": 439894,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 98460,
@@ -2427,7 +2693,8 @@
       "titleRomaji": "DEVILMAN crybaby",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98460-bLtH2c3jd6sV.png",
       "popularity": 341665,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 99578,
@@ -2436,7 +2703,8 @@
       "titleRomaji": "Wotaku ni Koi wa Muzukashii",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx99578-oO5KChtfhzln.png",
       "popularity": 316854,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 100388,
@@ -2445,7 +2713,8 @@
       "titleRomaji": "BANANA FISH",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100388-hjkg1AnlJR5z.jpg",
       "popularity": 300732,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": false
     },
     {
       "aniListId": 100240,
@@ -2454,7 +2723,8 @@
       "titleRomaji": "Tokyo Ghoul:re",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100240-vJNaKd5HwPJ2.jpg",
       "popularity": 298439,
-      "score": 6.2
+      "score": 6.2,
+      "isSequel": true
     },
     {
       "aniListId": 101165,
@@ -2463,7 +2733,8 @@
       "titleRomaji": "Goblin Slayer",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101165-v5NwPXWPFDuD.jpg",
       "popularity": 293397,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": false
     },
     {
       "aniListId": 102883,
@@ -2472,7 +2743,8 @@
       "titleRomaji": "JoJo no Kimyou na Bouken: Ougon no Kaze",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx102883-S9KzdMJhDswJ.png",
       "popularity": 289652,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": true
     },
     {
       "aniListId": 100182,
@@ -2481,7 +2753,8 @@
       "titleRomaji": "Sword Art Online: Alicization",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx100182-KctPmCJ2smHQ.jpg",
       "popularity": 280012,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 99539,
@@ -2490,7 +2763,8 @@
       "titleRomaji": "Nanatsu no Taizai: Imashime no Fukkatsu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99539-caPX28RSsgRP.jpg",
       "popularity": 278678,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": true
     },
     {
       "aniListId": 98437,
@@ -2499,7 +2773,8 @@
       "titleRomaji": "Overlord II",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx98437-5q0GWqHhNAgJ.jpg",
       "popularity": 257322,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": true
     },
     {
       "aniListId": 100922,
@@ -2508,7 +2783,8 @@
       "titleRomaji": "Grand Blue",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100922-uxEhaCsqMMp3.png",
       "popularity": 224169,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": false
     },
     {
       "aniListId": 21127,
@@ -2517,7 +2793,8 @@
       "titleRomaji": "Steins;Gate 0",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx21127-7ARWZkDXKiiD.jpg",
       "popularity": 215784,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": false
     },
     {
       "aniListId": 99629,
@@ -2526,7 +2803,8 @@
       "titleRomaji": "Satsuriku no Tenshi",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99629-BXyAJ6PDq4sr.jpg",
       "popularity": 212181,
-      "score": 6.7
+      "score": 6.7,
+      "isSequel": false
     },
     {
       "aniListId": 101004,
@@ -2535,7 +2813,8 @@
       "titleRomaji": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101004-rJLBIWGypbYK.png",
       "popularity": 198710,
-      "score": 6.6
+      "score": 6.6,
+      "isSequel": false
     },
     {
       "aniListId": 100977,
@@ -2544,7 +2823,8 @@
       "titleRomaji": "Hataraku Saibou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100977-nH1J2dR7GGAk.jpg",
       "popularity": 198287,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     }
   ],
   "2019": [
@@ -2555,7 +2835,8 @@
       "titleRomaji": "Kimetsu no Yaiba",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101922-WBsBl0ClmgYL.jpg",
       "popularity": 957769,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 101759,
@@ -2564,7 +2845,8 @@
       "titleRomaji": "Yakusoku no Neverland",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101759-8UR7r9MNVpz2.jpg",
       "popularity": 615452,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": false
     },
     {
       "aniListId": 104578,
@@ -2573,7 +2855,8 @@
       "titleRomaji": "Shingeki no Kyojin Season 3 Part 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104578-k61nx3LPjvgd.jpg",
       "popularity": 589909,
-      "score": 9
+      "score": 9,
+      "isSequel": true
     },
     {
       "aniListId": 101921,
@@ -2582,7 +2865,8 @@
       "titleRomaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101921-ufrjLzhSz7L1.jpg",
       "popularity": 538281,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 105333,
@@ -2591,7 +2875,8 @@
       "titleRomaji": "Dr. STONE",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105333-GybuoSoOZfpH.jpg",
       "popularity": 534364,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 101348,
@@ -2600,7 +2885,8 @@
       "titleRomaji": "VINLAND SAGA",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101348-2fhDFPCuMNiz.jpg",
       "popularity": 520149,
-      "score": 8.7
+      "score": 8.7,
+      "isSequel": false
     },
     {
       "aniListId": 104276,
@@ -2609,7 +2895,8 @@
       "titleRomaji": "Boku no Hero Academia 4",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx104276-SnEowMvesWIE.png",
       "popularity": 516183,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": true
     },
     {
       "aniListId": 105310,
@@ -2618,7 +2905,8 @@
       "titleRomaji": "Enen no Shouboutai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105310-2PKUvoaA6fTn.jpg",
       "popularity": 465839,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 97668,
@@ -2627,7 +2915,8 @@
       "titleRomaji": "One Punch Man 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx97668-nC8gQrXVxt7k.png",
       "popularity": 453473,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": true
     },
     {
       "aniListId": 99263,
@@ -2636,7 +2925,8 @@
       "titleRomaji": "Tate no Yuusha no Nariagari",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx99263-LcazQwdlWzMy.jpg",
       "popularity": 444318,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 101338,
@@ -2645,7 +2935,8 @@
       "titleRomaji": "Mob Psycho 100 II",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101338-rokVscjRYzdP.jpg",
       "popularity": 434884,
-      "score": 8.7
+      "score": 8.7,
+      "isSequel": true
     },
     {
       "aniListId": 101347,
@@ -2654,7 +2945,8 @@
       "titleRomaji": "Dororo",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101347-TGaDwEYqLfm1.jpg",
       "popularity": 362145,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 103572,
@@ -2663,7 +2955,8 @@
       "titleRomaji": "Go-toubun no Hanayome",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx103572-cchriAdH95cQ.png",
       "popularity": 305297,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 105334,
@@ -2672,7 +2965,8 @@
       "titleRomaji": "Fruits Basket: 1st Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105334-AZwEdMu4KFtV.jpg",
       "popularity": 300986,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": false
     },
     {
       "aniListId": 107660,
@@ -2681,7 +2975,8 @@
       "titleRomaji": "BEASTARS",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx107660-hgknnyaLchJW.png",
       "popularity": 252158,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 101167,
@@ -2690,7 +2985,8 @@
       "titleRomaji": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka II",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx101167-Yasvj97UR9ue.png",
       "popularity": 236316,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": true
     },
     {
       "aniListId": 100876,
@@ -2699,7 +2995,8 @@
       "titleRomaji": "Kakegurui ××",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100876-RfvmpW1B8bDQ.png",
       "popularity": 232697,
-      "score": 7.1
+      "score": 7.1,
+      "isSequel": true
     },
     {
       "aniListId": 100668,
@@ -2708,7 +3005,8 @@
       "titleRomaji": "Arifureta Shokugyou de Sekai Saikyou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx100668-DvOn5bMOt4cy.jpg",
       "popularity": 219650,
-      "score": 6.5
+      "score": 6.5,
+      "isSequel": true
     },
     {
       "aniListId": 103139,
@@ -2717,7 +3015,8 @@
       "titleRomaji": "Domestic na Kanojo",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/nx103139-2TfvRyGTE1qp.jpg",
       "popularity": 215978,
-      "score": 6.4
+      "score": 6.4,
+      "isSequel": false
     },
     {
       "aniListId": 108759,
@@ -2726,7 +3025,8 @@
       "titleRomaji": "Sword Art Online: Alicization - War of Underworld",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108759-jcXbDf9BJTcb.jpg",
       "popularity": 214295,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": true
     }
   ],
   "2020": [
@@ -2737,7 +3037,8 @@
       "titleRomaji": "Jujutsu Kaisen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113415-LHBAeoZDIsnF.jpg",
       "popularity": 929098,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": false
     },
     {
       "aniListId": 112641,
@@ -2746,7 +3047,8 @@
       "titleRomaji": "Kaguya-sama wa Kokurasetai?: Tensaitachi no Renai Zunousen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112641-zoGC8d6FaPXU.jpg",
       "popularity": 421093,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": true
     },
     {
       "aniListId": 108632,
@@ -2755,7 +3057,8 @@
       "titleRomaji": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108632-lQWnmw7XaNOK.jpg",
       "popularity": 361376,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": true
     },
     {
       "aniListId": 115230,
@@ -2764,7 +3067,8 @@
       "titleRomaji": "Kami no Tou: Tower of God",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx115230-QHOdSN7yt8ab.jpg",
       "popularity": 325691,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     },
     {
       "aniListId": 113813,
@@ -2773,7 +3077,8 @@
       "titleRomaji": "Kanojo, Okarishimasu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113813-SnljeXpU3Pw7.jpg",
       "popularity": 299784,
-      "score": 6.6
+      "score": 6.6,
+      "isSequel": false
     },
     {
       "aniListId": 114236,
@@ -2782,7 +3087,8 @@
       "titleRomaji": "Enen no Shouboutai: Ni no Shou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114236-wfQOWF0Ii3h2.png",
       "popularity": 290832,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": true
     },
     {
       "aniListId": 116006,
@@ -2791,7 +3097,8 @@
       "titleRomaji": "THE GOD OF HIGH SCHOOL",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116006-Wt8JSA1ZQxlM.png",
       "popularity": 290576,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 106625,
@@ -2800,7 +3107,8 @@
       "titleRomaji": "Haikyuu!! TO THE TOP",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx106625-UR22wB2NuNVi.png",
       "popularity": 285914,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 112301,
@@ -2809,7 +3117,8 @@
       "titleRomaji": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112301-f88Fs2es4pSr.jpg",
       "popularity": 256647,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": false
     },
     {
       "aniListId": 116267,
@@ -2818,7 +3127,8 @@
       "titleRomaji": "Tonikaku Kawaii",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116267-Eo1biPBTlL4i.jpg",
       "popularity": 236470,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 108463,
@@ -2827,7 +3137,8 @@
       "titleRomaji": "Jibaku Shounen Hanako-kun",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108463-u03vrYnyB3L9.jpg",
       "popularity": 232007,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 110349,
@@ -2836,7 +3147,8 @@
       "titleRomaji": "GREAT PRETENDER",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110349-59hhZ9CNHVdk.png",
       "popularity": 224431,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 108489,
@@ -2845,7 +3157,8 @@
       "titleRomaji": "Yahari Ore no Seishun Love Come wa Machigatteiru. Kan",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108489-yGmYCE6dhFta.png",
       "popularity": 216068,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 112124,
@@ -2854,7 +3167,8 @@
       "titleRomaji": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx112124-ZmoOntBuiSUU.jpg",
       "popularity": 192690,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": true
     },
     {
       "aniListId": 114308,
@@ -2863,7 +3177,8 @@
       "titleRomaji": "Sword Art Online: Alicization - War of Underworld Part 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114308-8UBiS7U9buzu.jpg",
       "popularity": 190528,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": true
     },
     {
       "aniListId": 105228,
@@ -2872,7 +3187,8 @@
       "titleRomaji": "Dorohedoro",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105228-I4xr84QS9Pvk.jpg",
       "popularity": 182040,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 111762,
@@ -2881,7 +3197,8 @@
       "titleRomaji": "Fruits Basket: 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx111762-C8TNf5uRlVNQ.jpg",
       "popularity": 181215,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": true
     },
     {
       "aniListId": 106479,
@@ -2890,7 +3207,8 @@
       "titleRomaji": "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu.",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx106479-JmPk1F5ubMtm.png",
       "popularity": 174914,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": false
     },
     {
       "aniListId": 105190,
@@ -2899,7 +3217,8 @@
       "titleRomaji": "Darwin's Game",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx105190-lSoQNlnMF6UP.jpg",
       "popularity": 168778,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 114888,
@@ -2908,7 +3227,8 @@
       "titleRomaji": "Fugou Keiji: Balance:UNLIMITED",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114888-lgecUF3O1AWS.png",
       "popularity": 160192,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     }
   ],
   "2021": [
@@ -2919,7 +3239,8 @@
       "titleRomaji": "Shingeki no Kyojin: The Final Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx110277-sKUNXAsWMNFw.jpg",
       "popularity": 619588,
-      "score": 8.7
+      "score": 8.7,
+      "isSequel": true
     },
     {
       "aniListId": 124080,
@@ -2928,7 +3249,8 @@
       "titleRomaji": "Horimiya",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124080-3i22mRVPBS0T.jpg",
       "popularity": 513749,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 120120,
@@ -2937,7 +3259,8 @@
       "titleRomaji": "Tokyo Revengers",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120120-cWDmnmeEntSe.jpg",
       "popularity": 431703,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 108465,
@@ -2946,7 +3269,8 @@
       "titleRomaji": "Mushoku Tensei: Isekai Ittara Honki Dasu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108465-1ANspF1EWyFx.jpg",
       "popularity": 429470,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": false
     },
     {
       "aniListId": 117193,
@@ -2955,7 +3279,8 @@
       "titleRomaji": "Boku no Hero Academia 5",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx117193-E75BlZmDh1aB.jpg",
       "popularity": 400196,
-      "score": 7.3
+      "score": 7.3,
+      "isSequel": true
     },
     {
       "aniListId": 129874,
@@ -2964,7 +3289,8 @@
       "titleRomaji": "Kimetsu no Yaiba: Mugen Ressha-hen (TV)",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129874-g6ZKXB94Hui1.jpg",
       "popularity": 345062,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 113936,
@@ -2973,7 +3299,8 @@
       "titleRomaji": "Dr. STONE: STONE WARS",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113936-D4eYd4XwslVI.jpg",
       "popularity": 323736,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": true
     },
     {
       "aniListId": 108725,
@@ -2982,7 +3309,8 @@
       "titleRomaji": "Yakusoku no Neverland 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108725-ZKivuyr4Jtc9.jpg",
       "popularity": 314578,
-      "score": 5.2
+      "score": 5.2,
+      "isSequel": true
     },
     {
       "aniListId": 133965,
@@ -2991,7 +3319,8 @@
       "titleRomaji": "Komi-san wa, Komyushou desu.",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx133965-9TZBS4m4yvED.png",
       "popularity": 308008,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 114535,
@@ -3000,7 +3329,8 @@
       "titleRomaji": "Fumetsu no Anata e",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx114535-y3NnjexcqKG1.jpg",
       "popularity": 306775,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 108511,
@@ -3009,7 +3339,8 @@
       "titleRomaji": "Tensei Shitara Slime Datta Ken 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx108511-PufFordLNyIb.jpg",
       "popularity": 306398,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 116589,
@@ -3018,7 +3349,8 @@
       "titleRomaji": "86: Eighty Six",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116589-KawXHB6sApFt.jpg",
       "popularity": 306036,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 119661,
@@ -3027,7 +3359,8 @@
       "titleRomaji": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx119661-GDbUZxrZMz01.png",
       "popularity": 291084,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": true
     },
     {
       "aniListId": 124845,
@@ -3036,7 +3369,8 @@
       "titleRomaji": "Wonder Egg Priority",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124845-JXORhqCTGt04.jpg",
       "popularity": 277934,
-      "score": 7.4
+      "score": 7.4,
+      "isSequel": false
     },
     {
       "aniListId": 120697,
@@ -3045,7 +3379,8 @@
       "titleRomaji": "Ijiranaide, Nagatoro-san",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120697-BA2TqxB1I5bJ.jpg",
       "popularity": 259026,
-      "score": 6.9
+      "score": 6.9,
+      "isSequel": false
     },
     {
       "aniListId": 124153,
@@ -3054,7 +3389,8 @@
       "titleRomaji": "SK∞",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx124153-uEBI764OSavB.png",
       "popularity": 229306,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 109261,
@@ -3063,7 +3399,8 @@
       "titleRomaji": "Go-toubun no Hanayome ∬",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx109261-65rKxMDlcU9r.png",
       "popularity": 221493,
-      "score": 8
+      "score": 8,
+      "isSequel": true
     },
     {
       "aniListId": 113717,
@@ -3072,7 +3409,8 @@
       "titleRomaji": "Ousama Ranking",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx113717-9sNnN8WRgK15.jpg",
       "popularity": 216257,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 131646,
@@ -3081,7 +3419,8 @@
       "titleRomaji": "Vanitas no Carte",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131646-cuyGfKcekZ62.jpg",
       "popularity": 201497,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 129898,
@@ -3090,7 +3429,8 @@
       "titleRomaji": "Sekai Saikou no Ansatsusha, Isekai Kizoku ni Tensei suru",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129898-FRUzDtPhRigt.jpg",
       "popularity": 192590,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": false
     }
   ],
   "2022": [
@@ -3101,7 +3441,8 @@
       "titleRomaji": "Chainsaw Man",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127230-DdP4vAdssLoz.png",
       "popularity": 597876,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 140960,
@@ -3110,7 +3451,8 @@
       "titleRomaji": "SPY×FAMILY",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140960-Kb6R5nYQfjmP.jpg",
       "popularity": 546030,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 142329,
@@ -3119,7 +3461,8 @@
       "titleRomaji": "Kimetsu no Yaiba: Yuukaku-hen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx142329-kET1PIXJv2eW.jpg",
       "popularity": 463193,
-      "score": 8.6
+      "score": 8.6,
+      "isSequel": true
     },
     {
       "aniListId": 131681,
@@ -3128,7 +3471,8 @@
       "titleRomaji": "Shingeki no Kyojin: The Final Season Part 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131681-5ooUqvqNtee1.jpg",
       "popularity": 421064,
-      "score": 8.6
+      "score": 8.6,
+      "isSequel": true
     },
     {
       "aniListId": 132405,
@@ -3137,7 +3481,8 @@
       "titleRomaji": "Sono Bisque Doll wa Koi wo Suru",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx132405-qP7FQYGmNI3d.jpg",
       "popularity": 403260,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 120377,
@@ -3146,7 +3491,8 @@
       "titleRomaji": "Cyberpunk: Edgerunners",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx120377-ayZPoxiWt4Li.jpg",
       "popularity": 356296,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 137822,
@@ -3155,7 +3501,8 @@
       "titleRomaji": "Blue Lock",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx137822-U8naszP96vzC.png",
       "popularity": 307415,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 130298,
@@ -3164,7 +3511,8 @@
       "titleRomaji": "Kage no Jitsuryokusha ni Naritakute!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx130298-YMdcKHytpWNH.jpg",
       "popularity": 294222,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 125367,
@@ -3173,7 +3521,8 @@
       "titleRomaji": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx125367-1yuq9NFcQuLI.png",
       "popularity": 280734,
-      "score": 8.9
+      "score": 8.9,
+      "isSequel": true
     },
     {
       "aniListId": 141391,
@@ -3182,7 +3531,8 @@
       "titleRomaji": "Yofukashi no Uta",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx141391-M3ZgUKTPENUk.jpg",
       "popularity": 265483,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 139630,
@@ -3191,7 +3541,8 @@
       "titleRomaji": "Boku no Hero Academia 6",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx139630-3v4gxWtNZxLV.jpg",
       "popularity": 256318,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 140439,
@@ -3200,7 +3551,8 @@
       "titleRomaji": "Mob Psycho 100 III",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx140439-bPKmhe1wNxc9.jpg",
       "popularity": 252490,
-      "score": 8.7
+      "score": 8.7,
+      "isSequel": true
     },
     {
       "aniListId": 130003,
@@ -3209,7 +3561,8 @@
       "titleRomaji": "Bocchi the Rock!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx130003-HTDmeL4RGeJ4.png",
       "popularity": 251281,
-      "score": 8.7
+      "score": 8.7,
+      "isSequel": false
     },
     {
       "aniListId": 145545,
@@ -3218,7 +3571,8 @@
       "titleRomaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145545-DGl3LVvFlnHi.png",
       "popularity": 248246,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": true
     },
     {
       "aniListId": 111321,
@@ -3227,7 +3581,8 @@
       "titleRomaji": "Tate no Yuusha no Nariagari Season 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx111321-dIr3dEKOIPer.png",
       "popularity": 236910,
-      "score": 6.5
+      "score": 6.5,
+      "isSequel": true
     },
     {
       "aniListId": 129201,
@@ -3236,7 +3591,8 @@
       "titleRomaji": "Summer Time Render",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx129201-HJBauga2be8I.png",
       "popularity": 215228,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 127911,
@@ -3245,7 +3601,8 @@
       "titleRomaji": "Kawaii dake ja Nai Shikimori-san",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx127911-qfJDzUt0qCna.jpg",
       "popularity": 205438,
-      "score": 6.8
+      "score": 6.8,
+      "isSequel": false
     },
     {
       "aniListId": 143270,
@@ -3254,7 +3611,8 @@
       "titleRomaji": "Lycoris Recoil",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143270-rfkyiYXhek5w.jpg",
       "popularity": 202856,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 116674,
@@ -3263,7 +3621,8 @@
       "titleRomaji": "BLEACH: Sennen Kessen-hen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx116674-p3zK4PUX2Aag.jpg",
       "popularity": 193208,
-      "score": 8.8
+      "score": 8.8,
+      "isSequel": true
     },
     {
       "aniListId": 133844,
@@ -3272,7 +3631,8 @@
       "titleRomaji": "Overlord IV",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx133844-E32FjKZ0XxEs.jpg",
       "popularity": 170483,
-      "score": 8
+      "score": 8,
+      "isSequel": true
     }
   ],
   "2023": [
@@ -3283,7 +3643,8 @@
       "titleRomaji": "Jujutsu Kaisen 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145064-hSNRJM03pvv1.jpg",
       "popularity": 462462,
-      "score": 8.6
+      "score": 8.6,
+      "isSequel": true
     },
     {
       "aniListId": 154587,
@@ -3292,7 +3653,8 @@
       "titleRomaji": "Sousou no Frieren",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154587-qQTzQnEJJ3oB.jpg",
       "popularity": 444780,
-      "score": 9.1
+      "score": 9.1,
+      "isSequel": false
     },
     {
       "aniListId": 145139,
@@ -3301,7 +3663,8 @@
       "titleRomaji": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx145139-rRimpHGWLhym.png",
       "popularity": 354251,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": true
     },
     {
       "aniListId": 128893,
@@ -3310,7 +3673,8 @@
       "titleRomaji": "Jigokuraku",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx128893-Gc2t8b8M0mVu.jpg",
       "popularity": 341107,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 150672,
@@ -3319,7 +3683,8 @@
       "titleRomaji": "[Oshi no Ko]",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx150672-WqmmwZ4nMzAy.png",
       "popularity": 313601,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": false
     },
     {
       "aniListId": 161645,
@@ -3328,7 +3693,8 @@
       "titleRomaji": "Kusuriya no Hitorigoto",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161645-QLbzHXiYRgV2.jpg",
       "popularity": 298179,
-      "score": 8.8
+      "score": 8.8,
+      "isSequel": false
     },
     {
       "aniListId": 151801,
@@ -3337,7 +3703,8 @@
       "titleRomaji": "MASHLE",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151801-XxVf22Le6C8o.png",
       "popularity": 272699,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 136430,
@@ -3346,7 +3713,8 @@
       "titleRomaji": "VINLAND SAGA SEASON 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136430-gsBsJjA7hGh9.jpg",
       "popularity": 259945,
-      "score": 8.8
+      "score": 8.8,
+      "isSequel": true
     },
     {
       "aniListId": 146065,
@@ -3355,7 +3723,8 @@
       "titleRomaji": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146065-IjirxRK26O03.png",
       "popularity": 241775,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": true
     },
     {
       "aniListId": 159831,
@@ -3364,7 +3733,8 @@
       "titleRomaji": "Zom 100: Zombie ni Naru Made ni Shitai 100 no Koto",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx159831-cJUNqCqzuApc.png",
       "popularity": 229109,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 158927,
@@ -3373,7 +3743,8 @@
       "titleRomaji": "SPY×FAMILY Season 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/b158927-lfO85WVguYgc.png",
       "popularity": 225870,
-      "score": 8
+      "score": 8,
+      "isSequel": true
     },
     {
       "aniListId": 155783,
@@ -3382,7 +3753,8 @@
       "titleRomaji": "Tengoku Daimakyou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx155783-YosKbsmZzuDE.jpg",
       "popularity": 203382,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 131518,
@@ -3391,7 +3763,8 @@
       "titleRomaji": "Dr. STONE: NEW WORLD",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx131518-RU7RoUmGb2sP.jpg",
       "popularity": 192326,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 154965,
@@ -3400,7 +3773,8 @@
       "titleRomaji": "Yamada-kun to Lv999 no Koi wo Suru",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154965-vZbBRjtmLp7S.jpg",
       "popularity": 191572,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 161964,
@@ -3409,7 +3783,8 @@
       "titleRomaji": "Kage no Jitsuryokusha ni Naritakute! 2nd season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx161964-JpkEbHI8ivaP.jpg",
       "popularity": 182680,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 151970,
@@ -3418,7 +3793,8 @@
       "titleRomaji": "Shangri-La Frontier",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151970-xtIx3VqEk02X.jpg",
       "popularity": 173538,
-      "score": 8
+      "score": 8,
+      "isSequel": false
     },
     {
       "aniListId": 151806,
@@ -3427,7 +3803,8 @@
       "titleRomaji": "Tomo-chan wa Onnanoko!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151806-IAMi2ctI5xJI.jpg",
       "popularity": 165211,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 143338,
@@ -3436,7 +3813,8 @@
       "titleRomaji": "Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx143338-zhyDVYgEzsm5.png",
       "popularity": 158450,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": false
     },
     {
       "aniListId": 163132,
@@ -3445,7 +3823,8 @@
       "titleRomaji": "Horimiya: piece",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163132-C220CO5UrTxY.jpg",
       "popularity": 153767,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 153152,
@@ -3454,7 +3833,8 @@
       "titleRomaji": "Boku no Kokoro no Yabai Yatsu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153152-Xnwmx7wuoIWV.jpg",
       "popularity": 150433,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     }
   ],
   "2024": [
@@ -3465,7 +3845,8 @@
       "titleRomaji": "Ore dake Level Up na Ken",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx151807-it355ZgzquUd.png",
       "popularity": 416463,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 171018,
@@ -3474,7 +3855,8 @@
       "titleRomaji": "Dandadan",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171018-60q1B6GK2Ghb.jpg",
       "popularity": 359486,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": false
     },
     {
       "aniListId": 153288,
@@ -3483,7 +3865,8 @@
       "titleRomaji": "Kaijuu 8-gou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153288-25FBfFJzEQ5O.jpg",
       "popularity": 265430,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 166240,
@@ -3492,7 +3875,8 @@
       "titleRomaji": "Kimetsu no Yaiba: Hashira Geiko-hen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166240-PBV7zukIHW7V.png",
       "popularity": 258395,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": true
     },
     {
       "aniListId": 153518,
@@ -3501,7 +3885,8 @@
       "titleRomaji": "Dungeon Meshi",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153518-IVXPDY5ph3kO.jpg",
       "popularity": 212093,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 166873,
@@ -3510,7 +3895,8 @@
       "titleRomaji": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166873-xO0BRPkmwFll.png",
       "popularity": 188234,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": true
     },
     {
       "aniListId": 162804,
@@ -3519,7 +3905,8 @@
       "titleRomaji": "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx162804-TBeptcAfvqTd.jpg",
       "popularity": 187240,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": false
     },
     {
       "aniListId": 163270,
@@ -3528,7 +3915,8 @@
       "titleRomaji": "WIND BREAKER",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163270-wboZJp0ybwVK.jpg",
       "popularity": 179504,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": false
     },
     {
       "aniListId": 163134,
@@ -3537,7 +3925,8 @@
       "titleRomaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163134-yieRFbvUOH9a.jpg",
       "popularity": 178386,
-      "score": 8.4
+      "score": 8.4,
+      "isSequel": true
     },
     {
       "aniListId": 146066,
@@ -3546,7 +3935,8 @@
       "titleRomaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx146066-zzKl6P6OeEjy.jpg",
       "popularity": 176795,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": true
     },
     {
       "aniListId": 156822,
@@ -3555,7 +3945,8 @@
       "titleRomaji": "Tensei Shitara Slime Datta Ken 3rd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx156822-Jzo2ITWgm4kM.jpg",
       "popularity": 172091,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": true
     },
     {
       "aniListId": 166610,
@@ -3564,7 +3955,8 @@
       "titleRomaji": "MASHLE: Kami Shinkakusha Kouho Senbatsu Shiken-hen",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166610-S5q7V2v5zdDK.jpg",
       "popularity": 171940,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": true
     },
     {
       "aniListId": 163139,
@@ -3573,7 +3965,8 @@
       "titleRomaji": "Boku no Hero Academia 7",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163139-JchZhUFlNTWU.jpg",
       "popularity": 171900,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 136804,
@@ -3582,7 +3975,8 @@
       "titleRomaji": "Kono Subarashii Sekai ni Shukufuku wo! 3",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx136804-7FVftG67FPBc.jpg",
       "popularity": 170093,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": false
     },
     {
       "aniListId": 166531,
@@ -3591,7 +3985,8 @@
       "titleRomaji": "[Oshi no Ko] 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166531-dAL5MsqDHUkj.jpg",
       "popularity": 168708,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": true
     },
     {
       "aniListId": 174576,
@@ -3600,7 +3995,8 @@
       "titleRomaji": "Tsue to Tsurugi no Wistoria",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx174576-tpKcHG0eO6CS.jpg",
       "popularity": 155499,
-      "score": 7.9
+      "score": 7.9,
+      "isSequel": false
     },
     {
       "aniListId": 170942,
@@ -3609,7 +4005,8 @@
       "titleRomaji": "Ao no Hako",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx170942-KKcLfQzV57nG.jpg",
       "popularity": 135736,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 163146,
@@ -3618,7 +4015,8 @@
       "titleRomaji": "Blue Lock VS. U-20 JAPAN",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx163146-BVZPgyzkqi82.png",
       "popularity": 132038,
-      "score": 7.5
+      "score": 7.5,
+      "isSequel": true
     },
     {
       "aniListId": 166794,
@@ -3627,7 +4025,8 @@
       "titleRomaji": "Yubisaki to Renren",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx166794-1MAXFMgND6qS.jpg",
       "popularity": 131155,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 171457,
@@ -3636,7 +4035,8 @@
       "titleRomaji": "Make Heroine ga Oosugiru!",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx171457-nmMIk0gNiWsm.jpg",
       "popularity": 122969,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     }
   ],
   "2025": [
@@ -3647,7 +4047,8 @@
       "titleRomaji": "Ore dake Level Up na Ken: Season 2 - Arise from the Shadow",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176496-9BDMjAZGEbq4.png",
       "popularity": 285729,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": true
     },
     {
       "aniListId": 178025,
@@ -3656,7 +4057,8 @@
       "titleRomaji": "Gachiakuta",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178025-cWJKEsZynkil.jpg",
       "popularity": 230912,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": false
     },
     {
       "aniListId": 185660,
@@ -3665,7 +4067,8 @@
       "titleRomaji": "Dandadan 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185660-uB8RUMBGovGr.jpg",
       "popularity": 210012,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": true
     },
     {
       "aniListId": 177709,
@@ -3674,7 +4077,8 @@
       "titleRomaji": "SAKAMOTO DAYS",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177709-e5Qx6RlsBgD5.png",
       "popularity": 205402,
-      "score": 7.6
+      "score": 7.6,
+      "isSequel": false
     },
     {
       "aniListId": 181444,
@@ -3683,7 +4087,8 @@
       "titleRomaji": "Kaoru Hana wa Rin to Saku",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx181444-Ut9DDUZdfHwg.jpg",
       "popularity": 186657,
-      "score": 8.5
+      "score": 8.5,
+      "isSequel": false
     },
     {
       "aniListId": 176301,
@@ -3692,7 +4097,8 @@
       "titleRomaji": "Kusuriya no Hitorigoto 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx176301-TIGmldLffQGX.jpg",
       "popularity": 185501,
-      "score": 8.8
+      "score": 8.8,
+      "isSequel": true
     },
     {
       "aniListId": 154768,
@@ -3701,7 +4107,8 @@
       "titleRomaji": "Sono Bisque Doll wa Koi wo Suru Season 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx154768-DHHvNd4MjV1p.jpg",
       "popularity": 173116,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 153800,
@@ -3710,7 +4117,8 @@
       "titleRomaji": "One Punch Man 3",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx153800-8SpzdHOaZCoU.jpg",
       "popularity": 143714,
-      "score": 5
+      "score": 5,
+      "isSequel": true
     },
     {
       "aniListId": 178754,
@@ -3719,7 +4127,8 @@
       "titleRomaji": "Kaijuu 8-gou 2nd Season",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178754-Dgrub8xgC03M.jpg",
       "popularity": 143647,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": true
     },
     {
       "aniListId": 177689,
@@ -3728,7 +4137,8 @@
       "titleRomaji": "Hikaru ga Shinda Natsu",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177689-d0mB5nYgdnhi.jpg",
       "popularity": 129154,
-      "score": 8.1
+      "score": 8.1,
+      "isSequel": false
     },
     {
       "aniListId": 185407,
@@ -3737,7 +4147,8 @@
       "titleRomaji": "Takopii no Genzai",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx185407-7uzY4fA3hokP.jpg",
       "popularity": 128942,
-      "score": 8.6
+      "score": 8.6,
+      "isSequel": false
     },
     {
       "aniListId": 149118,
@@ -3746,7 +4157,8 @@
       "titleRomaji": "Enen no Shouboutai: San no Shou",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx149118-AOQb0xuTssGl.jpg",
       "popularity": 122024,
-      "score": 7.8
+      "score": 7.8,
+      "isSequel": true
     },
     {
       "aniListId": 177937,
@@ -3755,7 +4167,8 @@
       "titleRomaji": "SPY×FAMILY Season 3",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx177937-Tzgg6rAdhCoH.jpg",
       "popularity": 121865,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 182896,
@@ -3764,7 +4177,8 @@
       "titleRomaji": "Boku no Hero Academia FINAL SEASON",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx182896-mvxTVHGdDB4q.jpg",
       "popularity": 119438,
-      "score": 8.7
+      "score": 8.7,
+      "isSequel": true
     },
     {
       "aniListId": 167336,
@@ -3773,7 +4187,8 @@
       "titleRomaji": "Lazarus",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx167336-KpGIIBie71OX.png",
       "popularity": 108245,
-      "score": 7
+      "score": 7,
+      "isSequel": false
     },
     {
       "aniListId": 172019,
@@ -3782,7 +4197,8 @@
       "titleRomaji": "Dr. STONE: SCIENCE FUTURE",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx172019-3cfZbrYBmV23.jpg",
       "popularity": 106722,
-      "score": 8.2
+      "score": 8.2,
+      "isSequel": true
     },
     {
       "aniListId": 178680,
@@ -3791,7 +4207,8 @@
       "titleRomaji": "WIND BREAKER Season 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx178680-nIAhCizY46ZU.jpg",
       "popularity": 93770,
-      "score": 7.7
+      "score": 7.7,
+      "isSequel": true
     },
     {
       "aniListId": 175914,
@@ -3800,7 +4217,8 @@
       "titleRomaji": "Yofukashi no Uta Season 2",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx175914-VsbL90WzuqoM.jpg",
       "popularity": 93478,
-      "score": 8.3
+      "score": 8.3,
+      "isSequel": true
     },
     {
       "aniListId": 180367,
@@ -3809,7 +4227,8 @@
       "titleRomaji": "Witch Watch",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx180367-GlRuB2lG7Kaa.jpg",
       "popularity": 92670,
-      "score": 7.2
+      "score": 7.2,
+      "isSequel": false
     },
     {
       "aniListId": 183161,
@@ -3818,7 +4237,8 @@
       "titleRomaji": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?",
       "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/small/bx183161-5M054tuPmZJX.jpg",
       "popularity": 88961,
-      "score": 5.9
+      "score": 5.9,
+      "isSequel": false
     }
   ]
 }

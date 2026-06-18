@@ -13,6 +13,7 @@ type Cand = {
   image: string // AniList 封面圖（medium）
   popularity: number
   score: number | null
+  isSequel: boolean // 有前作（PREQUEL）＝續作；無＝該系列第一季
   relIds: number[] // 同為續作/前作/母作/外傳關係的對象 id
 }
 type RawItem = Omit<Cand, "relIds">
@@ -29,7 +30,7 @@ query ($year: Int) {
       coverImage { medium large }
       popularity
       averageScore
-      relations { edges { relationType node { id type } } }
+      relations { edges { relationType node { id type format } } }
     }
   }
 }`
@@ -68,6 +69,12 @@ const fetchCands = async (year: number): Promise<Cand[]> => {
       image: m.coverImage?.medium ?? m.coverImage?.large ?? "",
       popularity: m.popularity ?? 0,
       score: m.averageScore != null ? Math.round(m.averageScore) / 10 : null,
+      isSequel: (m.relations?.edges ?? []).some(
+        (e: any) =>
+          e.relationType === "PREQUEL" &&
+          e.node?.type === "ANIME" &&
+          (e.node?.format === "TV" || e.node?.format === "ONA"),
+      ),
       relIds: (m.relations?.edges ?? [])
         .filter((e: any) => SAME_FRANCHISE.has(e.relationType) && e.node?.type === "ANIME")
         .map((e: any) => e.node.id as number),

@@ -21,6 +21,13 @@ export const App = () => {
     "yearRange",
     "all"
   )
+  const [hideSequels, setHideSequels] = usePersistState<boolean>(
+    "hideSequels",
+    false
+  )
+  const [displayMode, setDisplayMode] = usePersistState<
+    "title" | "score" | "heat"
+  >("displayMode", "title")
 
   const visibleYears = useMemo(() => {
     if (yearRange === "all") {
@@ -30,12 +37,16 @@ export const App = () => {
     return allYears.slice(-Number(yearRange))
   }, [yearRange])
 
+  const itemsForYear = (year: string) => {
+    const items = animeData[year] || []
+    return hideSequels ? items.filter((item) => !item.isSequel) : items
+  }
+
   const visibleAnimeKeys = useMemo(() => {
-    return visibleYears.flatMap((year) => {
-      const items = animeData[year] || []
-      return items.slice(0, 15).map((item) => getAnimeTitle(item, "zh"))
-    })
-  }, [visibleYears])
+    return visibleYears.flatMap((year) =>
+      itemsForYear(year).map((item) => getAnimeTitle(item, "zh"))
+    )
+  }, [visibleYears, hideSequels])
 
   const visibleAnimeKeySet = useMemo(() => {
     return new Set(visibleAnimeKeys)
@@ -111,6 +122,13 @@ export const App = () => {
 
   const totalAnime = visibleAnimeKeys.length
 
+  const formatHeat = (n: number) =>
+    n >= 1_000_000
+      ? (n / 1_000_000).toFixed(1) + "M"
+      : n >= 1_000
+        ? Math.round(n / 1_000) + "K"
+        : String(n)
+
   return (
     <>
       <div className="flex flex-col gap-4 pb-10">
@@ -135,6 +153,39 @@ export const App = () => {
                 ))}
               </select>
             </div>
+            <label className="flex items-center gap-1.5 text-sm text-gray-600">
+              <input
+                type="checkbox"
+                checked={hideSequels}
+                onChange={(e) => setHideSequels(e.currentTarget.checked)}
+              />
+              {t("hideSequels")}
+            </label>
+            <div className="flex items-center gap-2">
+              <span className="text-sm text-gray-600">{t("display")}:</span>
+              <div className="inline-flex rounded border overflow-hidden text-sm">
+                {(
+                  [
+                    ["title", "byTitle"],
+                    ["score", "byScore"],
+                    ["heat", "byHeat"],
+                  ] as const
+                ).map(([mode, key]) => (
+                  <button
+                    key={mode}
+                    type="button"
+                    className={`px-2 py-1 ${
+                      displayMode === mode
+                        ? "bg-zinc-800 text-white"
+                        : "bg-white hover:bg-zinc-100"
+                    }`}
+                    onClick={() => setDisplayMode(mode)}
+                  >
+                    {t(key)}
+                  </button>
+                ))}
+              </div>
+            </div>
             <LanguageToggle />
           </div>
           <div className="w-full overflow-x-auto">
@@ -158,7 +209,7 @@ export const App = () => {
                 </span>
               </div>
               {visibleYears.map((year) => {
-                const items = animeData[year] || []
+                const items = itemsForYear(year)
                 return (
                   <div key={year} className="flex border-b">
                     <div
@@ -210,21 +261,29 @@ export const App = () => {
                                 className="absolute inset-0 w-full h-full object-cover"
                               />
                             )}
-                            <span
-                              className={`absolute inset-x-0 bottom-0 flex items-end justify-center p-1 pt-6 text-center text-white bg-gradient-to-t from-black/85 via-black/55 to-transparent ${
-                                language === "en" ? "text-[10px]" : "text-xs"
-                              }`}
-                            >
+                            {displayMode === "title" ? (
                               <span
-                                className={`leading-tight w-full ${
-                                  language === "en"
-                                    ? "line-clamp-5"
-                                    : "line-clamp-4"
+                                className={`absolute inset-x-0 bottom-0 flex items-end justify-center p-1 pt-6 text-center text-white bg-gradient-to-t from-black/85 via-black/55 to-transparent ${
+                                  language === "en" ? "text-[10px]" : "text-xs"
                                 }`}
                               >
-                                {displayTitle}
+                                <span
+                                  className={`leading-tight w-full ${
+                                    language === "en"
+                                      ? "line-clamp-5"
+                                      : "line-clamp-4"
+                                  }`}
+                                >
+                                  {displayTitle}
+                                </span>
                               </span>
-                            </span>
+                            ) : (
+                              <span className="absolute inset-0 flex items-center justify-center bg-black/55 text-white text-lg font-bold">
+                                {displayMode === "score"
+                                  ? `★ ${item.score}`
+                                  : `🔥 ${formatHeat(item.popularity)}`}
+                              </span>
+                            )}
                             {isSelected && (
                               <span className="absolute inset-0 flex items-center justify-center bg-green-500/60 text-white text-2xl font-bold">
                                 ✓
@@ -233,15 +292,6 @@ export const App = () => {
                           </button>
                         )
                       })}
-                      {Array.from(
-                        { length: Math.max(0, 15 - items.length) },
-                        (_, index) => (
-                          <div
-                            key={`empty-${index}`}
-                            className="w-[100px] h-[142px] border-l bg-gray-50"
-                          />
-                        )
-                      )}
                       <div className="w-0 h-[142px] border-r" />
                     </div>
                   </div>

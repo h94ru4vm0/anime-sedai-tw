@@ -2,7 +2,7 @@
 // TW: aniListId -> 台灣譯名（字串＝官方譯名；{ zh, fan:true }＝無官方代理、暫用宅圈通用繁體譯名）
 import fs from "fs"
 
-type Raw = { aniListId: number; titleEn: string; titleJa: string; titleRomaji: string; image: string; score: number | null }
+type Raw = { aniListId: number; titleEn: string; titleJa: string; titleRomaji: string; image: string; popularity: number; isSequel: boolean; score: number | null }
 type TwVal = string | { zh: string; fan: true }
 
 const TW: Record<number, TwVal> = {
@@ -386,6 +386,8 @@ type AnimeItem = {
   titleEn: string
   titleJa: string
   image: string
+  popularity: number
+  isSequel: boolean
   score: number
 }
 
@@ -413,7 +415,7 @@ for (const year of Object.keys(raw)) {
     }
     const titleEn = r.titleEn || r.titleRomaji
     const esc = (s: string) => s.replace(/\\/g, "\\\\").replace(/"/g, '\\"')
-    return `    { titleZh: "${esc(zh)}", titleEn: "${esc(titleEn)}", titleJa: "${esc(r.titleJa)}", image: "${esc(localImage(r))}", score: ${r.score ?? 0} },`
+    return `    { titleZh: "${esc(zh)}", titleEn: "${esc(titleEn)}", titleJa: "${esc(r.titleJa)}", image: "${esc(localImage(r))}", popularity: ${r.popularity ?? 0}, isSequel: ${r.isSequel ?? false}, score: ${r.score ?? 0} },`
   })
   blocks.push(`  "${year}": [\n${lines.join("\n")}\n  ],`)
 }
