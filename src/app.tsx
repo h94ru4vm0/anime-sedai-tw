@@ -34,7 +34,7 @@ export const App = () => {
   const visibleAnimeKeys = useMemo(() => {
     return visibleYears.flatMap((year) => {
       const items = animeData[year] || []
-      return items.slice(0, 12).map((item) => getAnimeTitle(item, "zh"))
+      return items.slice(0, 15).map((item) => getAnimeTitle(item, "zh"))
     })
   }, [visibleYears])
 
@@ -128,7 +128,7 @@ ${visibleYears
 
     if (items.length === 0) return ""
 
-    const sliceItems = items.slice(0, 12)
+    const sliceItems = items.slice(0, 15)
     const watched = sliceItems
       .filter((item) => selectedAnime.includes(getAnimeTitle(item, "zh")))
       .map((item) => getAnimeTitle(item, language))
@@ -218,7 +218,7 @@ ${visibleYears
                       </span>
                     </div>
                     <div className="flex shrink-0">
-                      {items.slice(0, 12).map((item) => {
+                      {items.slice(0, 15).map((item) => {
                         const animeKey = getAnimeTitle(item, "zh")
                         const displayTitle = getAnimeTitle(item, language)
                         const isSelected = selectedAnime.includes(animeKey)
