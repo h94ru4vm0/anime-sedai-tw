@@ -2,7 +2,7 @@
 // TW: aniListId -> 台灣譯名（字串＝官方譯名；{ zh, fan:true }＝無官方代理、暫用宅圈通用繁體譯名）
 import fs from "fs"
 
-type Raw = { aniListId: number; titleEn: string; titleJa: string; titleRomaji: string; score: number | null }
+type Raw = { aniListId: number; titleEn: string; titleJa: string; titleRomaji: string; image: string; score: number | null }
 type TwVal = string | { zh: string; fan: true }
 
 const TW: Record<number, TwVal> = {
@@ -332,7 +332,7 @@ const TW: Record<number, TwVal> = {
   110349: "大欺詐師 GREAT PRETENDER", // 2020
   120377: "電馭叛客：邊緣行者", // 2022
   177709: "SAKAMOTO DAYS 坂本日常", // 2025
-  185407: "章魚噗的原罪", // 2025
+  185407: "章魚ㄅㄧ的原罪", // 2025
 }
 
 // 台灣從未代理（僅盜版站／查無正版）→ 從清單剔除，由候選池下一名遞補
@@ -351,6 +351,16 @@ const raw: Record<string, Raw[]> = JSON.parse(fs.readFileSync("anime-raw.json", 
 
 const missing: Raw[] = []
 const fanList: { year: string; zh: string; en: string }[] = []
+const covers: { id: number; url: string; file: string }[] = []
+
+// 把遠端封面圖轉成本地路徑（同源，截圖才不會因 CORS 破圖）；同時收集下載清單
+const localImage = (r: Raw): string => {
+  if (!r.image) return ""
+  const ext = (r.image.match(/\.(\w+)(?:\?|$)/)?.[1] ?? "jpg").toLowerCase()
+  const path = `/covers/${r.aniListId}.${ext}`
+  covers.push({ id: r.aniListId, url: r.image, file: `public${path}` })
+  return path
+}
 
 const header = `import type { Language } from "./src/i18n"
 
@@ -358,6 +368,7 @@ type AnimeItem = {
   titleZh: string
   titleEn: string
   titleJa: string
+  image: string
   score: number
 }
 
@@ -385,7 +396,7 @@ for (const year of Object.keys(raw)) {
     }
     const titleEn = r.titleEn || r.titleRomaji
     const esc = (s: string) => s.replace(/\\/g, "\\\\").replace(/"/g, '\\"')
-    return `    { titleZh: "${esc(zh)}", titleEn: "${esc(titleEn)}", titleJa: "${esc(r.titleJa)}", score: ${r.score ?? 0} },`
+    return `    { titleZh: "${esc(zh)}", titleEn: "${esc(titleEn)}", titleJa: "${esc(r.titleJa)}", image: "${esc(localImage(r))}", score: ${r.score ?? 0} },`
   })
   blocks.push(`  "${year}": [\n${lines.join("\n")}\n  ],`)
 }
@@ -402,8 +413,9 @@ export const getAnimeTitle = (anime: AnimeItem, language: Language): string => {
 `
 
 fs.writeFileSync("anime-data.ts", `${header}\n${blocks.join("\n")}\n${footer}`)
+fs.writeFileSync("covers-manifest.json", JSON.stringify(covers, null, 2))
 
-console.log("已產生 anime-data.ts\n")
+console.log(`已產生 anime-data.ts（封面 ${covers.length} 筆 → covers-manifest.json）\n`)
 if (missing.length) {
   console.log(`⚠️ 有 ${missing.length} 筆找不到對照（用英文名暫代）：`)
   missing.forEach((m) => console.log(`  - [${m.aniListId}] ${m.titleRomaji}`))

@@ -10,6 +10,7 @@ type Cand = {
   titleEn: string
   titleJa: string
   titleRomaji: string
+  image: string // AniList 封面圖（medium）
   popularity: number
   score: number | null
   relIds: number[] // 同為續作/前作/母作/外傳關係的對象 id
@@ -25,6 +26,7 @@ query ($year: Int) {
     media(seasonYear: $year, type: ANIME, format_in: [TV, ONA], sort: POPULARITY_DESC) {
       id
       title { romaji english native }
+      coverImage { medium large }
       popularity
       averageScore
       relations { edges { relationType node { id type } } }
@@ -63,6 +65,7 @@ const fetchCands = async (year: number): Promise<Cand[]> => {
       titleEn: m.title.english ?? "",
       titleJa: m.title.native ?? "",
       titleRomaji: m.title.romaji ?? "",
+      image: m.coverImage?.medium ?? m.coverImage?.large ?? "",
       popularity: m.popularity ?? 0,
       score: m.averageScore != null ? Math.round(m.averageScore) / 10 : null,
       relIds: (m.relations?.edges ?? [])

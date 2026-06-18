@@ -5,7 +5,6 @@ import { toast } from "sonner"
 import { usePersistState } from "./hooks"
 import { useI18n } from "./i18n-context"
 import { LanguageToggle } from "./LanguageToggle"
-import { getPromptTemplate } from "./i18n"
 
 type YearRange = "5" | "10" | "15" | "all"
 
@@ -110,47 +109,6 @@ export const App = () => {
     URL.revokeObjectURL(url)
   }
 
-  const [promptType, setPromptType] = useState<"normal" | "zako">("zako")
-  const prompt = useMemo(() => {
-    const templates = getPromptTemplate(language)
-    const preset = promptType === "normal" ? templates.normal : templates.zako
-
-    return `
-${preset}
-${
-  t("watched") === "Watched"
-    ? "User anime viewing record: (the year below is the anime release year)"
-    : "用户动画观看记录：(下面的年份是动画发布的年份)"
-}
-${visibleYears
-  .map((year) => {
-    const items = animeData[year] || []
-
-    if (items.length === 0) return ""
-
-    const sliceItems = items.slice(0, 15)
-    const watched = sliceItems
-      .filter((item) => selectedAnime.includes(getAnimeTitle(item, "zh")))
-      .map((item) => getAnimeTitle(item, language))
-      .join(", ")
-    const unWatched = sliceItems
-      .filter((item) => !selectedAnime.includes(getAnimeTitle(item, "zh")))
-      .map((item) => getAnimeTitle(item, language))
-      .join(", ")
-
-    return [
-      `**${year}${t("year")}**:`,
-      `${t("watched")}: ${watched || t("none")}`,
-      `${t("notWatched")}: ${unWatched || t("none")}`,
-    ]
-      .filter(Boolean)
-      .join("\n")
-  })
-  .filter(Boolean)
-  .join("\n")}
-    `.trim()
-  }, [selectedAnime, promptType, language, t, visibleYears])
-
   const totalAnime = visibleAnimeKeys.length
 
   return (
@@ -226,20 +184,13 @@ ${visibleYears
                           <button
                             key={animeKey}
                             className={`
-                              h-16 md:h-20 
+                              relative h-16 md:h-20
                               ${
                                 language === "en"
                                   ? "w-20 md:w-24"
                                   : "w-16 md:w-20"
                               }
-                              border-l break-words text-center shrink-0 inline-flex items-center 
-                              p-1 overflow-hidden justify-center cursor-pointer 
-                              ${language === "en" ? "text-xs" : "text-sm"} 
-                              ${
-                                isSelected
-                                  ? "bg-green-500"
-                                  : "hover:bg-zinc-100"
-                              }
+                              border-l shrink-0 overflow-hidden cursor-pointer
                               transition-colors duration-200
                             `}
                             title={displayTitle}
@@ -254,15 +205,34 @@ ${visibleYears
                               })
                             }}
                           >
+                            {item.image && (
+                              <img
+                                src={item.image}
+                                alt=""
+                                loading="lazy"
+                                className="absolute inset-0 w-full h-full object-cover"
+                              />
+                            )}
                             <span
-                              className={`leading-tight w-full ${
-                                language === "en"
-                                  ? "line-clamp-4"
-                                  : "line-clamp-3"
+                              className={`absolute inset-0 flex items-center justify-center p-1 text-center text-white bg-black/45 ${
+                                language === "en" ? "text-[10px]" : "text-xs"
                               }`}
                             >
-                              {displayTitle}
+                              <span
+                                className={`leading-tight w-full ${
+                                  language === "en"
+                                    ? "line-clamp-4"
+                                    : "line-clamp-3"
+                                }`}
+                              >
+                                {displayTitle}
+                              </span>
                             </span>
+                            {isSelected && (
+                              <span className="absolute inset-0 flex items-center justify-center bg-green-500/60 text-white text-2xl font-bold">
+                                ✓
+                              </span>
+                            )}
                           </button>
                         )
                       })}
@@ -364,57 +334,6 @@ ${visibleYears
           >
             {t("downloadImage")}
           </button>
-        </div>
-
-        <div className="flex flex-col gap-2 max-w-screen-md w-full mx-auto">
-          <div className="border focus-within:ring-2 ring-pink-500 focus-within:border-pink-500 rounded-md">
-            <div className="flex items-center justify-between p-2 border-b">
-              <div className="flex items-center gap-2">
-                <span>{t("promptType")}</span>
-                <select
-                  className="border rounded-md"
-                  value={promptType}
-                  onChange={(e) => {
-                    setPromptType(e.currentTarget.value as any)
-                  }}
-                >
-                  <option value="normal">{t("promptNormal")}</option>
-                  <option value="zako">{t("promptZako")}</option>
-                </select>
-              </div>
-
-              <div className="flex items-center gap-4">
-                <button
-                  type="button"
-                  className="text-sm text-zinc-500 hover:bg-zinc-100 px-1.5 h-7 flex items-center rounded-md"
-                  onClick={() => {
-                    navigator.clipboard.writeText(prompt)
-                    toast.success(t("copySuccess"))
-                  }}
-                >
-                  {t("copy")}
-                </button>
-
-                <button
-                  type="button"
-                  className="text-sm text-zinc-500 hover:bg-zinc-100 px-1.5 h-7 flex items-center rounded-md"
-                  onClick={() => {
-                    location.href = `chatwise://chat?input=${encodeURIComponent(
-                      prompt
-                    )}`
-                  }}
-                >
-                  {t("openInChatWise")}
-                </button>
-              </div>
-            </div>
-            <textarea
-              readOnly
-              className="outline-none w-full p-2 resize-none cursor-default"
-              rows={10}
-              value={prompt}
-            />
-          </div>
         </div>
 
         <div className="mt-2 text-center">
