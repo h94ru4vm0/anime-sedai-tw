@@ -1,0 +1,2442 @@
+{
+  "2006": [
+    {
+      "aniListId": 1535,
+      "titleEn": "Death Note",
+      "titleJa": "DEATH NOTE",
+      "titleRomaji": "DEATH NOTE",
+      "popularity": 923471,
+      "score": 8.4
+    },
+    {
+      "aniListId": 1575,
+      "titleEn": "Code Geass: Lelouch of the Rebellion",
+      "titleJa": "コードギアス 反逆のルルーシュ",
+      "titleRomaji": "Code Geass: Hangyaku no Lelouch",
+      "popularity": 479473,
+      "score": 8.5
+    },
+    {
+      "aniListId": 918,
+      "titleEn": "Gintama",
+      "titleJa": "銀魂",
+      "titleRomaji": "Gintama",
+      "popularity": 285999,
+      "score": 8.5
+    },
+    {
+      "aniListId": 853,
+      "titleEn": "Ouran High School Host Club",
+      "titleJa": "桜蘭高校ホスト部",
+      "titleRomaji": "Ouran Koukou Host Club",
+      "popularity": 249052,
+      "score": 8.1
+    },
+    {
+      "aniListId": 889,
+      "titleEn": "Black Lagoon",
+      "titleJa": "BLACK LAGOON",
+      "titleRomaji": "BLACK LAGOON",
+      "popularity": 242843,
+      "score": 7.8
+    },
+    {
+      "aniListId": 877,
+      "titleEn": "NANA",
+      "titleJa": "NANA-ナナ-",
+      "titleRomaji": "NANA",
+      "popularity": 198685,
+      "score": 8.5
+    },
+    {
+      "aniListId": 849,
+      "titleEn": "The Melancholy of Haruhi Suzumiya",
+      "titleJa": "涼宮ハルヒの憂鬱",
+      "titleRomaji": "Suzumiya Haruhi no Yuuutsu",
+      "popularity": 195001,
+      "score": 7.6
+    },
+    {
+      "aniListId": 1210,
+      "titleEn": "Welcome to the N-H-K",
+      "titleJa": "N・H・Kにようこそ！",
+      "titleRomaji": "NHK ni Youkoso!",
+      "popularity": 193733,
+      "score": 8.2
+    },
+    {
+      "aniListId": 356,
+      "titleEn": "Fate/stay night",
+      "titleJa": "Fate/stay night",
+      "titleRomaji": "Fate/stay night",
+      "popularity": 183881,
+      "score": 6.8
+    },
+    {
+      "aniListId": 934,
+      "titleEn": "When They Cry",
+      "titleJa": "ひぐらしのなく頃に",
+      "titleRomaji": "Higurashi no Naku Koro ni",
+      "popularity": 172843,
+      "score": 7.5
+    },
+    {
+      "aniListId": 790,
+      "titleEn": "Ergo Proxy",
+      "titleJa": "Ergo Proxy",
+      "titleRomaji": "Ergo Proxy",
+      "popularity": 151946,
+      "score": 7.6
+    },
+    {
+      "aniListId": 1195,
+      "titleEn": "The Familiar of Zero",
+      "titleJa": "ゼロの使い魔",
+      "titleRomaji": "Zero no Tsukaima",
+      "popularity": 151265,
+      "score": 6.8
+    },
+    {
+      "aniListId": 1482,
+      "titleEn": "D.Gray-man",
+      "titleJa": "ディー・グレイマン",
+      "titleRomaji": "D.Gray-man",
+      "popularity": 114015,
+      "score": 7.6
+    },
+    {
+      "aniListId": 1519,
+      "titleEn": "Black Lagoon: The Second Barrage",
+      "titleJa": "BLACK LAGOON The Second Barrage",
+      "titleRomaji": "BLACK LAGOON: The Second Barrage",
+      "popularity": 103314,
+      "score": 8
+    },
+    {
+      "aniListId": 1604,
+      "titleEn": "REBORN!",
+      "titleJa": "家庭教師ヒットマンREBORN!",
+      "titleRomaji": "Katekyou Hitman REBORN!",
+      "popularity": 94646,
+      "score": 7.7
+    }
+  ],
+  "2007": [
+    {
+      "aniListId": 1735,
+      "titleEn": "Naruto: Shippuden",
+      "titleJa": "NARUTO -ナルト- 疾風伝",
+      "titleRomaji": "NARUTO: Shippuuden",
+      "popularity": 587608,
+      "score": 8.2
+    },
+    {
+      "aniListId": 2001,
+      "titleEn": "Gurren Lagann",
+      "titleJa": "天元突破グレンラガン",
+      "titleRomaji": "Tengen Toppa Gurren Lagann",
+      "popularity": 364828,
+      "score": 8.5
+    },
+    {
+      "aniListId": 2167,
+      "titleEn": "Clannad",
+      "titleJa": "ＣＬＡＮＮＡＤ -クラナド-",
+      "titleRomaji": "CLANNAD",
+      "popularity": 289538,
+      "score": 7.7
+    },
+    {
+      "aniListId": 2251,
+      "titleEn": "Baccano!",
+      "titleJa": "バッカーノ！",
+      "titleRomaji": "Baccano!",
+      "popularity": 186167,
+      "score": 8.1
+    },
+    {
+      "aniListId": 2025,
+      "titleEn": "Darker than Black",
+      "titleJa": "DARKER THAN BLACK -黒の契約者-",
+      "titleRomaji": "DARKER THAN BLACK: Kuro no Keiyakusha",
+      "popularity": 172347,
+      "score": 7.7
+    },
+    {
+      "aniListId": 1887,
+      "titleEn": "Lucky☆Star",
+      "titleJa": "らき☆すた",
+      "titleRomaji": "Lucky☆Star",
+      "popularity": 140697,
+      "score": 7.5
+    },
+    {
+      "aniListId": 2034,
+      "titleEn": "Lovely Complex",
+      "titleJa": "ラブ★コン",
+      "titleRomaji": "Lovely★Complex",
+      "popularity": 129894,
+      "score": 7.8
+    },
+    {
+      "aniListId": 2476,
+      "titleEn": "School Days (TV)",
+      "titleJa": "School Days (TV)",
+      "titleRomaji": "School Days (TV)",
+      "popularity": 123599,
+      "score": 4.9
+    },
+    {
+      "aniListId": 1818,
+      "titleEn": "Claymore",
+      "titleJa": "CLAYMORE",
+      "titleRomaji": "CLAYMORE",
+      "popularity": 116712,
+      "score": 7.4
+    },
+    {
+      "aniListId": 3002,
+      "titleEn": "Kaiji - Ultimate Survivor",
+      "titleJa": "逆境無頼カイジ Ultimate Survivor",
+      "titleRomaji": "Gyakkyou Burai Kaiji: Ultimate Survivor",
+      "popularity": 95666,
+      "score": 8.2
+    },
+    {
+      "aniListId": 2246,
+      "titleEn": "Mononoke",
+      "titleJa": "モノノ怪",
+      "titleRomaji": "Mononoke",
+      "popularity": 89874,
+      "score": 8.2
+    },
+    {
+      "aniListId": 1889,
+      "titleEn": "When They Cry Kai",
+      "titleJa": "ひぐらしのなく頃に解",
+      "titleRomaji": "Higurashi no Naku Koro ni Kai",
+      "popularity": 88267,
+      "score": 8
+    },
+    {
+      "aniListId": 1840,
+      "titleEn": "The Familiar of Zero: Knight of the Twin Moons",
+      "titleJa": "ゼロの使い魔 ～双月の騎士～",
+      "titleRomaji": "Zero no Tsukaima: Futatsuki no Kishi",
+      "popularity": 85925,
+      "score": 7
+    },
+    {
+      "aniListId": 1292,
+      "titleEn": "Afro Samurai",
+      "titleJa": "アフロサムライ",
+      "titleRomaji": "Afro Samurai",
+      "popularity": 84277,
+      "score": 7.1
+    },
+    {
+      "aniListId": 2605,
+      "titleEn": "Sayonara, Zetsubou-Sensei",
+      "titleJa": "さよなら絶望先生",
+      "titleRomaji": "Sayonara Zetsubou Sensei",
+      "popularity": 80696,
+      "score": 7.6
+    }
+  ],
+  "2008": [
+    {
+      "aniListId": 4224,
+      "titleEn": "Toradora!",
+      "titleJa": "とらドラ！",
+      "titleRomaji": "Toradora!",
+      "popularity": 524360,
+      "score": 7.8
+    },
+    {
+      "aniListId": 3588,
+      "titleEn": "Soul Eater",
+      "titleJa": "ソウルイーター",
+      "titleRomaji": "Soul Eater",
+      "popularity": 377754,
+      "score": 7.7
+    },
+    {
+      "aniListId": 2904,
+      "titleEn": "Code Geass: Lelouch of the Rebellion R2",
+      "titleJa": "コードギアス 反逆のルルーシュ R2",
+      "titleRomaji": "Code Geass: Hangyaku no Lelouch R2",
+      "popularity": 350413,
+      "score": 8.7
+    },
+    {
+      "aniListId": 4898,
+      "titleEn": "Black Butler",
+      "titleJa": "黒執事",
+      "titleRomaji": "Kuroshitsuji",
+      "popularity": 253381,
+      "score": 7.3
+    },
+    {
+      "aniListId": 4181,
+      "titleEn": "Clannad: After Story",
+      "titleJa": "ＣＬＡＮＮＡＤ ~After Story~ クラナド アフターストーリー",
+      "titleRomaji": "CLANNAD: After Story",
+      "popularity": 217046,
+      "score": 8.8
+    },
+    {
+      "aniListId": 4654,
+      "titleEn": "A Certain Magical Index",
+      "titleJa": "とある魔術の禁書目録",
+      "titleRomaji": "Toaru Majutsu no Index",
+      "popularity": 185728,
+      "score": 7
+    },
+    {
+      "aniListId": 2966,
+      "titleEn": "Spice and Wolf",
+      "titleJa": "狼と香辛料",
+      "titleRomaji": "Ookami to Koushinryou",
+      "popularity": 177255,
+      "score": 8
+    },
+    {
+      "aniListId": 3455,
+      "titleEn": "To Love Ru",
+      "titleJa": "To LOVEる -とらぶる-",
+      "titleRomaji": "To LOVE-Ru",
+      "popularity": 136996,
+      "score": 6.5
+    },
+    {
+      "aniListId": 4081,
+      "titleEn": "Natsume's Book of Friends Season 1",
+      "titleJa": "夏目友人帳",
+      "titleRomaji": "Natsume Yuujinchou",
+      "popularity": 124788,
+      "score": 8
+    },
+    {
+      "aniListId": 2993,
+      "titleEn": "Rosario + Vampire",
+      "titleJa": "ロザリオとバンパイア",
+      "titleRomaji": "Rosario to Vampire",
+      "popularity": 121705,
+      "score": 6.3
+    },
+    {
+      "aniListId": 3457,
+      "titleEn": "Vampire Knight",
+      "titleJa": "ヴァンパイア騎士",
+      "titleRomaji": "Vampire Knight",
+      "popularity": 97835,
+      "score": 6.3
+    },
+    {
+      "aniListId": 3712,
+      "titleEn": "The Familiar of Zero: \"Rondo\" of Princesses",
+      "titleJa": "ゼロの使い魔 ～三美姫（プリンセッセ）の輪舞（ロンド）～",
+      "titleRomaji": "Zero no Tsukaima: Princesses no Rondo",
+      "popularity": 75473,
+      "score": 6.9
+    },
+    {
+      "aniListId": 4063,
+      "titleEn": "",
+      "titleJa": "セキレイ",
+      "titleRomaji": "Sekirei",
+      "popularity": 74842,
+      "score": 6.5
+    },
+    {
+      "aniListId": 4214,
+      "titleEn": "Rosario + Vampire Capu2",
+      "titleJa": "ロザリオとバンパイア Capu2",
+      "titleRomaji": "Rosario to Vampire Capu2",
+      "popularity": 68482,
+      "score": 6.4
+    },
+    {
+      "aniListId": 4087,
+      "titleEn": "Michiko & Hatchin",
+      "titleJa": "ミチコとハッチン",
+      "titleRomaji": "Michiko to Hatchin",
+      "popularity": 61442,
+      "score": 7.6
+    }
+  ],
+  "2009": [
+    {
+      "aniListId": 5114,
+      "titleEn": "Fullmetal Alchemist: Brotherhood",
+      "titleJa": "鋼の錬金術師 FULLMETAL ALCHEMIST",
+      "titleRomaji": "Hagane no Renkinjutsushi: FULLMETAL ALCHEMIST",
+      "popularity": 701910,
+      "score": 9
+    },
+    {
+      "aniListId": 6702,
+      "titleEn": "Fairy Tail",
+      "titleJa": "FAIRY TAIL",
+      "titleRomaji": "FAIRY TAIL",
+      "popularity": 367432,
+      "score": 7.2
+    },
+    {
+      "aniListId": 5081,
+      "titleEn": "Bakemonogatari",
+      "titleJa": "化物語",
+      "titleRomaji": "Bakemonogatari",
+      "popularity": 332267,
+      "score": 8.2
+    },
+    {
+      "aniListId": 5680,
+      "titleEn": "K-ON!",
+      "titleJa": "けいおん!",
+      "titleRomaji": "K-ON!",
+      "popularity": 269879,
+      "score": 7.8
+    },
+    {
+      "aniListId": 6045,
+      "titleEn": "Kimi ni Todoke: From Me to You",
+      "titleJa": "君に届け",
+      "titleRomaji": "Kimi ni Todoke",
+      "popularity": 240152,
+      "score": 7.9
+    },
+    {
+      "aniListId": 6213,
+      "titleEn": "A Certain Scientific Railgun",
+      "titleJa": "とある科学の超電磁砲",
+      "titleRomaji": "Toaru Kagaku no Railgun",
+      "popularity": 150842,
+      "score": 7.5
+    },
+    {
+      "aniListId": 4382,
+      "titleEn": "The Melancholy of Haruhi Suzumiya (2009)",
+      "titleJa": "涼宮ハルヒの憂鬱",
+      "titleRomaji": "Suzumiya Haruhi no Yuuutsu (2009)",
+      "popularity": 116933,
+      "score": 7.1
+    },
+    {
+      "aniListId": 5630,
+      "titleEn": "Eden of the East",
+      "titleJa": "東のエデン",
+      "titleRomaji": "Higashi no Eden",
+      "popularity": 109044,
+      "score": 7.4
+    },
+    {
+      "aniListId": 5341,
+      "titleEn": "Spice and Wolf II",
+      "titleJa": "狼と香辛料II",
+      "titleRomaji": "Ookami to Koushinryou II",
+      "popularity": 95683,
+      "score": 8.1
+    },
+    {
+      "aniListId": 6033,
+      "titleEn": "Dragon Ball Z Kai",
+      "titleJa": "ドラゴンボール改",
+      "titleRomaji": "Dragon Ball Kai",
+      "popularity": 94544,
+      "score": 7.7
+    },
+    {
+      "aniListId": 5958,
+      "titleEn": "Heaven's Lost Property",
+      "titleJa": "そらのおとしもの",
+      "titleRomaji": "Sora no Otoshimono",
+      "popularity": 91770,
+      "score": 6.7
+    },
+    {
+      "aniListId": 5530,
+      "titleEn": "PandoraHearts",
+      "titleJa": "パンドラハーツ",
+      "titleRomaji": "Pandora Hearts",
+      "popularity": 73334,
+      "score": 7.2
+    },
+    {
+      "aniListId": 6211,
+      "titleEn": "Tokyo Magnitude 8.0",
+      "titleJa": "東京マグニチュード8.0",
+      "titleRomaji": "Tokyo Magnitude 8.0",
+      "popularity": 69809,
+      "score": 7.7
+    },
+    {
+      "aniListId": 6573,
+      "titleEn": "Darker than Black: Gemini of the Meteor",
+      "titleJa": "DARKER THAN BLACK -流星の双子-",
+      "titleRomaji": "DARKER THAN BLACK: Ryuusei no Gemini",
+      "popularity": 62853,
+      "score": 7.1
+    },
+    {
+      "aniListId": 5682,
+      "titleEn": "Phantom: Requiem for the Phantom",
+      "titleJa": "Phantom 〜Requiem for the Phantom〜",
+      "titleRomaji": "Phantom: Requiem for the Phantom",
+      "popularity": 60695,
+      "score": 7.5
+    }
+  ],
+  "2010": [
+    {
+      "aniListId": 6547,
+      "titleEn": "Angel Beats!",
+      "titleJa": "Angel Beats!",
+      "titleRomaji": "Angel Beats!",
+      "popularity": 430988,
+      "score": 7.7
+    },
+    {
+      "aniListId": 6746,
+      "titleEn": "Durarara!!",
+      "titleJa": "デュラララ!!",
+      "titleRomaji": "Durarara!!",
+      "popularity": 286180,
+      "score": 7.9
+    },
+    {
+      "aniListId": 7054,
+      "titleEn": "Maid-Sama!",
+      "titleJa": "会長はメイド様!",
+      "titleRomaji": "Kaichou wa Maid-sama!",
+      "popularity": 279144,
+      "score": 7.8
+    },
+    {
+      "aniListId": 8074,
+      "titleEn": "High School of the Dead",
+      "titleJa": "学園黙示録HIGHSCHOOL OF THE DEAD",
+      "titleRomaji": "Gakuen Mokushiroku: HIGHSCHOOL OF THE DEAD",
+      "popularity": 277484,
+      "score": 6.7
+    },
+    {
+      "aniListId": 7791,
+      "titleEn": "K-ON! Season 2",
+      "titleJa": "けいおん!!",
+      "titleRomaji": "K-ON!!",
+      "popularity": 162887,
+      "score": 8.2
+    },
+    {
+      "aniListId": 7785,
+      "titleEn": "The Tatami Galaxy",
+      "titleJa": "四畳半神話大系",
+      "titleRomaji": "Yojouhan Shinwa Taikei",
+      "popularity": 144816,
+      "score": 8.5
+    },
+    {
+      "aniListId": 8769,
+      "titleEn": "Oreimo",
+      "titleJa": "俺の妹がこんなに可愛いわけがない",
+      "titleRomaji": "Ore no Imouto ga Konna ni Kawaii Wake ga Nai",
+      "popularity": 143275,
+      "score": 6.5
+    },
+    {
+      "aniListId": 6594,
+      "titleEn": "Katanagatari",
+      "titleJa": "刀語",
+      "titleRomaji": "Katanagatari",
+      "popularity": 131631,
+      "score": 8.1
+    },
+    {
+      "aniListId": 8525,
+      "titleEn": "The World God Only Knows",
+      "titleJa": "神のみぞ知るセカイ",
+      "titleRomaji": "Kami nomi zo Shiru Sekai",
+      "popularity": 131406,
+      "score": 7.4
+    },
+    {
+      "aniListId": 7724,
+      "titleEn": "Shiki",
+      "titleJa": "屍鬼",
+      "titleRomaji": "Shiki",
+      "popularity": 126793,
+      "score": 7.5
+    },
+    {
+      "aniListId": 7674,
+      "titleEn": "Bakuman.",
+      "titleJa": "バクマン。",
+      "titleRomaji": "Bakuman.",
+      "popularity": 119554,
+      "score": 7.9
+    },
+    {
+      "aniListId": 6347,
+      "titleEn": "Baka and Test - Summon the Beasts",
+      "titleJa": "バカとテストと召喚獣",
+      "titleRomaji": "Baka to Test to Shoukanjuu",
+      "popularity": 116150,
+      "score": 7.1
+    },
+    {
+      "aniListId": 8795,
+      "titleEn": "Panty & Stocking with Garterbelt",
+      "titleJa": "パンティ＆ストッキングwithガーターベルト",
+      "titleRomaji": "Panty & Stocking with Garterbelt",
+      "popularity": 109506,
+      "score": 7.5
+    },
+    {
+      "aniListId": 8675,
+      "titleEn": "Seitokai Yakuindomo",
+      "titleJa": "生徒会役員共",
+      "titleRomaji": "Seitokai Yakuindomo",
+      "popularity": 107499,
+      "score": 7.3
+    },
+    {
+      "aniListId": 7593,
+      "titleEn": "",
+      "titleJa": "kiss×sis (TV)",
+      "titleRomaji": "kiss×sis (TV)",
+      "popularity": 103256,
+      "score": 5.9
+    }
+  ],
+  "2011": [
+    {
+      "aniListId": 11061,
+      "titleEn": "Hunter x Hunter (2011)",
+      "titleJa": "HUNTER×HUNTER (2011)",
+      "titleRomaji": "HUNTER×HUNTER (2011)",
+      "popularity": 810226,
+      "score": 8.9
+    },
+    {
+      "aniListId": 9253,
+      "titleEn": "Steins;Gate",
+      "titleJa": "シュタインズ・ゲート",
+      "titleRomaji": "Steins;Gate",
+      "popularity": 573911,
+      "score": 8.9
+    },
+    {
+      "aniListId": 9919,
+      "titleEn": "Blue Exorcist",
+      "titleJa": "青の祓魔師",
+      "titleRomaji": "Ao no Exorcist",
+      "popularity": 449742,
+      "score": 7.2
+    },
+    {
+      "aniListId": 10620,
+      "titleEn": "The Future Diary",
+      "titleJa": "未来日記",
+      "titleRomaji": "Mirai Nikki",
+      "popularity": 418528,
+      "score": 6.9
+    },
+    {
+      "aniListId": 9989,
+      "titleEn": "Anohana: The Flower We Saw That Day",
+      "titleJa": "あの日見た花の名前を僕達はまだ知らない。",
+      "titleRomaji": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+      "popularity": 384891,
+      "score": 8
+    },
+    {
+      "aniListId": 10087,
+      "titleEn": "Fate/Zero",
+      "titleJa": "Fate/Zero",
+      "titleRomaji": "Fate/Zero",
+      "popularity": 339087,
+      "score": 8.1
+    },
+    {
+      "aniListId": 9756,
+      "titleEn": "Puella Magi Madoka Magica",
+      "titleJa": "魔法少女まどか☆マギカ",
+      "titleRomaji": "Mahou Shoujo Madoka☆Magica",
+      "popularity": 314980,
+      "score": 8.3
+    },
+    {
+      "aniListId": 6880,
+      "titleEn": "Deadman Wonderland",
+      "titleJa": "デッドマン・ワンダーランド",
+      "titleRomaji": "Deadman Wonderland",
+      "popularity": 243391,
+      "score": 6.7
+    },
+    {
+      "aniListId": 10793,
+      "titleEn": "Guilty Crown",
+      "titleJa": "ギルティクラウン",
+      "titleRomaji": "Guilty Crown",
+      "popularity": 234966,
+      "score": 6.9
+    },
+    {
+      "aniListId": 10165,
+      "titleEn": "Nichijou - My Ordinary Life",
+      "titleJa": "日常",
+      "titleRomaji": "Nichijou",
+      "popularity": 234161,
+      "score": 8.3
+    },
+    {
+      "aniListId": 10719,
+      "titleEn": "Haganai",
+      "titleJa": "僕は友達が少ない",
+      "titleRomaji": "Boku wa Tomodachi ga Sukunai",
+      "popularity": 161690,
+      "score": 6.8
+    },
+    {
+      "aniListId": 9041,
+      "titleEn": "Infinite Stratos",
+      "titleJa": "IS〈インフィニット・ストラトス〉",
+      "titleRomaji": "IS: Infinite Stratos",
+      "popularity": 129085,
+      "score": 6.1
+    },
+    {
+      "aniListId": 8425,
+      "titleEn": "Gosick",
+      "titleJa": "GOSICK",
+      "titleRomaji": "GOSICK",
+      "popularity": 120976,
+      "score": 7.7
+    },
+    {
+      "aniListId": 10800,
+      "titleEn": "Chihayafuru",
+      "titleJa": "ちはやふる",
+      "titleRomaji": "Chihayafuru",
+      "popularity": 120480,
+      "score": 8
+    },
+    {
+      "aniListId": 9656,
+      "titleEn": "Kimi ni Todoke: From Me to You Season 2",
+      "titleJa": "君に届け 2ND SEASON",
+      "titleRomaji": "Kimi ni Todoke 2ND SEASON",
+      "popularity": 116286,
+      "score": 7.9
+    }
+  ],
+  "2012": [
+    {
+      "aniListId": 11757,
+      "titleEn": "Sword Art Online",
+      "titleJa": "ソードアート・オンライン",
+      "titleRomaji": "Sword Art Online",
+      "popularity": 694355,
+      "score": 7
+    },
+    {
+      "aniListId": 14719,
+      "titleEn": "JoJo's Bizarre Adventure (TV)",
+      "titleJa": "ジョジョの奇妙な冒険 (TV)",
+      "titleRomaji": "JoJo no Kimyou na Bouken (TV)",
+      "popularity": 461386,
+      "score": 7.7
+    },
+    {
+      "aniListId": 11111,
+      "titleEn": "Another",
+      "titleJa": "アナザー",
+      "titleRomaji": "Another",
+      "popularity": 373633,
+      "score": 7.1
+    },
+    {
+      "aniListId": 13601,
+      "titleEn": "PSYCHO-PASS",
+      "titleJa": "PSYCHO-PASS サイコパス",
+      "titleRomaji": "PSYCHO-PASS",
+      "popularity": 346576,
+      "score": 8.1
+    },
+    {
+      "aniListId": 12189,
+      "titleEn": "Hyouka",
+      "titleJa": "氷菓",
+      "titleRomaji": "Hyouka",
+      "popularity": 342046,
+      "score": 7.9
+    },
+    {
+      "aniListId": 14741,
+      "titleEn": "Love, Chunibyo & Other Delusions",
+      "titleJa": "中二病でも恋がしたい!",
+      "titleRomaji": "Chuunibyou demo Koi ga Shitai!",
+      "popularity": 340568,
+      "score": 7.6
+    },
+    {
+      "aniListId": 11617,
+      "titleEn": "High School DxD",
+      "titleJa": "ハイスクールD×D",
+      "titleRomaji": "High School DxD",
+      "popularity": 302417,
+      "score": 6.9
+    },
+    {
+      "aniListId": 11771,
+      "titleEn": "Kuroko's Basketball",
+      "titleJa": "黒子のバスケ",
+      "titleRomaji": "Kuroko no Basket",
+      "popularity": 276515,
+      "score": 7.8
+    },
+    {
+      "aniListId": 13759,
+      "titleEn": "The Pet Girl of Sakurasou",
+      "titleJa": "さくら荘のペットな彼女",
+      "titleRomaji": "Sakurasou no Pet na Kanojo",
+      "popularity": 268968,
+      "score": 7.8
+    },
+    {
+      "aniListId": 14227,
+      "titleEn": "My Little Monster",
+      "titleJa": "となりの怪物くん",
+      "titleRomaji": "Tonari no Kaibutsu-kun",
+      "popularity": 252978,
+      "score": 7.2
+    },
+    {
+      "aniListId": 11741,
+      "titleEn": "Fate/Zero Season 2",
+      "titleJa": "Fate/Zero 2ndシーズン",
+      "titleRomaji": "Fate/Zero 2nd Season",
+      "popularity": 237040,
+      "score": 8.4
+    },
+    {
+      "aniListId": 14513,
+      "titleEn": "Magi: The Labyrinth of Magic",
+      "titleJa": "マギ The labyrinth of magic",
+      "titleRomaji": "Magi: The labyrinth of magic",
+      "popularity": 226164,
+      "score": 7.8
+    },
+    {
+      "aniListId": 11843,
+      "titleEn": "Daily Lives of High School Boys",
+      "titleJa": "男子高校生の日常",
+      "titleRomaji": "Danshi Koukousei no Nichijou",
+      "popularity": 188390,
+      "score": 8
+    },
+    {
+      "aniListId": 11887,
+      "titleEn": "Kokoro Connect",
+      "titleJa": "ココロコネクト",
+      "titleRomaji": "Kokoro Connect",
+      "popularity": 186296,
+      "score": 7.5
+    },
+    {
+      "aniListId": 11597,
+      "titleEn": "Nisemonogatari",
+      "titleJa": "偽物語",
+      "titleRomaji": "Nisemonogatari",
+      "popularity": 182379,
+      "score": 7.9
+    }
+  ],
+  "2013": [
+    {
+      "aniListId": 16498,
+      "titleEn": "Attack on Titan",
+      "titleJa": "進撃の巨人",
+      "titleRomaji": "Shingeki no Kyojin",
+      "popularity": 1013208,
+      "score": 8.5
+    },
+    {
+      "aniListId": 18679,
+      "titleEn": "Kill la Kill",
+      "titleJa": "キルラキル",
+      "titleRomaji": "Kill la Kill",
+      "popularity": 403706,
+      "score": 7.9
+    },
+    {
+      "aniListId": 15809,
+      "titleEn": "The Devil is a Part-Timer!",
+      "titleJa": "はたらく魔王さま!",
+      "titleRomaji": "Hataraku Maou-sama!",
+      "popularity": 385485,
+      "score": 7.5
+    },
+    {
+      "aniListId": 14813,
+      "titleEn": "My Teen Romantic Comedy SNAFU",
+      "titleJa": "やはり俺の青春ラブコメはまちがっている。",
+      "titleRomaji": "Yahari Ore no Seishun Love Come wa Machigatteiru.",
+      "popularity": 366515,
+      "score": 7.8
+    },
+    {
+      "aniListId": 18153,
+      "titleEn": "Beyond the Boundary",
+      "titleJa": "境界の彼方",
+      "titleRomaji": "Kyoukai no Kanata",
+      "popularity": 273430,
+      "score": 7.4
+    },
+    {
+      "aniListId": 17895,
+      "titleEn": "Golden Time",
+      "titleJa": "ゴールデンタイム",
+      "titleRomaji": "Golden Time",
+      "popularity": 255748,
+      "score": 7.5
+    },
+    {
+      "aniListId": 15583,
+      "titleEn": "Date A Live",
+      "titleJa": "デート・ア・ライブ",
+      "titleRomaji": "Date A Live",
+      "popularity": 238455,
+      "score": 6.8
+    },
+    {
+      "aniListId": 17265,
+      "titleEn": "Log Horizon",
+      "titleJa": "ログ・ホライズン",
+      "titleRomaji": "Log Horizon",
+      "popularity": 231095,
+      "score": 7.6
+    },
+    {
+      "aniListId": 16592,
+      "titleEn": "Danganronpa: The Animation",
+      "titleJa": "ダンガンロンパ 希望の学園と絶望の高校生 The Animation",
+      "titleRomaji": "Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei - The Animation",
+      "popularity": 227390,
+      "score": 6.9
+    },
+    {
+      "aniListId": 15451,
+      "titleEn": "",
+      "titleJa": "ハイスクールD×D NEW",
+      "titleRomaji": "High School DxD NEW",
+      "popularity": 190995,
+      "score": 7.1
+    },
+    {
+      "aniListId": 18507,
+      "titleEn": "Free! -Iwatobi Swim Club-",
+      "titleJa": "Free!",
+      "titleRomaji": "Free!",
+      "popularity": 179816,
+      "score": 7.2
+    },
+    {
+      "aniListId": 16894,
+      "titleEn": "Kuroko's Basketball 2",
+      "titleJa": "黒子のバスケ 2nd SEASON",
+      "titleRomaji": "Kuroko no Basket 2nd SEASON",
+      "popularity": 177325,
+      "score": 8
+    },
+    {
+      "aniListId": 17074,
+      "titleEn": "Monogatari Series Second Season",
+      "titleJa": "〈物語〉シリーズ セカンドシーズン",
+      "titleRomaji": "Monogatari Series: Second Season",
+      "popularity": 167982,
+      "score": 8.8
+    },
+    {
+      "aniListId": 18115,
+      "titleEn": "Magi: The Kingdom of Magic",
+      "titleJa": "マギ The kingdom of magic",
+      "titleRomaji": "Magi: The kingdom of magic",
+      "popularity": 164705,
+      "score": 8.1
+    },
+    {
+      "aniListId": 16742,
+      "titleEn": "WataMote: No Matter How I Look At It, It's You Guys' Fault I'm Not Popular!",
+      "titleJa": "私がモテないのはどう考えてもお前らが悪い!",
+      "titleRomaji": "Watashi ga Motenai no wa Dou Kangaetemo Omaera ga Warui!",
+      "popularity": 149320,
+      "score": 6.7
+    }
+  ],
+  "2014": [
+    {
+      "aniListId": 20605,
+      "titleEn": "Tokyo Ghoul",
+      "titleJa": "東京喰種 トーキョーグール",
+      "titleRomaji": "Tokyo Ghoul",
+      "popularity": 714397,
+      "score": 7.6
+    },
+    {
+      "aniListId": 20665,
+      "titleEn": "Your lie in April",
+      "titleJa": "四月は君の嘘",
+      "titleRomaji": "Shigatsu wa Kimi no Uso",
+      "popularity": 592264,
+      "score": 8.4
+    },
+    {
+      "aniListId": 20464,
+      "titleEn": "HAIKYU!!",
+      "titleJa": "ハイキュー!!",
+      "titleRomaji": "Haikyuu!!",
+      "popularity": 565268,
+      "score": 8.4
+    },
+    {
+      "aniListId": 19815,
+      "titleEn": "No Game, No Life",
+      "titleJa": "ノーゲーム・ノーライフ",
+      "titleRomaji": "No Game No Life",
+      "popularity": 526786,
+      "score": 7.7
+    },
+    {
+      "aniListId": 20447,
+      "titleEn": "Noragami",
+      "titleJa": "ノラガミ",
+      "titleRomaji": "Noragami",
+      "popularity": 525017,
+      "score": 7.8
+    },
+    {
+      "aniListId": 20613,
+      "titleEn": "Akame ga Kill!",
+      "titleJa": "アカメが斬る！",
+      "titleRomaji": "Akame ga Kill!",
+      "popularity": 521577,
+      "score": 7.3
+    },
+    {
+      "aniListId": 20789,
+      "titleEn": "The Seven Deadly Sins",
+      "titleJa": "七つの大罪",
+      "titleRomaji": "Nanatsu no Taizai",
+      "popularity": 513186,
+      "score": 7.3
+    },
+    {
+      "aniListId": 20623,
+      "titleEn": "Parasyte -the maxim-",
+      "titleJa": "寄生獣 セイの格率",
+      "titleRomaji": "Kiseijuu: Sei no Kakuritsu",
+      "popularity": 485428,
+      "score": 8.1
+    },
+    {
+      "aniListId": 20594,
+      "titleEn": "Sword Art Online II",
+      "titleJa": "ソードアート・オンライン II",
+      "titleRomaji": "Sword Art Online II",
+      "popularity": 438593,
+      "score": 6.6
+    },
+    {
+      "aniListId": 20474,
+      "titleEn": "JoJo's Bizarre Adventure: Stardust Crusaders",
+      "titleJa": "ジョジョの奇妙な冒険 スターダストクルセイダース",
+      "titleRomaji": "JoJo no Kimyou na Bouken: Stardust Crusaders",
+      "popularity": 332975,
+      "score": 7.9
+    },
+    {
+      "aniListId": 20661,
+      "titleEn": "Terror in Resonance",
+      "titleJa": "残響のテロル",
+      "titleRomaji": "Zankyou no Terror",
+      "popularity": 280318,
+      "score": 7.8
+    },
+    {
+      "aniListId": 18897,
+      "titleEn": "Nisekoi",
+      "titleJa": "ニセコイ",
+      "titleRomaji": "Nisekoi",
+      "popularity": 260292,
+      "score": 7.3
+    },
+    {
+      "aniListId": 19603,
+      "titleEn": "Fate/stay night: Unlimited Blade Works",
+      "titleJa": "Fate/stay night [Unlimited Blade Works]",
+      "titleRomaji": "Fate/stay night: Unlimited Blade Works",
+      "popularity": 257670,
+      "score": 8
+    },
+    {
+      "aniListId": 20458,
+      "titleEn": "The Irregular at Magic High School",
+      "titleJa": "魔法科高校の劣等生",
+      "titleRomaji": "Mahouka Koukou no Rettousei",
+      "popularity": 251646,
+      "score": 7
+    },
+    {
+      "aniListId": 20596,
+      "titleEn": "Blue Spring Ride",
+      "titleJa": "アオハライド",
+      "titleRomaji": "Ao Haru Ride",
+      "popularity": 237061,
+      "score": 7.5
+    }
+  ],
+  "2015": [
+    {
+      "aniListId": 21087,
+      "titleEn": "One-Punch Man",
+      "titleJa": "ワンパンマン",
+      "titleRomaji": "One Punch Man",
+      "popularity": 744220,
+      "score": 8.3
+    },
+    {
+      "aniListId": 20755,
+      "titleEn": "Assassination Classroom",
+      "titleJa": "暗殺教室",
+      "titleRomaji": "Ansatsu Kyoushitsu",
+      "popularity": 608169,
+      "score": 7.9
+    },
+    {
+      "aniListId": 20931,
+      "titleEn": "Death Parade",
+      "titleJa": "デス・パレード",
+      "titleRomaji": "Death Parade",
+      "popularity": 454703,
+      "score": 8
+    },
+    {
+      "aniListId": 20997,
+      "titleEn": "",
+      "titleJa": "Charlotte(シャーロット)",
+      "titleRomaji": "Charlotte",
+      "popularity": 418186,
+      "score": 7.5
+    },
+    {
+      "aniListId": 20850,
+      "titleEn": "Tokyo Ghoul √A",
+      "titleJa": "東京喰種[トーキョーグール]√A",
+      "titleRomaji": "Tokyo Ghoul √A",
+      "popularity": 394589,
+      "score": 6.7
+    },
+    {
+      "aniListId": 20923,
+      "titleEn": "Food Wars!",
+      "titleJa": "食戟のソーマ",
+      "titleRomaji": "Shokugeki no Souma",
+      "popularity": 392689,
+      "score": 7.8
+    },
+    {
+      "aniListId": 20832,
+      "titleEn": "Overlord",
+      "titleJa": "オーバーロード",
+      "titleRomaji": "Overlord",
+      "popularity": 389084,
+      "score": 7.7
+    },
+    {
+      "aniListId": 20992,
+      "titleEn": "HAIKYU!! 2nd Season",
+      "titleJa": "ハイキュー!! セカンドシーズン",
+      "titleRomaji": "Haikyuu!! 2nd Season",
+      "popularity": 387878,
+      "score": 8.6
+    },
+    {
+      "aniListId": 20920,
+      "titleEn": "Is It Wrong to Try to Pick Up Girls in a Dungeon?",
+      "titleJa": "ダンジョンに出会いを求めるのは間違っているだろうか",
+      "titleRomaji": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka",
+      "popularity": 383734,
+      "score": 7.3
+    },
+    {
+      "aniListId": 20829,
+      "titleEn": "Seraph of the End: Vampire Reign",
+      "titleJa": "終わりのセラフ",
+      "titleRomaji": "Owari no Seraph",
+      "popularity": 317781,
+      "score": 7.3
+    },
+    {
+      "aniListId": 21128,
+      "titleEn": "Noragami Aragoto",
+      "titleJa": "ノラガミ ARAGOTO",
+      "titleRomaji": "Noragami ARAGOTO",
+      "popularity": 304143,
+      "score": 8
+    },
+    {
+      "aniListId": 20799,
+      "titleEn": "JoJo's Bizarre Adventure: Stardust Crusaders - Battle in Egypt",
+      "titleJa": "ジョジョの奇妙な冒険 スターダストクルセイダース エジプト編",
+      "titleRomaji": "JoJo no Kimyou na Bouken: Stardust Crusaders - Egypt-hen",
+      "popularity": 281486,
+      "score": 8.2
+    },
+    {
+      "aniListId": 20698,
+      "titleEn": "My Teen Romantic Comedy SNAFU TOO!",
+      "titleJa": "やはり俺の青春ラブコメはまちがっている。続",
+      "titleRomaji": "Yahari Ore no Seishun Love Come wa Machigatteiru. Zoku",
+      "popularity": 266822,
+      "score": 8.1
+    },
+    {
+      "aniListId": 20872,
+      "titleEn": "Plastic Memories",
+      "titleJa": "プラスティックメモリーズ",
+      "titleRomaji": "Plastic Memories",
+      "popularity": 250451,
+      "score": 7.7
+    },
+    {
+      "aniListId": 20807,
+      "titleEn": "Prison School",
+      "titleJa": "監獄学園〈プリズンスクール〉",
+      "titleRomaji": "Prison School",
+      "popularity": 239309,
+      "score": 7.3
+    }
+  ],
+  "2016": [
+    {
+      "aniListId": 21459,
+      "titleEn": "My Hero Academia",
+      "titleJa": "僕のヒーローアカデミア",
+      "titleRomaji": "Boku no Hero Academia",
+      "popularity": 844624,
+      "score": 7.7
+    },
+    {
+      "aniListId": 21507,
+      "titleEn": "Mob Psycho 100",
+      "titleJa": "モブサイコ100",
+      "titleRomaji": "Mob Psycho 100",
+      "popularity": 603294,
+      "score": 8.4
+    },
+    {
+      "aniListId": 21355,
+      "titleEn": "Re:ZERO -Starting Life in Another World-",
+      "titleJa": "Re:ゼロから始める異世界生活",
+      "titleRomaji": "Re:Zero kara Hajimeru Isekai Seikatsu",
+      "popularity": 593298,
+      "score": 8.1
+    },
+    {
+      "aniListId": 21234,
+      "titleEn": "ERASED",
+      "titleJa": "僕だけがいない街",
+      "titleRomaji": "Boku dake ga Inai Machi",
+      "popularity": 586250,
+      "score": 8.1
+    },
+    {
+      "aniListId": 21202,
+      "titleEn": "KONOSUBA -God's blessing on this wonderful world!",
+      "titleJa": "この素晴らしい世界に祝福を！",
+      "titleRomaji": "Kono Subarashii Sekai ni Shukufuku wo!",
+      "popularity": 499401,
+      "score": 7.9
+    },
+    {
+      "aniListId": 21311,
+      "titleEn": "Bungo Stray Dogs",
+      "titleJa": "文豪ストレイドッグス",
+      "titleRomaji": "Bungou Stray Dogs",
+      "popularity": 408113,
+      "score": 7.7
+    },
+    {
+      "aniListId": 21170,
+      "titleEn": "Assassination Classroom Second Season",
+      "titleJa": "暗殺教室 第２期",
+      "titleRomaji": "Ansatsu Kyoushitsu 2nd Season",
+      "popularity": 358503,
+      "score": 8.3
+    },
+    {
+      "aniListId": 21698,
+      "titleEn": "HAIKYU!! 3rd Season",
+      "titleJa": "ハイキュー!! 烏野高校 VS 白鳥沢学園高校",
+      "titleRomaji": "Haikyuu!!: Karasuno Koukou VS Shiratorizawa Gakuen Koukou",
+      "popularity": 352566,
+      "score": 8.7
+    },
+    {
+      "aniListId": 21450,
+      "titleEn": "JoJo's Bizarre Adventure: Diamond is Unbreakable",
+      "titleJa": "ジョジョの奇妙な冒険 ダイヤモンドは砕けない",
+      "titleRomaji": "JoJo no Kimyou na Bouken: Diamond wa Kudakenai",
+      "popularity": 304618,
+      "score": 8.4
+    },
+    {
+      "aniListId": 21518,
+      "titleEn": "Food Wars! The Second Plate",
+      "titleJa": "食戟のソーマ 弍ノ皿",
+      "titleRomaji": "Shokugeki no Souma: Ni no Sara",
+      "popularity": 254529,
+      "score": 7.9
+    },
+    {
+      "aniListId": 21679,
+      "titleEn": "Bungo Stray Dogs 2",
+      "titleJa": "文豪ストレイドッグス 第2シーズン",
+      "titleRomaji": "Bungou Stray Dogs 2nd Season",
+      "popularity": 232813,
+      "score": 8.1
+    },
+    {
+      "aniListId": 21647,
+      "titleEn": "Orange",
+      "titleJa": "orange",
+      "titleRomaji": "orange",
+      "popularity": 228925,
+      "score": 7.5
+    },
+    {
+      "aniListId": 21709,
+      "titleEn": "Yuri!!! on ICE",
+      "titleJa": "ユーリ!!! on ICE",
+      "titleRomaji": "Yuuri!!! on ICE",
+      "popularity": 226126,
+      "score": 7.8
+    },
+    {
+      "aniListId": 21366,
+      "titleEn": "March comes in like a lion",
+      "titleJa": "３月のライオン",
+      "titleRomaji": "3-gatsu no Lion",
+      "popularity": 208499,
+      "score": 8.3
+    },
+    {
+      "aniListId": 21421,
+      "titleEn": "Kiznaiver",
+      "titleJa": "キズナイーバー",
+      "titleRomaji": "Kiznaiver",
+      "popularity": 197259,
+      "score": 7.2
+    }
+  ],
+  "2017": [
+    {
+      "aniListId": 20958,
+      "titleEn": "Attack on Titan Season 2",
+      "titleJa": "進撃の巨人 Season２",
+      "titleRomaji": "Shingeki no Kyojin Season 2",
+      "popularity": 708554,
+      "score": 8.5
+    },
+    {
+      "aniListId": 21856,
+      "titleEn": "My Hero Academia Season 2",
+      "titleJa": "僕のヒーローアカデミア２",
+      "titleRomaji": "Boku no Hero Academia 2",
+      "popularity": 636454,
+      "score": 8
+    },
+    {
+      "aniListId": 97940,
+      "titleEn": "Black Clover",
+      "titleJa": "ブラッククローバー",
+      "titleRomaji": "Black Clover",
+      "popularity": 557446,
+      "score": 7.9
+    },
+    {
+      "aniListId": 98314,
+      "titleEn": "Kakegurui",
+      "titleJa": "賭ケグルイ",
+      "titleRomaji": "Kakegurui",
+      "popularity": 443971,
+      "score": 7
+    },
+    {
+      "aniListId": 98659,
+      "titleEn": "Classroom of the Elite",
+      "titleJa": "ようこそ実力至上主義の教室へ",
+      "titleRomaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+      "popularity": 427925,
+      "score": 7.6
+    },
+    {
+      "aniListId": 97986,
+      "titleEn": "Made in Abyss",
+      "titleJa": "メイドインアビス",
+      "titleRomaji": "Made in Abyss",
+      "popularity": 392098,
+      "score": 8.5
+    },
+    {
+      "aniListId": 21699,
+      "titleEn": "KONOSUBA -God's blessing on this wonderful world! 2",
+      "titleJa": "この素晴らしい世界に祝福を！2",
+      "titleRomaji": "Kono Subarashii Sekai ni Shukufuku wo! 2",
+      "popularity": 364334,
+      "score": 8.1
+    },
+    {
+      "aniListId": 21776,
+      "titleEn": "Miss Kobayashi's Dragon Maid",
+      "titleJa": "小林さんちのメイドラゴン",
+      "titleRomaji": "Kobayashi-san Chi no Maidragon",
+      "popularity": 321307,
+      "score": 7.7
+    },
+    {
+      "aniListId": 21613,
+      "titleEn": "Saga of Tanya the Evil",
+      "titleJa": "幼女戦記",
+      "titleRomaji": "Youjo Senki",
+      "popularity": 259752,
+      "score": 7.8
+    },
+    {
+      "aniListId": 98436,
+      "titleEn": "The Ancient Magus' Bride",
+      "titleJa": "魔法使いの嫁",
+      "titleRomaji": "Mahoutsukai no Yome",
+      "popularity": 238648,
+      "score": 7.8
+    },
+    {
+      "aniListId": 21857,
+      "titleEn": "Masamune-kun's Revenge",
+      "titleJa": "政宗くんのリベンジ",
+      "titleRomaji": "Masamune-kun no Revenge",
+      "popularity": 234314,
+      "score": 6.6
+    },
+    {
+      "aniListId": 99255,
+      "titleEn": "Food Wars! The Third Plate",
+      "titleJa": "食戟のソーマ 餐ノ皿",
+      "titleRomaji": "Shokugeki no Souma: San no Sara",
+      "popularity": 222662,
+      "score": 7.8
+    },
+    {
+      "aniListId": 97938,
+      "titleEn": "Boruto: Naruto Next Generations",
+      "titleJa": "BORUTO-ボルト- NARUTO NEXT GENERATIONS",
+      "titleRomaji": "BORUTO: NARUTO NEXT GENERATIONS",
+      "popularity": 219310,
+      "score": 5.7
+    },
+    {
+      "aniListId": 21700,
+      "titleEn": "Akashic Records of Bastard Magic Instructor",
+      "titleJa": "ロクでなし魔術講師と禁忌教典(アカシックレコード)",
+      "titleRomaji": "Rokudenashi Majutsu Koushi to Akashic Records",
+      "popularity": 192674,
+      "score": 6.8
+    },
+    {
+      "aniListId": 21685,
+      "titleEn": "Eromanga Sensei",
+      "titleJa": "エロマンガ先生",
+      "titleRomaji": "Eromanga Sensei",
+      "popularity": 182215,
+      "score": 6
+    }
+  ],
+  "2018": [
+    {
+      "aniListId": 99147,
+      "titleEn": "Attack on Titan Season 3",
+      "titleJa": "進撃の巨人 Season３",
+      "titleRomaji": "Shingeki no Kyojin Season 3",
+      "popularity": 662490,
+      "score": 8.6
+    },
+    {
+      "aniListId": 100166,
+      "titleEn": "My Hero Academia Season 3",
+      "titleJa": "僕のヒーローアカデミア３",
+      "titleRomaji": "Boku no Hero Academia 3",
+      "popularity": 583320,
+      "score": 7.9
+    },
+    {
+      "aniListId": 101291,
+      "titleEn": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "titleJa": "青春ブタ野郎はバニーガール先輩の夢を見ない",
+      "titleRomaji": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+      "popularity": 556959,
+      "score": 8.1
+    },
+    {
+      "aniListId": 21827,
+      "titleEn": "Violet Evergarden",
+      "titleJa": "ヴァイオレット・エヴァーガーデン",
+      "titleRomaji": "Violet Evergarden",
+      "popularity": 528731,
+      "score": 8.5
+    },
+    {
+      "aniListId": 99423,
+      "titleEn": "DARLING in the FRANXX",
+      "titleJa": "ダーリン・イン・ザ・フランキス",
+      "titleRomaji": "Darling in the Franxx",
+      "popularity": 482118,
+      "score": 7
+    },
+    {
+      "aniListId": 101280,
+      "titleEn": "That Time I Got Reincarnated as a Slime",
+      "titleJa": "転生したらスライムだった件",
+      "titleRomaji": "Tensei Shitara Slime Datta Ken",
+      "popularity": 439894,
+      "score": 8
+    },
+    {
+      "aniListId": 99578,
+      "titleEn": "Wotakoi: Love is Hard for Otaku",
+      "titleJa": "ヲタクに恋は難しい",
+      "titleRomaji": "Wotaku ni Koi wa Muzukashii",
+      "popularity": 316854,
+      "score": 7.8
+    },
+    {
+      "aniListId": 100388,
+      "titleEn": "BANANA FISH",
+      "titleJa": "BANANA FISH",
+      "titleRomaji": "BANANA FISH",
+      "popularity": 300732,
+      "score": 8.4
+    },
+    {
+      "aniListId": 100240,
+      "titleEn": "Tokyo Ghoul:re",
+      "titleJa": "東京喰種-トーキョーグール-:re",
+      "titleRomaji": "Tokyo Ghoul:re",
+      "popularity": 298439,
+      "score": 6.2
+    },
+    {
+      "aniListId": 101165,
+      "titleEn": "GOBLIN SLAYER",
+      "titleJa": "ゴブリンスレイヤー",
+      "titleRomaji": "Goblin Slayer",
+      "popularity": 293397,
+      "score": 7.1
+    },
+    {
+      "aniListId": 102883,
+      "titleEn": "JoJo's Bizarre Adventure: Golden Wind",
+      "titleJa": "ジョジョの奇妙な冒険 黄金の風",
+      "titleRomaji": "JoJo no Kimyou na Bouken: Ougon no Kaze",
+      "popularity": 289652,
+      "score": 8.5
+    },
+    {
+      "aniListId": 100182,
+      "titleEn": "Sword Art Online: Alicization",
+      "titleJa": "ソードアート・オンライン アリシゼーション",
+      "titleRomaji": "Sword Art Online: Alicization",
+      "popularity": 280012,
+      "score": 7.5
+    },
+    {
+      "aniListId": 99539,
+      "titleEn": "The Seven Deadly Sins: Revival of the Commandments",
+      "titleJa": "七つの大罪 戒めの復活",
+      "titleRomaji": "Nanatsu no Taizai: Imashime no Fukkatsu",
+      "popularity": 278678,
+      "score": 7.3
+    },
+    {
+      "aniListId": 98437,
+      "titleEn": "Overlord II",
+      "titleJa": "オーバーロードⅡ",
+      "titleRomaji": "Overlord II",
+      "popularity": 257322,
+      "score": 7.6
+    },
+    {
+      "aniListId": 101474,
+      "titleEn": "Overlord III",
+      "titleJa": "オーバーロードⅢ",
+      "titleRomaji": "Overlord III",
+      "popularity": 238175,
+      "score": 7.7
+    }
+  ],
+  "2019": [
+    {
+      "aniListId": 101922,
+      "titleEn": "Demon Slayer: Kimetsu no Yaiba",
+      "titleJa": "鬼滅の刃",
+      "titleRomaji": "Kimetsu no Yaiba",
+      "popularity": 957769,
+      "score": 8.3
+    },
+    {
+      "aniListId": 101759,
+      "titleEn": "The Promised Neverland",
+      "titleJa": "約束のネバーランド",
+      "titleRomaji": "Yakusoku no Neverland",
+      "popularity": 615452,
+      "score": 8.4
+    },
+    {
+      "aniListId": 104578,
+      "titleEn": "Attack on Titan Season 3 Part 2",
+      "titleJa": "進撃の巨人 Season３ Part.2",
+      "titleRomaji": "Shingeki no Kyojin Season 3 Part 2",
+      "popularity": 589909,
+      "score": 9
+    },
+    {
+      "aniListId": 101921,
+      "titleEn": "Kaguya-sama: Love is War",
+      "titleJa": "かぐや様は告らせたい～天才たちの恋愛頭脳戦～",
+      "titleRomaji": "Kaguya-sama wa Kokurasetai: Tensaitachi no Renai Zunousen",
+      "popularity": 538281,
+      "score": 8.3
+    },
+    {
+      "aniListId": 105333,
+      "titleEn": "Dr. STONE",
+      "titleJa": "Dr.STONE",
+      "titleRomaji": "Dr. STONE",
+      "popularity": 534364,
+      "score": 8.1
+    },
+    {
+      "aniListId": 101348,
+      "titleEn": "Vinland Saga",
+      "titleJa": "ヴィンランド・サガ",
+      "titleRomaji": "VINLAND SAGA",
+      "popularity": 520149,
+      "score": 8.7
+    },
+    {
+      "aniListId": 104276,
+      "titleEn": "My Hero Academia Season 4",
+      "titleJa": "僕のヒーローアカデミア４",
+      "titleRomaji": "Boku no Hero Academia 4",
+      "popularity": 516183,
+      "score": 7.9
+    },
+    {
+      "aniListId": 105310,
+      "titleEn": "Fire Force",
+      "titleJa": "炎炎ノ消防隊",
+      "titleRomaji": "Enen no Shouboutai",
+      "popularity": 465839,
+      "score": 7.6
+    },
+    {
+      "aniListId": 97668,
+      "titleEn": "One-Punch Man Season 2",
+      "titleJa": "ワンパンマン 2",
+      "titleRomaji": "One Punch Man 2",
+      "popularity": 453473,
+      "score": 7.4
+    },
+    {
+      "aniListId": 99263,
+      "titleEn": "The Rising of the Shield Hero",
+      "titleJa": "盾の勇者の成り上がり",
+      "titleRomaji": "Tate no Yuusha no Nariagari",
+      "popularity": 444318,
+      "score": 7.7
+    },
+    {
+      "aniListId": 101338,
+      "titleEn": "Mob Psycho 100 II",
+      "titleJa": "モブサイコ100 II",
+      "titleRomaji": "Mob Psycho 100 II",
+      "popularity": 434884,
+      "score": 8.7
+    },
+    {
+      "aniListId": 101347,
+      "titleEn": "Dororo",
+      "titleJa": "どろろ",
+      "titleRomaji": "Dororo",
+      "popularity": 362145,
+      "score": 8.1
+    },
+    {
+      "aniListId": 103572,
+      "titleEn": "The Quintessential Quintuplets",
+      "titleJa": "五等分の花嫁",
+      "titleRomaji": "Go-toubun no Hanayome",
+      "popularity": 305297,
+      "score": 7.6
+    },
+    {
+      "aniListId": 105334,
+      "titleEn": "Fruits Basket (2019)",
+      "titleJa": "フルーツバスケット 1st Season",
+      "titleRomaji": "Fruits Basket: 1st Season",
+      "popularity": 300986,
+      "score": 8.2
+    },
+    {
+      "aniListId": 107660,
+      "titleEn": "BEASTARS",
+      "titleJa": "BEASTARS",
+      "titleRomaji": "BEASTARS",
+      "popularity": 252158,
+      "score": 7.7
+    }
+  ],
+  "2020": [
+    {
+      "aniListId": 113415,
+      "titleEn": "JUJUTSU KAISEN",
+      "titleJa": "呪術廻戦",
+      "titleRomaji": "Jujutsu Kaisen",
+      "popularity": 929098,
+      "score": 8.4
+    },
+    {
+      "aniListId": 112641,
+      "titleEn": "Kaguya-sama: Love is War?",
+      "titleJa": "かぐや様は告らせたい？～天才たちの恋愛頭脳戦～",
+      "titleRomaji": "Kaguya-sama wa Kokurasetai?: Tensaitachi no Renai Zunousen",
+      "popularity": 421093,
+      "score": 8.5
+    },
+    {
+      "aniListId": 108632,
+      "titleEn": "Re:ZERO -Starting Life in Another World- Season 2",
+      "titleJa": "Re:ゼロから始める異世界生活 2nd Season",
+      "titleRomaji": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season",
+      "popularity": 361376,
+      "score": 8.3
+    },
+    {
+      "aniListId": 115230,
+      "titleEn": "Tower of God",
+      "titleJa": "神之塔 -Tower of God-",
+      "titleRomaji": "Kami no Tou: Tower of God",
+      "popularity": 325691,
+      "score": 7.4
+    },
+    {
+      "aniListId": 113813,
+      "titleEn": "Rent-a-Girlfriend",
+      "titleJa": "彼女、お借りします",
+      "titleRomaji": "Kanojo, Okarishimasu",
+      "popularity": 299784,
+      "score": 6.6
+    },
+    {
+      "aniListId": 114236,
+      "titleEn": "Fire Force Season 2",
+      "titleJa": "炎炎ノ消防隊 弐ノ章",
+      "titleRomaji": "Enen no Shouboutai: Ni no Shou",
+      "popularity": 290832,
+      "score": 7.8
+    },
+    {
+      "aniListId": 116006,
+      "titleEn": "The God of High School",
+      "titleJa": "THE GOD OF HIGH SCHOOL ゴッド・オブ・ハイスクール",
+      "titleRomaji": "THE GOD OF HIGH SCHOOL",
+      "popularity": 290576,
+      "score": 7
+    },
+    {
+      "aniListId": 106625,
+      "titleEn": "HAIKYU!! TO THE TOP",
+      "titleJa": "ハイキュー!! TO THE TOP",
+      "titleRomaji": "Haikyuu!! TO THE TOP",
+      "popularity": 285914,
+      "score": 8.3
+    },
+    {
+      "aniListId": 112301,
+      "titleEn": "The Misfit of Demon King Academy: History’s Strongest Demon King Reincarnates and Goes to School with His Descendants",
+      "titleJa": "魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～",
+      "titleRomaji": "Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei shite Shison-tachi no Gakkou e Kayou",
+      "popularity": 256647,
+      "score": 7.2
+    },
+    {
+      "aniListId": 113538,
+      "titleEn": "HAIKYU!! TO THE TOP Part 2",
+      "titleJa": "ハイキュー!! TO THE TOP 2",
+      "titleRomaji": "Haikyuu!! TO THE TOP 2",
+      "popularity": 247834,
+      "score": 8.5
+    },
+    {
+      "aniListId": 116267,
+      "titleEn": "TONIKAWA: Over The Moon For You",
+      "titleJa": "トニカクカワイイ",
+      "titleRomaji": "Tonikaku Kawaii",
+      "popularity": 236470,
+      "score": 7.7
+    },
+    {
+      "aniListId": 108463,
+      "titleEn": "Toilet-bound Hanako-kun",
+      "titleJa": "地縛少年 花子くん",
+      "titleRomaji": "Jibaku Shounen Hanako-kun",
+      "popularity": 232007,
+      "score": 7.8
+    },
+    {
+      "aniListId": 108489,
+      "titleEn": "My Teen Romantic Comedy SNAFU Climax!",
+      "titleJa": "やはり俺の青春ラブコメはまちがっている。完",
+      "titleRomaji": "Yahari Ore no Seishun Love Come wa Machigatteiru. Kan",
+      "popularity": 216068,
+      "score": 8.2
+    },
+    {
+      "aniListId": 112124,
+      "titleEn": "Is It Wrong to Try to Pick Up Girls in a Dungeon? III",
+      "titleJa": "ダンジョンに出会いを求めるのは間違っているだろうかⅢ",
+      "titleRomaji": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka III",
+      "popularity": 192690,
+      "score": 7.4
+    },
+    {
+      "aniListId": 114308,
+      "titleEn": "Sword Art Online: Alicization - War of Underworld Part 2",
+      "titleJa": "ソードアート・オンライン アリシゼーション War of Underworld 最終章 (2nd Season)",
+      "titleRomaji": "Sword Art Online: Alicization - War of Underworld Part 2",
+      "popularity": 190528,
+      "score": 7.4
+    }
+  ],
+  "2021": [
+    {
+      "aniListId": 110277,
+      "titleEn": "Attack on Titan Final Season",
+      "titleJa": "進撃の巨人 The Final Season",
+      "titleRomaji": "Shingeki no Kyojin: The Final Season",
+      "popularity": 619588,
+      "score": 8.7
+    },
+    {
+      "aniListId": 124080,
+      "titleEn": "Horimiya",
+      "titleJa": "ホリミヤ",
+      "titleRomaji": "Horimiya",
+      "popularity": 513749,
+      "score": 8.1
+    },
+    {
+      "aniListId": 120120,
+      "titleEn": "Tokyo Revengers",
+      "titleJa": "東京リベンジャーズ",
+      "titleRomaji": "Tokyo Revengers",
+      "popularity": 431703,
+      "score": 7.7
+    },
+    {
+      "aniListId": 108465,
+      "titleEn": "Mushoku Tensei: Jobless Reincarnation",
+      "titleJa": "無職転生 ～異世界行ったら本気だす～",
+      "titleRomaji": "Mushoku Tensei: Isekai Ittara Honki Dasu",
+      "popularity": 429470,
+      "score": 8.2
+    },
+    {
+      "aniListId": 117193,
+      "titleEn": "My Hero Academia Season 5",
+      "titleJa": "僕のヒーローアカデミア５",
+      "titleRomaji": "Boku no Hero Academia 5",
+      "popularity": 400196,
+      "score": 7.3
+    },
+    {
+      "aniListId": 129874,
+      "titleEn": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+      "titleJa": "鬼滅の刃 無限列車編 (TV)",
+      "titleRomaji": "Kimetsu no Yaiba: Mugen Ressha-hen (TV)",
+      "popularity": 345062,
+      "score": 8.2
+    },
+    {
+      "aniListId": 113936,
+      "titleEn": "Dr. STONE: STONE WARS",
+      "titleJa": "Dr.STONE STONE WARS",
+      "titleRomaji": "Dr. STONE: STONE WARS",
+      "popularity": 323736,
+      "score": 8.1
+    },
+    {
+      "aniListId": 108725,
+      "titleEn": "The Promised Neverland Season 2",
+      "titleJa": "約束のネバーランド2",
+      "titleRomaji": "Yakusoku no Neverland 2",
+      "popularity": 314578,
+      "score": 5.2
+    },
+    {
+      "aniListId": 133965,
+      "titleEn": "Komi Can’t Communicate",
+      "titleJa": "古見さんは、コミュ症です。",
+      "titleRomaji": "Komi-san wa, Komyushou desu.",
+      "popularity": 308008,
+      "score": 7.6
+    },
+    {
+      "aniListId": 114535,
+      "titleEn": "To Your Eternity",
+      "titleJa": "不滅のあなたへ",
+      "titleRomaji": "Fumetsu no Anata e",
+      "popularity": 306775,
+      "score": 8.1
+    },
+    {
+      "aniListId": 108511,
+      "titleEn": "That Time I Got Reincarnated as a Slime Season 2",
+      "titleJa": "転生したらスライムだった件 第2期",
+      "titleRomaji": "Tensei Shitara Slime Datta Ken 2nd Season",
+      "popularity": 306398,
+      "score": 8.3
+    },
+    {
+      "aniListId": 116589,
+      "titleEn": "86 EIGHTY-SIX",
+      "titleJa": "86－エイティシックス－",
+      "titleRomaji": "86: Eighty Six",
+      "popularity": 306036,
+      "score": 8.3
+    },
+    {
+      "aniListId": 127720,
+      "titleEn": "Mushoku Tensei: Jobless Reincarnation Cour 2",
+      "titleJa": "無職転生 ～異世界行ったら本気だす～ 第2クール",
+      "titleRomaji": "Mushoku Tensei: Isekai Ittara Honki Dasu Part 2",
+      "popularity": 303430,
+      "score": 8.5
+    },
+    {
+      "aniListId": 119661,
+      "titleEn": "Re:ZERO -Starting Life in Another World- Season 2 Part 2",
+      "titleJa": "Re:ゼロから始める異世界生活 2nd Season Part 2",
+      "titleRomaji": "Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season Part 2",
+      "popularity": 291084,
+      "score": 8.4
+    },
+    {
+      "aniListId": 124845,
+      "titleEn": "WONDER EGG PRIORITY",
+      "titleJa": "ワンダーエッグ・プライオリティ",
+      "titleRomaji": "Wonder Egg Priority",
+      "popularity": 277934,
+      "score": 7.4
+    }
+  ],
+  "2022": [
+    {
+      "aniListId": 127230,
+      "titleEn": "Chainsaw Man",
+      "titleJa": "チェンソーマン",
+      "titleRomaji": "Chainsaw Man",
+      "popularity": 597876,
+      "score": 8.3
+    },
+    {
+      "aniListId": 140960,
+      "titleEn": "SPY x FAMILY",
+      "titleJa": "SPY×FAMILY",
+      "titleRomaji": "SPY×FAMILY",
+      "popularity": 546030,
+      "score": 8.3
+    },
+    {
+      "aniListId": 142329,
+      "titleEn": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+      "titleJa": "鬼滅の刃 遊郭編",
+      "titleRomaji": "Kimetsu no Yaiba: Yuukaku-hen",
+      "popularity": 463193,
+      "score": 8.6
+    },
+    {
+      "aniListId": 131681,
+      "titleEn": "Attack on Titan Final Season Part 2",
+      "titleJa": "進撃の巨人 The Final Season Part 2",
+      "titleRomaji": "Shingeki no Kyojin: The Final Season Part 2",
+      "popularity": 421064,
+      "score": 8.6
+    },
+    {
+      "aniListId": 132405,
+      "titleEn": "My Dress-Up Darling",
+      "titleJa": "その着せ替え人形は恋をする",
+      "titleRomaji": "Sono Bisque Doll wa Koi wo Suru",
+      "popularity": 403260,
+      "score": 8
+    },
+    {
+      "aniListId": 142838,
+      "titleEn": "SPY x FAMILY Cour 2",
+      "titleJa": "SPY×FAMILY 第2クール",
+      "titleRomaji": "SPY×FAMILY Part 2",
+      "popularity": 317257,
+      "score": 8.1
+    },
+    {
+      "aniListId": 137822,
+      "titleEn": "BLUE LOCK",
+      "titleJa": "ブルーロック",
+      "titleRomaji": "Blue Lock",
+      "popularity": 307415,
+      "score": 8
+    },
+    {
+      "aniListId": 130298,
+      "titleEn": "The Eminence in Shadow",
+      "titleJa": "陰の実力者になりたくて！",
+      "titleRomaji": "Kage no Jitsuryokusha ni Naritakute!",
+      "popularity": 294222,
+      "score": 8.1
+    },
+    {
+      "aniListId": 125367,
+      "titleEn": "Kaguya-sama: Love is War -Ultra Romantic-",
+      "titleJa": "かぐや様は告らせたい-ウルトラロマンティック-",
+      "titleRomaji": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+      "popularity": 280734,
+      "score": 8.9
+    },
+    {
+      "aniListId": 141391,
+      "titleEn": "Call of the Night",
+      "titleJa": "よふかしのうた",
+      "titleRomaji": "Yofukashi no Uta",
+      "popularity": 265483,
+      "score": 7.9
+    },
+    {
+      "aniListId": 139630,
+      "titleEn": "My Hero Academia Season 6",
+      "titleJa": "僕のヒーローアカデミア６",
+      "titleRomaji": "Boku no Hero Academia 6",
+      "popularity": 256318,
+      "score": 8.2
+    },
+    {
+      "aniListId": 140439,
+      "titleEn": "Mob Psycho 100 III",
+      "titleJa": "モブサイコ100 Ⅲ",
+      "titleRomaji": "Mob Psycho 100 III",
+      "popularity": 252490,
+      "score": 8.7
+    },
+    {
+      "aniListId": 130003,
+      "titleEn": "BOCCHI THE ROCK!",
+      "titleJa": "ぼっち・ざ・ろっく！",
+      "titleRomaji": "Bocchi the Rock!",
+      "popularity": 251281,
+      "score": 8.7
+    },
+    {
+      "aniListId": 145545,
+      "titleEn": "Classroom of the Elite Season 2",
+      "titleJa": "ようこそ実力至上主義の教室へ 2nd Season",
+      "titleRomaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season",
+      "popularity": 248246,
+      "score": 7.9
+    },
+    {
+      "aniListId": 111321,
+      "titleEn": "The Rising of the Shield Hero Season 2",
+      "titleJa": "盾の勇者の成り上がり Season 2",
+      "titleRomaji": "Tate no Yuusha no Nariagari Season 2",
+      "popularity": 236910,
+      "score": 6.5
+    }
+  ],
+  "2023": [
+    {
+      "aniListId": 145064,
+      "titleEn": "JUJUTSU KAISEN Season 2",
+      "titleJa": "呪術廻戦 第2期",
+      "titleRomaji": "Jujutsu Kaisen 2nd Season",
+      "popularity": 462462,
+      "score": 8.6
+    },
+    {
+      "aniListId": 154587,
+      "titleEn": "Frieren: Beyond Journey’s End",
+      "titleJa": "葬送のフリーレン",
+      "titleRomaji": "Sousou no Frieren",
+      "popularity": 444780,
+      "score": 9.1
+    },
+    {
+      "aniListId": 145139,
+      "titleEn": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+      "titleJa": "鬼滅の刃 刀鍛冶の里編",
+      "titleRomaji": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+      "popularity": 354251,
+      "score": 8.1
+    },
+    {
+      "aniListId": 128893,
+      "titleEn": "Hell’s Paradise",
+      "titleJa": "地獄楽",
+      "titleRomaji": "Jigokuraku",
+      "popularity": 341107,
+      "score": 8
+    },
+    {
+      "aniListId": 150672,
+      "titleEn": "Oshi No Ko",
+      "titleJa": "【推しの子】",
+      "titleRomaji": "[Oshi no Ko]",
+      "popularity": 313601,
+      "score": 8.4
+    },
+    {
+      "aniListId": 161645,
+      "titleEn": "The Apothecary Diaries",
+      "titleJa": "薬屋のひとりごと",
+      "titleRomaji": "Kusuriya no Hitorigoto",
+      "popularity": 298179,
+      "score": 8.8
+    },
+    {
+      "aniListId": 151801,
+      "titleEn": "MASHLE: MAGIC AND MUSCLES",
+      "titleJa": "マッシュル-MASHLE-",
+      "titleRomaji": "MASHLE",
+      "popularity": 272699,
+      "score": 7.6
+    },
+    {
+      "aniListId": 136430,
+      "titleEn": "Vinland Saga Season 2",
+      "titleJa": "ヴィンランド・サガ SEASON2",
+      "titleRomaji": "VINLAND SAGA SEASON 2",
+      "popularity": 259945,
+      "score": 8.8
+    },
+    {
+      "aniListId": 146065,
+      "titleEn": "Mushoku Tensei: Jobless Reincarnation Season 2",
+      "titleJa": "無職転生Ⅱ ～異世界行ったら本気だす～",
+      "titleRomaji": "Mushoku Tensei II: Isekai Ittara Honki Dasu",
+      "popularity": 241775,
+      "score": 8.1
+    },
+    {
+      "aniListId": 159831,
+      "titleEn": "Zom 100: Bucket List of the Dead",
+      "titleJa": "ゾン100～ゾンビになるまでにしたい100のこと～",
+      "titleRomaji": "Zom 100: Zombie ni Naru Made ni Shitai 100 no Koto",
+      "popularity": 229109,
+      "score": 7.6
+    },
+    {
+      "aniListId": 158927,
+      "titleEn": "SPY x FAMILY Season 2",
+      "titleJa": "SPY×FAMILY Season 2",
+      "titleRomaji": "SPY×FAMILY Season 2",
+      "popularity": 225870,
+      "score": 8
+    },
+    {
+      "aniListId": 155783,
+      "titleEn": "Tengoku Daimakyo",
+      "titleJa": "天国大魔境",
+      "titleRomaji": "Tengoku Daimakyou",
+      "popularity": 203382,
+      "score": 8.1
+    },
+    {
+      "aniListId": 131518,
+      "titleEn": "Dr. STONE New World",
+      "titleJa": "Dr.STONE NEW WORLD",
+      "titleRomaji": "Dr. STONE: NEW WORLD",
+      "popularity": 192326,
+      "score": 8.1
+    },
+    {
+      "aniListId": 154965,
+      "titleEn": "My Love Story with Yamada-kun at Lv999",
+      "titleJa": "山田くんとLv999の恋をする",
+      "titleRomaji": "Yamada-kun to Lv999 no Koi wo Suru",
+      "popularity": 191572,
+      "score": 7.7
+    },
+    {
+      "aniListId": 161964,
+      "titleEn": "The Eminence in Shadow Season 2",
+      "titleJa": "陰の実力者になりたくて！ 2nd season",
+      "titleRomaji": "Kage no Jitsuryokusha ni Naritakute! 2nd season",
+      "popularity": 182680,
+      "score": 8.2
+    }
+  ],
+  "2024": [
+    {
+      "aniListId": 151807,
+      "titleEn": "Solo Leveling",
+      "titleJa": "俺だけレベルアップな件",
+      "titleRomaji": "Ore dake Level Up na Ken",
+      "popularity": 416463,
+      "score": 8.1
+    },
+    {
+      "aniListId": 171018,
+      "titleEn": "DAN DA DAN",
+      "titleJa": "ダンダダン",
+      "titleRomaji": "Dandadan",
+      "popularity": 359486,
+      "score": 8.3
+    },
+    {
+      "aniListId": 153288,
+      "titleEn": "Kaiju No. 8",
+      "titleJa": "怪獣８号",
+      "titleRomaji": "Kaijuu 8-gou",
+      "popularity": 265430,
+      "score": 8.1
+    },
+    {
+      "aniListId": 166240,
+      "titleEn": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
+      "titleJa": "鬼滅の刃 柱稽古編",
+      "titleRomaji": "Kimetsu no Yaiba: Hashira Geiko-hen",
+      "popularity": 258395,
+      "score": 7.9
+    },
+    {
+      "aniListId": 153518,
+      "titleEn": "Delicious in Dungeon",
+      "titleJa": "ダンジョン飯",
+      "titleRomaji": "Dungeon Meshi",
+      "popularity": 212093,
+      "score": 8.5
+    },
+    {
+      "aniListId": 166873,
+      "titleEn": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
+      "titleJa": "無職転生Ⅱ ～異世界行ったら本気だす～ 第2クール",
+      "titleRomaji": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
+      "popularity": 188234,
+      "score": 8.3
+    },
+    {
+      "aniListId": 162804,
+      "titleEn": "Alya Sometimes Hides Her Feelings in Russian",
+      "titleJa": "時々ボソッとロシア語でデレる隣のアーリャさん",
+      "titleRomaji": "Tokidoki Bosotto Russiago de Dereru Tonari no Alya-san",
+      "popularity": 187240,
+      "score": 7.5
+    },
+    {
+      "aniListId": 163270,
+      "titleEn": "WIND BREAKER",
+      "titleJa": "WIND BREAKER",
+      "titleRomaji": "WIND BREAKER",
+      "popularity": 179504,
+      "score": 7.7
+    },
+    {
+      "aniListId": 163134,
+      "titleEn": "Re:ZERO -Starting Life in Another World- Season 3",
+      "titleJa": "Re:ゼロから始める異世界生活 3rd season",
+      "titleRomaji": "Re:Zero kara Hajimeru Isekai Seikatsu 3rd Season",
+      "popularity": 178386,
+      "score": 8.4
+    },
+    {
+      "aniListId": 146066,
+      "titleEn": "Classroom of the Elite Season 3",
+      "titleJa": "ようこそ実力至上主義の教室へ 3rd Season",
+      "titleRomaji": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season",
+      "popularity": 176795,
+      "score": 7.8
+    },
+    {
+      "aniListId": 156822,
+      "titleEn": "That Time I Got Reincarnated as a Slime Season 3",
+      "titleJa": "転生したらスライムだった件 第3期",
+      "titleRomaji": "Tensei Shitara Slime Datta Ken 3rd Season",
+      "popularity": 172091,
+      "score": 7.8
+    },
+    {
+      "aniListId": 166610,
+      "titleEn": "MASHLE: MAGIC AND MUSCLES Season 2",
+      "titleJa": "マッシュル-MASHLE- 神覚者候補選抜試験編",
+      "titleRomaji": "MASHLE: Kami Shinkakusha Kouho Senbatsu Shiken-hen",
+      "popularity": 171940,
+      "score": 7.8
+    },
+    {
+      "aniListId": 163139,
+      "titleEn": "My Hero Academia Season 7",
+      "titleJa": "僕のヒーローアカデミア 7",
+      "titleRomaji": "Boku no Hero Academia 7",
+      "popularity": 171900,
+      "score": 8.2
+    },
+    {
+      "aniListId": 136804,
+      "titleEn": "KONOSUBA -God's blessing on this wonderful world! 3",
+      "titleJa": "この素晴らしい世界に祝福を！３",
+      "titleRomaji": "Kono Subarashii Sekai ni Shukufuku wo! 3",
+      "popularity": 170093,
+      "score": 8.2
+    },
+    {
+      "aniListId": 166531,
+      "titleEn": "Oshi no Ko Season 2",
+      "titleJa": "【推しの子】第2期",
+      "titleRomaji": "[Oshi no Ko] 2nd Season",
+      "popularity": 168708,
+      "score": 8.5
+    }
+  ],
+  "2025": [
+    {
+      "aniListId": 176496,
+      "titleEn": "Solo Leveling Season 2 -Arise from the Shadow-",
+      "titleJa": "俺だけレベルアップな件 Season 2 -Arise from the Shadow-",
+      "titleRomaji": "Ore dake Level Up na Ken: Season 2 - Arise from the Shadow",
+      "popularity": 285729,
+      "score": 8.5
+    },
+    {
+      "aniListId": 178025,
+      "titleEn": "Gachiakuta",
+      "titleJa": "ガチアクタ",
+      "titleRomaji": "Gachiakuta",
+      "popularity": 230912,
+      "score": 8.2
+    },
+    {
+      "aniListId": 185660,
+      "titleEn": "DAN DA DAN Season 2",
+      "titleJa": "ダンダダン 第2期",
+      "titleRomaji": "Dandadan 2nd Season",
+      "popularity": 210012,
+      "score": 8.3
+    },
+    {
+      "aniListId": 181444,
+      "titleEn": "The Fragrant Flower Blooms With Dignity",
+      "titleJa": "薫る花は凛と咲く",
+      "titleRomaji": "Kaoru Hana wa Rin to Saku",
+      "popularity": 186657,
+      "score": 8.5
+    },
+    {
+      "aniListId": 176301,
+      "titleEn": "The Apothecary Diaries Season 2",
+      "titleJa": "薬屋のひとりごと 第2期",
+      "titleRomaji": "Kusuriya no Hitorigoto 2nd Season",
+      "popularity": 185501,
+      "score": 8.8
+    },
+    {
+      "aniListId": 154768,
+      "titleEn": "My Dress-Up Darling Season 2",
+      "titleJa": "その着せ替え人形は恋をする Season 2",
+      "titleRomaji": "Sono Bisque Doll wa Koi wo Suru Season 2",
+      "popularity": 173116,
+      "score": 8.2
+    },
+    {
+      "aniListId": 153800,
+      "titleEn": "One-Punch Man Season 3",
+      "titleJa": "ワンパンマン３",
+      "titleRomaji": "One Punch Man 3",
+      "popularity": 143714,
+      "score": 5
+    },
+    {
+      "aniListId": 178754,
+      "titleEn": "Kaiju No. 8 Season 2",
+      "titleJa": "怪獣８号 第２期",
+      "titleRomaji": "Kaijuu 8-gou 2nd Season",
+      "popularity": 143647,
+      "score": 7.8
+    },
+    {
+      "aniListId": 177689,
+      "titleEn": "The Summer Hikaru Died",
+      "titleJa": "光が死んだ夏",
+      "titleRomaji": "Hikaru ga Shinda Natsu",
+      "popularity": 129154,
+      "score": 8.1
+    },
+    {
+      "aniListId": 149118,
+      "titleEn": "Fire Force Season 3",
+      "titleJa": "炎炎ノ消防隊 参ノ章",
+      "titleRomaji": "Enen no Shouboutai: San no Shou",
+      "popularity": 122024,
+      "score": 7.8
+    },
+    {
+      "aniListId": 177937,
+      "titleEn": "SPY x FAMILY Season 3",
+      "titleJa": "SPY×FAMILY Season 3",
+      "titleRomaji": "SPY×FAMILY Season 3",
+      "popularity": 121865,
+      "score": 8.2
+    },
+    {
+      "aniListId": 182896,
+      "titleEn": "My Hero Academia FINAL SEASON",
+      "titleJa": "僕のヒーローアカデミア FINAL SEASON",
+      "titleRomaji": "Boku no Hero Academia FINAL SEASON",
+      "popularity": 119438,
+      "score": 8.7
+    },
+    {
+      "aniListId": 167336,
+      "titleEn": "LAZARUS",
+      "titleJa": "ラザロ",
+      "titleRomaji": "Lazarus",
+      "popularity": 108245,
+      "score": 7
+    },
+    {
+      "aniListId": 172019,
+      "titleEn": "Dr. STONE SCIENCE FUTURE",
+      "titleJa": "Dr.STONE SCIENCE FUTURE",
+      "titleRomaji": "Dr. STONE: SCIENCE FUTURE",
+      "popularity": 106722,
+      "score": 8.2
+    },
+    {
+      "aniListId": 178680,
+      "titleEn": "WIND BREAKER Season 2",
+      "titleJa": "WIND BREAKER Season 2",
+      "titleRomaji": "WIND BREAKER Season 2",
+      "popularity": 93770,
+      "score": 7.7
+    }
+  ]
+}
