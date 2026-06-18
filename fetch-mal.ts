@@ -22,7 +22,7 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms))
 const QUERY = `
 query ($year: Int) {
   Page(page: 1, perPage: 60) {
-    media(seasonYear: $year, type: ANIME, format: TV, sort: POPULARITY_DESC) {
+    media(seasonYear: $year, type: ANIME, format_in: [TV, ONA], sort: POPULARITY_DESC) {
       id
       title { romaji english native }
       popularity

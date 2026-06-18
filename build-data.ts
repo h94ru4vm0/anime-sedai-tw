@@ -326,6 +326,13 @@ const TW: Record<number, TwVal> = {
   167336: "LAZARUS 拉撒路",
   172019: "Dr.STONE 新石紀 SCIENCE FUTURE",
   178680: "WIND BREAKER 防風少年 第二季",
+  // ONA（Netflix 等網路動畫，納入 TV+ONA 後新進榜）
+  21049: "ReLIFE 重返17歲", // 2016
+  98460: "惡魔人 crybaby", // 2018
+  110349: "大欺詐師 GREAT PRETENDER", // 2020
+  120377: "電馭叛客：邊緣行者", // 2022
+  177709: "SAKAMOTO DAYS 坂本日常", // 2025
+  185407: "章魚噗的原罪", // 2025
 }
 
 // 台灣從未代理（僅盜版站／查無正版）→ 從清單剔除，由候選池下一名遞補
