@@ -130,9 +130,6 @@ export const App = () => {
 
   const totalAnime = visibleAnimeKeys.length
 
-  // 匯出時一律用標題，忽略使用者選的評分/熱度
-  const cellDisplayMode = exporting ? "title" : displayMode
-
   const formatHeat = (n: number) =>
     n >= 1_000_000
       ? (n / 1_000_000).toFixed(1) + "M"
@@ -221,10 +218,9 @@ export const App = () => {
                 return (
                   <div key={year} className="flex border-b">
                     <div
-                      className={`
-                      bg-red-500 shrink-0 text-white flex items-center font-bold justify-center p-1 border-black
-                      h-[142px] w-16 md:w-20
-                    `}
+                      className={`bg-red-500 shrink-0 text-white flex items-center font-bold justify-center p-1 border-black w-16 md:w-20 ${
+                        exporting ? "" : "h-[142px]"
+                      }`}
                     >
                       <span
                         className={`${
@@ -244,11 +240,9 @@ export const App = () => {
                         return (
                           <button
                             key={animeKey}
-                            className={`
-                              relative w-[100px] h-[142px]
-                              border-l shrink-0 overflow-hidden cursor-pointer
-                              transition-colors duration-200
-                            `}
+                            className={`relative w-[100px] border-l shrink-0 overflow-hidden cursor-pointer transition-colors duration-200 ${
+                              exporting ? "min-h-[52px]" : "h-[142px]"
+                            }`}
                             title={displayTitle}
                             onClick={() => {
                               setSelectedAnime((prev) => {
@@ -261,56 +255,60 @@ export const App = () => {
                               })
                             }}
                           >
-                            {item.image && !exporting && (
-                              <img
-                                src={import.meta.env.BASE_URL + item.image}
-                                alt=""
-                                loading="lazy"
-                                className="absolute inset-0 w-full h-full object-cover"
-                              />
-                            )}
-                            {cellDisplayMode === "title" ? (
-                              <span
-                                className={`absolute text-center ${
-                                  exporting
-                                    ? "inset-0 flex items-center justify-center p-0.5 bg-white text-black text-sm font-medium"
-                                    : `inset-x-0 bottom-0 flex items-end justify-center p-1 pt-6 bg-gradient-to-t from-black/85 via-black/55 to-transparent text-white ${
-                                        language === "en" ? "text-[10px]" : "text-xs"
-                                      }`
+                            {exporting ? (
+                              <div
+                                className={`flex h-full min-h-[52px] items-center justify-center p-1 text-center leading-snug text-black text-sm font-medium ${
+                                  isSelected ? "bg-green-200" : "bg-white"
                                 }`}
                               >
-                                <span
-                                  className={`leading-tight w-full ${
-                                    exporting
-                                      ? "line-clamp-6"
-                                      : language === "en"
-                                        ? "line-clamp-5"
-                                        : "line-clamp-4"
-                                  }`}
-                                >
-                                  {displayTitle}
-                                </span>
-                              </span>
+                                {displayTitle}
+                              </div>
                             ) : (
-                              <span
-                                className={`absolute inset-0 flex items-center justify-center text-white text-lg font-bold ${
-                                  exporting ? "bg-zinc-800" : "bg-black/55"
-                                }`}
-                              >
-                                {cellDisplayMode === "score"
-                                  ? `★ ${item.score}`
-                                  : `🔥 ${formatHeat(item.popularity)}`}
-                              </span>
-                            )}
-                            {isSelected && (
-                              <span className="absolute inset-0 flex items-center justify-center bg-green-500/60 text-white text-2xl font-bold">
-                                ✓
-                              </span>
+                              <>
+                                {item.image && (
+                                  <img
+                                    src={import.meta.env.BASE_URL + item.image}
+                                    alt=""
+                                    loading="lazy"
+                                    className="absolute inset-0 w-full h-full object-cover"
+                                  />
+                                )}
+                                {displayMode === "title" ? (
+                                  <span
+                                    className={`absolute inset-x-0 bottom-0 flex items-end justify-center p-1 pt-6 text-center text-white bg-gradient-to-t from-black/85 via-black/55 to-transparent ${
+                                      language === "en" ? "text-[10px]" : "text-xs"
+                                    }`}
+                                  >
+                                    <span
+                                      className={`leading-tight w-full ${
+                                        language === "en"
+                                          ? "line-clamp-5"
+                                          : "line-clamp-4"
+                                      }`}
+                                    >
+                                      {displayTitle}
+                                    </span>
+                                  </span>
+                                ) : (
+                                  <span className="absolute inset-0 flex items-center justify-center text-white text-lg font-bold bg-black/55">
+                                    {displayMode === "score"
+                                      ? `★ ${item.score}`
+                                      : `🔥 ${formatHeat(item.popularity)}`}
+                                  </span>
+                                )}
+                                {isSelected && (
+                                  <span className="absolute inset-0 flex items-center justify-center bg-green-500/60 text-white text-2xl font-bold">
+                                    ✓
+                                  </span>
+                                )}
+                              </>
                             )}
                           </button>
                         )
                       })}
-                      <div className="w-0 h-[142px] border-r" />
+                      <div
+                        className={`w-0 border-r ${exporting ? "" : "h-[142px]"}`}
+                      />
                     </div>
                   </div>
                 )
